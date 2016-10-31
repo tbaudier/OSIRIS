@@ -3,5 +3,5 @@
   ![OSIRIS logo](https://raw.githubusercontent.com/siric-osiris/OSIRIS/master/osiris.png)
   
 ## Content
-The content of the docs may be found at [docs/](docs/)
-
+* The content of the tables may be found at [data/](data/)
+* Alternatively, you can browse the wiki
