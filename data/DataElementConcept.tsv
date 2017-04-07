@@ -57,7 +57,7 @@ BiologicalSample	ParentSampleRef	Référence du prélèvement		Numéro de réfé
 BiologicalSample	CollectDate	Date du prélèvement	MIABIS-43	Date du prélèvement		C56
 BiologicalSample	TopographyCode	Code Localisation	CIM-O-3 Topo	Code de la localisation tumorale		C57
 BiologicalSample	SampleNature	Nature de l'échantillon	MIABIS-41	La nature de l'échantillon		C58
-BiologicalSample	SampleOrigin	Nature du prélèvement (tumoral / sain)	MIABIS-41	Nature du prélèvement d'origine (Sain ou Tumoral)		C59
+BiologicalSample	SampleOrigin	Nature du prélèvement (tumoral / sain)	OSIRIS:SampleOrigin	Nature du prélèvement d'origine (Sain ou Tumoral)		C59
 BiologicalSample	StorageTemperature	Mode de conservation	MIABIS-43	Le mode de conservation		C60
 BiologicalSample	TumorCellularity	% de cellules tumorales		Le pourcentage de cellules tumorales quantifié dans l'échantillon		C61
 Specimen	SpecimenId	SpecimenId			Genetic sample or derived product identifier	O3
