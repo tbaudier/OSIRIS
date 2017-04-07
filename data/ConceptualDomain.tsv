@@ -154,7 +154,7 @@ ICD-O-3-TOPO	cf. ICD-O-3-TOPO	CIM-O-3 Topo	http://codes.iarc.fr/topography	Enume
 MIABIS-41	cf. MIABIS-41	MIABIS-41/MIABIS-2.0-14	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#material-type	Enumerated	String	C58	MIABIS-41		BiologicalSample	SampleNature	Nature de l'échantillon	La nature du contenu
 OSIRIS:O59-1	Sain	OSIRIS		Enumerated	String	C59	OSIRIS:SampleOrigin		BiologicalSample	SampleOrigin	Nature du prélèvement (tumoral / sain)	Le type de dérivé
 OSIRIS:O59-2	Tumoral	OSIRIS		Enumerated	String	C59	OSIRIS:SampleOrigin		BiologicalSample	SampleOrigin	Nature du prélèvement (tumoral / sain)	Le type de dérivé
-MIABIS-43	cf. MIABIS-43	MIABIS-43/MIABIS-2.0-15	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#miabis-20-15	Enumerated	String	C60	MIABIS-43		BiologicalSample	StorageTemperature	Mode de conservation	Le mode de conservation
+MIABIS-42	cf. MIABIS-42	MIABIS-42/MIABIS-2.0-15	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#miabis-20-15	Enumerated	String	C60	MIABIS-42		BiologicalSample	StorageTemperature	Mode de conservation	Le mode de conservation
 				nonEnumerated	Integer	C61			BiologicalSample	TumorCellularity	% de cellules tumorales	Le pourcentage de cellules tumorales quantifié dans l'échantillon
 												
 												
