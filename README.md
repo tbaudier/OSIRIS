@@ -5,3 +5,6 @@
 ## Content
 * The content of the tables may be found at [data/](data/)
 * Alternatively, you can browse the wiki
+
+## Deploying an i2b2/SHRINE datawarehouse
+* You can deploy an i2b2/SHRINE instance using the Docker installation [here](https://github.com/CARPEM/SHRINEDocker) provided by SiRIC CARPEM.
