@@ -5,6 +5,7 @@
   ![OSIRIS logo](https://raw.githubusercontent.com/siric-osiris/OSIRIS/master/osiris.png)
   
 ## Using the OSIRIS data framework
+* The framework description is available at [documentation/](documentation/)
 * The content of the tables may be found at [data/](data/)
 * Alternatively, you can browse the wiki
 
