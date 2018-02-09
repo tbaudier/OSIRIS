@@ -1,0 +1,4 @@
+patient_id,instance_id,analysis_biologicalsample_instance,analysis_tumorpathologyevent_instance,analysis_code,analysis_type,analysis_analysisdate,technology_technicalprotocol,technology_platformname,technology_platformaccession,technology_dateofexperiment,panel_panelname,analysisprocess_analyticpipelinecode,experiment_on_specimen_algorithmiccellularity,experiment_on_specimen_algorithmicplody,experiment_on_specimen_cpynb_quality_filter_numberofbreakpoints
+L304,1,"ech primary",1,ATX90U,Genomique,2018-02-07,OSIRIS:O6-4,OSIRIS:O7-66,,2017-09-20,OSIRIS:O10-4,v351,50,OSIRIS:O13-2,
+L304,2,"ech 2",2,fgh587,NGS,2018-02-07,OSIRIS:O6-12,OSIRIS:O7-46,,2017-09-19,OSIRIS:O10-0,"RNAseq pipeline v3.2",50,OSIRIS:O13-2,
+L304,3,"ech 2",2,rt52485,Genomique,2018-02-09,OSIRIS:O6-3,OSIRIS:O7-25,,2018-02-09,OSIRIS:O10-0,sbd54dsf57s,,,320

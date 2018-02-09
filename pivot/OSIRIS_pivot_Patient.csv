@@ -1,0 +1,2 @@
+patient_id,instance_id,patient_gender,patient_ethnicity,patient_birthdate,patient_deathdate,patient_centerid,patient_causeofdeath,patient_lastnewsdate,patient_lastnewsstatus
+L304,1,M,2043-8,1967-11-08,2017-11-29,IB,UMLS:C0027651,2017-11-29,UMLS:C1546956
