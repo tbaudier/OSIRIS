@@ -1,139 +1,130 @@
-ObjectClass	ObjectProperty	DataElementConcept	ConceptualDomain	DataElementConceptDefFR	DataElementConceptDefEN	IdDataElementConcept
-Patient	Id	Id du patient		Identifiant du patient dans le centre transmetteur de l'information		C1
-Patient	Gender	Sexe	v3 Code System AdministrativeGender	Sexe du patient		C2
-Patient	Ethnicity	Ethnicité	HL7 v3 Code System Race	Origine ethnique du patient		C3
-Patient	BirthDate	Date de naissance		Date de naissance du patient		C4
-Patient	DeathDate	Date de décès		Date de décès du patient		C5
-Patient	CenterId	Id du Centre		Identifiant du centre transmetteur de l'information		C6
-Patient	CauseOfDeath	Cause du décès	UMLS:C0007465	Descriptif de la cause de décès du patient		C7
-Patient	LastNewsDate	Date de dernières nouvelles		Date de dernières nouvelles du patient (= date de dernière venue du patient si aucune autre information disponible)		C8
-Patient	LastNewsStatus	Etat aux dernières nouvelles		Indicateur de l'état du patient aux dernières nouvelles (Vivant ou décédé)		C9
-Consent	ExpirationDate	Date de validité du consentement		Date limite de validité du consentement		C10
-Consent	IntrinsicAnalysisAuth	Autorisation pour analyses en constitutionnelle		Autorisation pour analyses en constitutionnel		C11
-Consent	SomaticAnalysisAuth	Autorisation pour analyses en somatique		Autorisation pour analyses en somatique		C12
-RelatedPathology	PathologyCode	Code	ICD-10	Code international de la pathologie associée (hors autre cancer).		C13
-RelatedPathology	DiagnosisDate	Date		Date du diagnostic de la pathologie associée		C14
-RelatedPathology	PathologyEndDate	Date de fin		Date de fin de la pathologie associée (si elle existe et est connue).		C15
-CancerHistory	DiagnosisDate	Date de diagnostic		Date de diagnostic de l'antécédent carcinologique		C16
-CancerHistory	TopographyCode	Code Localisation	CIM-O-3 Topo	Code international de la localisation de l'antécédent carcinologique		C17
-CancerHistory	MorphologyCode	Code Morphologie / Lésion	CIM-O-3 Morpho	Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique		C18
-CancerHistory	Type	Type	CancerHistoryType	Type d'antécédent (Personnel ou Familial)		C19
-TumorPathologyEvent	Type	Type d'événement	EventType	Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).		C20
-TumorPathologyEvent	StartDate	Date de début de l'évènement		Date de début de l'événement tumoral ou de la maladie		C21
-TumorPathologyEvent	PerformanceStatus	Echelle d'autonomie / Performance status	OMS	Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)		C22
-TumorPathologyEvent	G8	Outil de dépistage G8	G8	outil d'évaluation de l'état général des patients âgés ayant un cancer		C23
-TumorPathologyEvent	T	T		Taille de la tumeur, propagation sur le site de la tumeur primitive		C24
-TumorPathologyEvent	N	N		Propagation au niveau ganglionnaire		C25
-TumorPathologyEvent	M	M		Propagation à distance, présence de métastases		C26
-TumorPathologyEvent	TNMVersion	Version du TNM	TNMVersion	Version de la classification TNM		C27
-TumorPathologyEvent	TNMType	Type de TNM	TNMType	c, p, r,...		C28
-TumorPathologyEvent	HistologicalGradeType	HistologicalGradeType		Liste des échelles de grading histologique		C29
-TumorPathologyEvent	HistologicalGradeValue	HistologicalGradeValue		Valeur du grade histologique		C30
-TumorPathologyEvent	StadeType	StadeType		Liste des échelles de stade		C31
-TumorPathologyEvent	StadeValue	StadeValue		Valeur du stade		C32
-TumorPathologyEvent	DiagnosisDate	Date du diagnostic		Date du diagnostic de l'événement tumoral		C33
-TumorPathologyEvent	TopographyCode	Code Localisation	CIM-O-3 Topo	Code international de la localisation de l'événement tumoral		C34
-TumorPathologyEvent	MorphologyCode	Code Morphologie / Lésion	CIM-O-3 Morpho	Code international de la lésion / type histologique / morphologie de l'événement tumoral		C35
-TumorPathologyEvent	Laterality	Latéralité	Laterality	Latéralité de la localisation (si elle existe)		C36
-Analysis	Type	Type d'examen		Type de l'examen		C37
-Analysis	AnalysisDate	Date d'examen		Date de l'examen		C38
-Biomarker	BiomarkerCode	Code du marqueur		Nom du marqueur		C39
-Biomarker	BiomarkerStatus	Statut du marqueur		Statut de marqueur		C40
-Treatment	Type	Type de traitement	TreatmentType	Type de traitement		C41
-Treatment	ActivityCode	Codification de l'acte	CCAM	Code CCAM de l'acte		C42
-Treatment	StartDate	Date de début		Date de début du traitement		C43
-Treatment	EndDate	Date de fin		Date de fin du traitement		C44
-Treatment	ClinicalTrialContext	Clinical trial (Yes | No)		Traitement effectué dans un contexte d'étude clinique		C45
-Treatment (Type=Surgery)	ResectionQuality	Qualité de la résection (anapath)	SurgeryResection	Qualité de la résection (anapath)		C46
-Treatment (Type=Surgery)	Nature	Nature de la chirurgie		Nature de la chirurgie		C47
-AdverseEvent	Code	Code de l'événement indésirable		Code international de l'événement indésirable survenu en cours de traitement (hors autre cancer).		C48
-AdverseEvent	Date	Date de l'événement indésirable		Date du diagnostic de l'événement indésirable		C49
-AdverseEvent	EndDate	Date de fin		Date de fin de l'événement indésirable (si elle est connue)		C50
-Drug	Code	Code molécule	ATC 5e niveau	Code de la classification thérapeutique		C51
-Drug	DrugName	Nom de la molécule	ATC 5e niveau	Nom de la molécule		C52
-BiologicalSample	SampleId	Id unique de l'échantillon	MIABIS-39	Identifiant unique de l'échantillon		C53
-BiologicalSample	ParentSampleId	Identifiant unique de l'échantillon parent	MIABIS-40	Identifiant unique de l'échantillon parent (s'il en existe un)		C54
-BiologicalSample	ParentSampleRef	Référence du prélèvement		Numéro de référence du prélèvement (numéro utilisé généralement à la réception d'un ensemble d'échantillons au laboratoire correspondant à un même acte de prélèvement)		C55
-BiologicalSample	CollectDate	Date du prélèvement	MIABIS-43	Date du prélèvement		C56
-BiologicalSample	TopographyCode	Code Localisation	CIM-O-3 Topo	Code de la localisation tumorale		C57
-BiologicalSample	SampleNature	Nature de l'échantillon	MIABIS-41	La nature de l'échantillon		C58
-BiologicalSample	SampleOrigin	Nature du prélèvement (tumoral / sain)	OSIRIS:SampleOrigin	Nature du prélèvement d'origine (Sain ou Tumoral)		C59
-BiologicalSample	StorageTemperature	Mode de conservation	MIABIS-43	Le mode de conservation		C60
-BiologicalSample	TumorCellularity	% de cellules tumorales		Le pourcentage de cellules tumorales quantifié dans l'échantillon		C61
-Specimen	SpecimenId	SpecimenId			Genetic sample or derived product identifier	O3
-Technology	TechnicalProtocol	TechnicalProtocol	OSIRIS:TechnicalProtocol		Protocol used for the experiment	O6
-Technology	PlatformName	PlatformName	OSIRIS:PlatformName		Technological platform name (provider followed by the platform name)	O7
-Technology	PlatformAccession	PlatformAccession	OSIRIS:PlatformAccession		GEO Identifier of the platform	O8
-Technology	DateOfExperiment	DateOfExperiment	OSIRIS:DateOfExperiment		Date when the experiment was performed	O9
-Panel	PanelName	PanelName	OSIRIS:PanelName		Name of the panel targeted by the experimental analysis (provider + name)	O10
-AnalysisProcess	AnalyticPipelineCode	AnalyticPipelineCode	OSIRIS:AnalyticPipelineCode		Identifier of the pipeline used into the analysis (unique in the center)	O11
-Experiment on specimen	AlgorithmicCellularity	AlgorithmicCellularity	OSIRIS:AlgorithmicCellularity		Calculated percentage of tumor cells in sample	O12
-Experiment on specimen	AlgorithmicPloïdy	AlgorithmicPloïdy	OSIRIS:AlgorithmicPloïdy		Calculated number of sets of chromosomes in a cell of the sample	O13
-Experiment on specimen CpyNb Quality filter	NumberOfBreakPoints	NumberOfBreakPoints	OSIRIS:NumberOfBreakPoints		Calculated number of break points in genomic profile	O14
-Alteration in specimen	AlterationType	AlterationType	OSIRIS:AlterationType		General type of the detected genetic alteration (high level type)	O15
-Validation	ValidationType	ValidationType	OSIRIS:ValidationType		Type of validation of the detected alteration	O16
-Validation	ValidationMethod	ValidationMethod	OSIRIS:ValidationMethod		Validation method depending on the type of validation	O17
-Validation	ValidationStatus	ValidationStatus	OSIRIS:ValidationStatus		Validation status of the detected alteration	O18
-Alteration	Chromosome	Chromosome	OSIRIS:Chromosome		Chromosome containing the genetic finding	O19
-Alteration	GenomicStart	GenomicStart	FHIR:extension-geneticsGenomicStart		Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based	O20
-Alteration	GenomicStop	GenomicStop	FHIR:extension-geneticsGenomicStop		Nucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based	O21
-Alteration	GenomeBuild	GenomeBuild	FHIR:extension-geneticsGenomeBuild		Genome Build used for reference	O22
-Alteration	Cytoband	Cytoband	OSIRIS:Cytoband		Cytogenetic location	O23
-Genome entity	GenomeEntityType	GenomeEntityType	OSIRIS:GenomeEntityType		Type of the genome entity. For eg: gene, mRNA, ncRNA...	O24
-Genome entity	GenomeEntityDatabase	GenomeEntityDatabase	OSIRIS:GenomeEntityDatabase		Database of the genome entity	O25
-Genome entity	GenomeEntityId	GenomeEntityId	FHIR:extension-observation-geneticsGene		Identifier of the genome entity in the genome entity database	O26
-Genome entity	GeneSymbol	GeneSymbol	LOINC:48018-6		Hugo gene symbol	O27
-Fusion	FusionType	FusionType	OSIRIS:FusionType		Type of the fusion event. For eg: translocation, readthrough	O28
-Fusion	FusionTranscript	FusionTranscript	OSIRIS:FusionTranscript		Have been found from a fusion transcript ?	O29
-Fusion	FusionTranscriptReference	FusionTranscriptReference	OSIRIS:FusionTranscriptReference		Accession number of observed fusion	O30
-Fusion	GeneSymbol	FusionGeneSymbol5prime	LOINC:48018-6		Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end	O31
-Fusion	FusionRegionName5prime	FusionRegionName5prime	FHIR:extension-observation-geneticsDNARegionName		Human readable name for the region of interest from the 5 prime fusion partner. For eg : Exon, Intron	O32
-Fusion	TranscriptReferenceSequenceId	FusionTranscriptReferenceSequenceId5prime	FHIR:extension-observation-geneticsTranscriptReferenceSequenceId		Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL.	O33
-Fusion	FusionStrand5prime	FusionStrand5prime	OSIRIS:FusionStrand5prime		Strand of the 5 prime fusion partner	O34
-Fusion	FusionPoint5prime	FusionPoint5prime	OSIRIS:FusionPoint5prime		Position of the fusion point on the 5 prime partner	O35
-Fusion	GeneSymbol	FusionGeneSymbol3prime	LOINC:48018-6		Gene symbol (HUGO) of the gene involved in the fusion on 3 prime end	O36
-Fusion	FusionRegionName3prime	FusionRegionName3prime	FHIR:extension-observation-geneticsDNARegionName		Human readable name for the region of interest from the 3 prime fusion partner. For eg : Exon, Intron	O37
-Fusion	TranscriptReferenceSequenceId	FusionTranscriptReferenceSequenceId3prime	FHIR:extension-observation-geneticsTranscriptReferenceSequenceId		Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL.	O38
-Fusion	FusionStrand3prime	FusionStrand3prime	OSIRIS:FusionStrand3prime		Strand of the 3 prime fusion partner	O39
-Fusion	FusionPoint3prime	FusionPoint3prime	OSIRIS:FusionPoint3prime		Position of the fusion point on the 3 prime partner	O40
-Fusion	FusionInFrame	FusionInFrame	OSIRIS:FusionInFrame		Specify whether the fusion is in frame	O41
-Fusion Analysis	FusionAnnotationReferentiel	FusionAnnotationReferentiel	OSIRIS:FusionAnnotationReferentiel		Reference database to annotate the fusion	O42
-Fusion Analysis	FusionAnnotationValue	FusionAnnotationValue	OSIRIS:FusionAnnotationValue		Annotation of the fusion	O43
-Fusion QualityFilter	FusionNbSpanningPair	FusionNbSpanningPair	OSIRIS:FusionNbSpanningPair		Number of reads pairs spanning the fusion	O44
-Fusion QualityFilter	FusionNbSplitReads	FusionNbSplitReads	OSIRIS:FusionNbSplitReads		Number of reads containing the fusion point	O46
-Segment copy number	SegmentIntensity	SegmentIntensity	OSIRIS:SegmentIntensity		Intensity of the measured signal	O47
-Segment copy number	SegmentGenomicStatus	SegmentGenomicStatus	OSIRIS:SegmentGenomicStatus		Copy number status	O49
-Segment copy number	CopyNumber	CopyNumber	OSIRIS:CopyNumber		Estimated DNA copy number	O50
-Segment LOH	LossOfHeterozygosity	LossOfHeterozygosity	OSIRIS:LossOfHeterozygosity		Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information	O51
-Reference variant	ReferenceAllele	ReferenceAllele	FHIR:Sequence.referenceAllele		Plus strand reference allele at this position. Include the sequence deleted for a deletion, or '-' for an insertion.	O53
-Reference variant	AlternativeAllele	AlternativeAllele	FHIR:Sequence.observedAllele		Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or '-' for a deletion.	O54
-Reference variant	DNASequenceVariationType	DNASequenceVariationType	LOINC:48019-4		Codified type of the DNA sequence variation	O55
-Reference variant	VariationDatabase	VariationDatabase	OSIRIS:VariationDatabase		Name of the variation database	O56
-Reference variant	VariationId	VariationId	OSIRIS:VariationId		Identifier for variant in the variation database	O57
-Reference variant	PfamDomain	PfamDomain	OSIRIS:PfamDomain		Pfams domains related to alteration position	O58
-Reference variant	PfamId	PfamId	OSIRIS:PfamId		Identifier of Pfams domains related to alteration position	O59
-Reference variant	MutationPredictionAlgorithm	MutationPredictionAlgorithm	OSIRIS:MutationPredictionAlgorithm		Algorithm to predict the variation effect over the protein	O63
-Reference variant	MutationPredictionValue	MutationPredictionValue	OSIRIS:MutationPredictionValue		Prediction of the variation effect over the protein	O64
-Reference variant	MutationPredictionScore	MutationPredictionScore	OSIRIS:MutationPredictionScore		Level of confidence of the prediction of the variation effect over the protein	O65
-Reference variant	DNARegionName	DNARegionName	FHIR:extension-observation-geneticsDNARegionName		Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3')	O66
-Protein	ProteinReferenceDatabase	ProteinReferenceDatabase	OSIRIS:ProteinReferenceDatabase		Name of the protein reference database	O67
-Protein	ProteinReferenceSequenceId	ProteinReferenceSequenceId	FHIR:extension-observation-geneticsProteinReferenceSequenceId		Reference identifier of the protein transcript	O68
-Exonic variant	TranscriptReferenceDatabase	TranscriptReferenceDatabase	OSIRIS:TranscriptReferenceDatabase		Name of the sequence reference database	O69
-Exonic variant	TranscriptReferenceSequenceId	TranscriptReferenceSequenceId	FHIR:extension-observation-geneticsTranscriptReferenceSequenceId		Reference identifier of the transcript	O70
-Exonic variant	DNASequenceVariation	DNASequenceVariation	FHIR:extension-observation-geneticsDNASequenceVariation		HGVS nomenclature on the chosen transcript	O71
-Exonic variant	AminoAcidChange	AminoAcidChange	FHIR:extension-observation-geneticsAminoAcidChange		HGVS nomenclature on the chosen protein transcript	O72
-Exonic variant	GenomicSequenceVariation	GenomicSequenceVariation	OSIRIS:GenomicSequenceVariation		HGVS nomenclature on the given GenomeReferenceSequenceId.	O73
-Exonic variant	RNASequenceVariation	RNASequenceVariation	OSIRIS:RNASequenceVariation		HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA.	O74
-Exonic variant	AminoAcidChangeType	AminoAcidChangeType	OSIRIS:AminoAcidChangeType		HGVS nomenclature of changes at protein-level	O75
-Variant in specimen	PositionCoverage	PositionCoverage	OSIRIS:PositionCoverage		Total coverage at the variant position observed in the specimen	O76
-Variant in specimen	VariantCoverage	VariantCoverage	OSIRIS:VariantCoverage		Coverage of the alternative allele at the variant position observed in the specimen	O77
-Variant in specimen	StrandBias	StrandBias	OSIRIS:StrandBias		Indication of the existence of strand bias at the variant position	O78
-Variant in specimen	GenomicSourceClass	GenomicSourceClass	LOINC:LL378-1		Genomic class of the variant (eg: germline, somatic, and prenatal)	O79
-Variant in specimen	AllelicState	AllelicState	LOINC:LL381-5		Level of allelic occurrence of a DNA Sequence Variation	O80
-Variant in specimen	MolecularTumorBoardConclusion	MolecularTumorBoardConclusion	ACMG		Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board	O81
-Variant in specimen	ClinicalTumorBoardConclusion	ClinicalTumorBoardConclusion	OBI		Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board	O82
-Variant in specimen	ProposedForOrientation	ProposedForOrientation	OBI		Is the ClinicalTumorBoardConclusion used to orient the treatment decision ?	O83
-Gene expression	ExpressionDataType	ExpressionDataType	OSIRIS:ExpressionDataType		Type of the expression value corresponding to the level of data processing	O84
-Gene expression	ExpressionValue	ExpressionValue	OSIRIS:ExpressionValue		Numerical value for expression	O85
-Gene expression	ExpressionPvalue	ExpressionPvalue	OSIRIS:ExpressionPvalueAdjustmentMethod		p-value of the dataset comparison through a statistical method	O86
-Gene expression	ExpressionPvalueAdjustmentMethod	ExpressionPvalueAdjustmentMethod	OSIRIS:ExpressionPvalueAdjustmentMethod		Method used to adjust the nominal value of the p-value when multiple tests are performed in parallel	O87
+ObjectClass	ObjectProperty	DataElementConceptEN	ConceptualDomain	FormatConceptualDomain	Required	DataElementConceptDefFR	DataElementConceptDefEN	IdDataElementConcept	ShortName		
+Patient	Id	Patient_Id		String		Identifiant du patient dans le centre transmetteur de l'information		C1	PatId		
+Patient	Gender	Patient_Gender	v3 Code System AdministrativeGender	String		Sexe du patient		C2			
+Patient	Ethnicity	Patient_Ethnicity	HL7 v3 Code System Race	String		Origine ethnique du patient		C3			
+Patient	BirthDate	Patient_BirthDate		Date		Date de naissance du patient		C4			
+Patient	DeathDate	Patient_DeathDate		Date		Date de décès du patient		C5			
+Patient	CenterId	Patient_CenterId		String		Identifiant du centre transmetteur de l'information		C6			
+Patient	CauseOfDeath	Patient_CauseOfDeath	UMLS:C0007465	String		Descriptif de la cause de décès du patient		C7			
+Patient	LastNewsDate	Patient_LastNewsDate		Date		Date de dernières nouvelles du patient (= date de dernière venue du patient si aucune autre information disponible)		C8			
+Patient	LastNewsStatus	Patient_LastNewsStatus		String		Indicateur de l'état du patient aux dernières nouvelles (Vivant ou décédé)		C9			
+Consent	ExpirationDate	Consent_ExpirationDate		Date		Date limite de validité du consentement		C10			
+Consent	IntrinsicAnalysisAuth	Consent_IntrinsicAnalysisAuth		Boolean		Autorisation pour analyses en constitutionnel		C11			
+Consent	SomaticAnalysisAuth	Consent_SomaticAnalysisAuth		Boolean		Autorisation pour analyses en somatique		C12			
+RelatedPathology	PathologyCode	RelatedPathology_PathologyCode	ICD-10	String		Code international de la pathologie associée (hors autre cancer).		C13			
+RelatedPathology	DiagnosisDate	RelatedPathology_DiagnosisDate		Date		Date du diagnostic de la pathologie associée		C14			
+RelatedPathology	PathologyEndDate	RelatedPathology_PathologyEndDate		Date		Date de fin de la pathologie associée (si elle existe et est connue).		C15			
+CancerHistory	DiagnosisDate	CancerHistory_DiagnosisDate		Date		Date de diagnostic de l'antécédent carcinologique		C16			
+CancerHistory	TopographyCode	CancerHistory_TopographyCode	CIM-O-3 Topo	String		Code international de la localisation de l'antécédent carcinologique		C17			
+CancerHistory	MorphologyCode	CancerHistory_MorphologyCode	CIM-O-3 Morpho	String		Code international de la lésion / type histologique / morphologie de l'antécédent carcinologique		C18			
+CancerHistory	Type	CancerHistory_Type	CancerHistoryType	String		Type d'antécédent (Personnel ou Familial)		C19			
+TumorPathologyEvent	Type	TumorPathologyEvent_Type	EventType	String		Le champ 'Type' permet de décrire à la fois l'événement 'Cancer' en tant que maladie globale que les différents événements constituant cette maladie (Tumeur initiale, Récidive locale, Récidive métastatique).		C20			
+TumorPathologyEvent	StartDate	TumorPathologyEvent_StartDate		Date		Date de début de l'événement tumoral ou de la maladie		C21			
+TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus	OMS	String		Définition de l'échelle d'autonomie (échelle de Karnofsky ou OMS)		C22			
+TumorPathologyEvent	G8	TumorPathologyEvent_G8	G8	Integer		outil d'évaluation de l'état général des patients âgés ayant un cancer		C23			
+TumorPathologyEvent	T	TumorPathologyEvent_T		String		Taille de la tumeur, propagation sur le site de la tumeur primitive		C24			
+TumorPathologyEvent	N	TumorPathologyEvent_N		String		Propagation au niveau ganglionnaire		C25			
+TumorPathologyEvent	M	TumorPathologyEvent_M		String		Propagation à distance, présence de métastases		C26			
+TumorPathologyEvent	TNMVersion	TumorPathologyEvent_TNMVersion	TNMVersion	String		Version de la classification TNM		C27			
+TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType	TNMType	String		c, p, r,...		C28			
+TumorPathologyEvent	HistologicalGradeType	TumorPathologyEvent_HistologicalGradeType				Liste des échelles de grading histologique		C29			
+TumorPathologyEvent	HistologicalGradeValue	TumorPathologyEvent_HistologicalGradeValue				Valeur du grade histologique		C30			
+TumorPathologyEvent	StadeType	TumorPathologyEvent_StadeType		String		Liste des échelles de stade		C31			
+TumorPathologyEvent	StadeValue	TumorPathologyEvent_StadeValue		String		Valeur du stade		C32			
+TumorPathologyEvent	DiagnosisDate	TumorPathologyEvent_DiagnosisDate		Date		Date du diagnostic de l'événement tumoral		C33			
+TumorPathologyEvent	TopographyCode	TumorPathologyEvent_TopographyCode	CIM-O-3 Topo	String		Code international de la localisation de l'événement tumoral		C34			
+TumorPathologyEvent	MorphologyCode	TumorPathologyEvent_MorphologyCode	CIM-O-3 Morpho	String		Code international de la lésion / type histologique / morphologie de l'événement tumoral		C35			
+TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality	Laterality	String		Latéralité de la localisation (si elle existe)		C36			
+Analysis	Code	Analysis_Code		String		Code de l'analyse		C70			
+Analysis	Type	Analysis_Type		String		Type de l'examen		C37			
+Analysis	Date	Analysis_Date		Date		Date de l'examen		C38			
+Biomarker	Code	Biomarker_Code		String		Nom du marqueur		C39			
+Biomarker	Status	Biomarker_Status		String		Statut de marqueur		C40			
+Treatment	Type	Treatment_Type	TreatmentType	String		Type de traitement		C41			
+Treatment	ActivityCode	Treatment_ActivityCode	CCAM	String		Code CCAM de l'acte		C42			
+Treatment	StartDate	Treatment_StartDate		Date		Date de début du traitement		C43			
+Treatment	EndDate	Treatment_EndDate		Date		Date de fin du traitement		C44			
+Treatment	ClinicalTrialContext	Treatment_ClinicalTrialContext		Boolean		Traitement effectué dans un contexte d'étude clinique		C45			
+Treatment	SurgeryResectionQuality	Treatment_SurgeryResectionQuality	SurgeryResection	String		Qualité de la résection (anapath)		C46			
+Treatment	SurgeryNature	Treatment_SurgeryNature		String		Nature de la chirurgie		C47			
+AdverseEvent	Code	AdverseEvent_Code		String		Code international de l'événement indésirable survenu en cours de traitement (hors autre cancer).		C48			
+AdverseEvent	Date	AdverseEvent_Date		Date		Date du diagnostic de l'événement indésirable		C49			
+AdverseEvent	EndDate	AdverseEvent_EndDate		Date		Date de fin de l'événement indésirable (si elle est connue)		C50			
+Drug	Code	Drug_Code	ATC 5e niveau	String		Code de la classification thérapeutique		C51			
+Drug	Name	Drug_Name	ATC 5e niveau	String		Nom de la molécule		C52			
+BiologicalSample	SampleExternalAccession	BiologicalSample_SampleExternalAccession	MIABIS-39	String		Identifiant unique de l'échantillon		C53			
+BiologicalSample	ParentSampleExternalAccession	BiologicalSample_ParentSampleExternalAccession	MIABIS-40	String		Identifiant unique de l'échantillon parent (s'il en existe un)		C54			
+BiologicalSample	ParentSampleRef	BiologicalSample_ParentSampleRef		String		Numéro de référence du prélèvement (numéro utilisé généralement à la réception d'un ensemble d'échantillons au laboratoire correspondant à un même acte de prélèvement)		C55			
+BiologicalSample	CollectDate	BiologicalSample_CollectDate	MIABIS-43	Date		Date du prélèvement		C56			
+BiologicalSample	TopographyCode	BiologicalSample_TopographyCode	CIM-O-3 Topo	String		Code de la localisation tumorale		C57			
+BiologicalSample	Nature	BiologicalSample_Nature	MIABIS-41	String		La nature de l'échantillon		C58			
+BiologicalSample	Origin	BiologicalSample_Origin	OSIRIS:SampleOrigin	String		Nature du prélèvement d'origine (Sain ou Tumoral)		C59			
+BiologicalSample	StorageTemperature	BiologicalSample_StorageTemperature	MIABIS-42	String		Le mode de conservation		C60			
+BiologicalSample	TumorCellularity	BiologicalSample_TumorCellularity		Integer		Le pourcentage de cellules tumorales quantifié dans l'échantillon		C61			
+Technology	TechnicalProtocol	Technology_TechnicalProtocol	OSIRIS:TechnicalProtocol	String	mandatory		Protocol used for the experiment	O6			
+Technology	PlatformName	Technology_PlatformName	OSIRIS:PlatformName	String	mandatory		Technological platform name (provider followed by the platform name)	O7			
+Technology	PlatformAccession	Technology_PlatformAccession	OSIRIS:PlatformAccession	String	optional		GEO Identifier of the platform	O8			
+Technology	DateOfExperiment	Technology_DateOfExperiment	OSIRIS:DateOfExperiment	Date	cle primaire		Date when the experiment was performed	O9			
+Panel	Name	Panel_Name	OSIRIS:PanelName	String	optional		Name of the panel targeted by the experimental analysis (provider + name)	O10			
+AnalysisProcess	AnalyticPipelineCode	AnalysisProcess_AnalyticPipelineCode	OSIRIS:AnalyticPipelineCode	String	mandatory		Identifier of the pipeline used into the analysis (unique in the center)	O11			
+OmicAnalysis	AlgorithmicCellularity	OmicAnalysis_AlgorithmicCellularity	OSIRIS:AlgorithmicCellularity	Integer	optional		Calculated percentage of tumor cells in sample	O12			
+OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy	OSIRIS:AlgorithmicPloïdy	String	optional		Calculated number of sets of chromosomes in a cell of the sample	O13			
+OmicAnalysis	NumberOfBreakPoints	OmicAnalysis_NumberOfBreakPoints	OSIRIS:NumberOfBreakPoints	Integer	optional		Calculated number of break points in genomic profile	O14			
+AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	OSIRIS:AlterationType	String	mandatory		General type of the detected genetic alteration (high level type)	O15	AltType		
+AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity	ACMG	String	optional		Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board	O81	MTBConclu		
+AlterationOnSample	Actionability	AlterationOnSample_Actionability	OBI	String	optional		Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board	O82	CTBConclu		
+AlterationOnSample	ProposedForOrientation	AlterationOnSample_ProposedForOrientation	OBI	Boolean	optional		Is the ClinicalTumorBoardConclusion used to orient the treatment decision ?	O83			
+Validation	Type	Validation_Type	OSIRIS:ValidationType	String	mandatory		Type of validation of the detected alteration	O16			
+Validation	Method	Validation_Method	OSIRIS:ValidationMethod	String	mandatory		Validation method depending on the type of validation	O17			
+Validation	Status	Validation_Status	OSIRIS:ValidationStatus	String	mandatory		Validation status of the detected alteration	O18			
+Alteration	Chromosome	Alteration_Chromosome	OSIRIS:Chromosome	String	mandatory		Chromosome containing the genetic finding	O19	Chrom		
+Alteration	GenomicStart	Alteration_GenomicStart	FHIR:extension-geneticsGenomicStart	Integer	mandatory		Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based	O20	Start	GmicStart	gStart
+Alteration	GenomicStop	Alteration_GenomicStop	FHIR:extension-geneticsGenomicStop	Integer	mandatory		Nucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based	O21	Stop	GmicStop	gStop
+Alteration	GenomeBuild	Alteration_GenomeBuild	FHIR:extension-geneticsGenomeBuild	String	mandatory		Genome Build used for reference	O22			
+Alteration	Cytoband	Alteration_Cytoband	OSIRIS:Cytoband	String	optional		Cytogenetic location	O23			
+GenomeEntity	Type	GenomeEntity_Type	OSIRIS:GenomeEntityType	String	mandatory		Type of the genome entity. For eg: gene, mRNA, ncRNA...	O24			
+GenomeEntity	Database	GenomeEntity_Database	OSIRIS:GenomeEntityDatabase	String	mandatory		Database of the genome entity	O25			
+GenomeEntity	Id	GenomeEntity_Id	FHIR:extension-observation-geneticsGene	String	mandatory		Identifier of the genome entity in the genome entity database	O26			
+GenomeEntity	Symbol	GenomeEntity_Symbol	LOINC:48018-6	String	mandatory if gene		Hugo gene symbol	O27	Gene	Symbol?	
+Fusion	Type	Fusion_Type	OSIRIS:FusionType	String	optional		Type of the fusion event. For eg: translocation, readthrough	O28	FusType		
+Fusion	Symbol5prime	Fusion_Symbol5prime	LOINC:48018-6	String	mandatory		Gene symbol (HUGO) of the gene involved in the fusion on 5 prime end	O31	FusGene5p		
+Fusion	RegionName5prime	Fusion_RegionName5prime	FHIR:extension-observation-geneticsDNARegionName	String	optional		Human readable name for the region of interest from the 5 prime fusion partner. For eg : Exon, Intron	O32	FusReg5p		
+Fusion	TranscriptReferenceSequenceId5prime	Fusion_TranscriptReferenceSequenceId5prime	FHIR:extension-observation-geneticsTranscriptReferenceSequenceId	String	mandatory		Reference identifier for cDNA transcript of the 5 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL.	O33	FusRefSeqId5p		
+Fusion	Strand5prime	Fusion_Strand5prime	OSIRIS:FusionStrand5prime	String	mandatory		Strand of the 5 prime fusion partner	O34	FusStrd5p		
+Fusion	Point5prime	Fusion_Point5prime	OSIRIS:FusionPoint5prime	String	mandatory		Position of the fusion point on the 5 prime partner	O35	FusPt5p		
+Fusion	Symbol3prime	Fusion_Symbol3prime	LOINC:48018-6	String	mandatory		Gene symbol (HUGO) of the gene involved in the fusion on 3 prime end	O36	FusGene3p		
+Fusion	RegionName3prime	Fusion_RegionName3prime	FHIR:extension-observation-geneticsDNARegionName	String	optional		Human readable name for the region of interest from the 3 prime fusion partner. For eg : Exon, Intron	O37	FusReg3p		
+Fusion	TranscriptReferenceSequenceId3prime	Fusion_TranscriptReferenceSequenceId3prime	FHIR:extension-observation-geneticsTranscriptReferenceSequenceId	String	mandatory		Reference identifier for cDNA transcript of the 3 prime fusion partner, with version, from NCBI's RefSeq or ENSEMBL.	O38	FusRefSeqId3p		
+Fusion	Strand3prime	Fusion_Strand3prime	OSIRIS:FusionStrand3prime	String	mandatory		Strand of the 3 prime fusion partner	O39	FusStrd3p		
+Fusion	Point3prime	Fusion_Point3prime	OSIRIS:FusionPoint3prime	Integer	mandatory		Position of the fusion point on the 3 prime partner	O40	FusPt3p		
+Fusion	InFrame	Fusion_InFrame	OSIRIS:FusionInFrame	Boolean	optional		Specify whether the fusion is in frame	O41	FusInFrame		
+Fusion	NbSpanningPair	Fusion_NbSpanningPair	OSIRIS:FusionNbSpanningPair	Integer	mandatory		Number of reads pairs spanning the fusion	O44			
+Fusion	NbSplitReads	Fusion_NbSplitReads	OSIRIS:FusionNbSplitReads	Integer	optional		Number of reads containing the fusion point	O46			
+CNV	SegmentIntensity	CNV_SegmentIntensity	OSIRIS:SegmentIntensity	Float	mandatory		Intensity of the measured signal	O47	SegInt		
+CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus	OSIRIS:SegmentGenomicStatus	String	mandatory		Copy number status	O49	SegStatus	SegGmicStat	
+CNV	CopyNumber	CNV_CopyNumber	OSIRIS:CopyNumber	Integer	optional		Estimated DNA copy number	O50	CopyNb		
+CNV	LOH	CNV_LOH	OSIRIS:LossOfHeterozygosity	Boolean	optional		Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information	O51	SegLOH		
+Variant	ReferenceAllele	Variant_ReferenceAllele	FHIR:Sequence.referenceAllele	String	mandatory		Plus strand reference allele at this position. Include the sequence deleted for a deletion, or '-' for an insertion.	O53	Ref	RefAll	
+Variant	AlternativeAllele	Variant_AlternativeAllele	FHIR:Sequence.observedAllele	String	mandatory		Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or '-' for a deletion.	O54	Alt	AltAll	
+Variant	DNASequenceVariationType	Variant_DNASequenceVariationType	LOINC:48019-4	String	mandatory		Codified type of the DNA sequence variation	O55			
+Annotation	ReferenceType	Annotation_ReferenceType	OSIRIS:Annotation_ReferenceType	String	optional			O90			
+Annotation	ReferenceDatabase	Annotation_ReferenceDatabase	OSIRIS:Annotation_ReferenceDatabase	String	optional			O91			
+Annotation	ReferenceId	Annotation_ReferenceId	OSIRIS:Annotation_ReferenceId	String	optional			O92			
+Annotation	PfamDomain	Annotation_PfamDomain	OSIRIS:PfamDomain	String	optional		Pfams domains related to alteration position	O58	PfamDom		
+Annotation	PfamId	Annotation_PfamId	OSIRIS:PfamId	String	optional		Identifier of Pfams domains related to alteration position	O59	PfamId		
+Annotation	MutationPredictionAlgorithm	Annotation_MutationPredictionAlgorithm	OSIRIS:MutationPredictionAlgorithm	String	optional		Algorithm to predict the variation effect over the protein	O63			
+Annotation	MutationPredictionValue	Annotation_MutationPredictionValue	OSIRIS:MutationPredictionValue	String	optional		Prediction of the variation effect over the protein	O64			
+Annotation	MutationPredictionScore	Annotation_MutationPredictionScore	OSIRIS:MutationPredictionScore	Float	optional		Level of confidence of the prediction of the variation effect over the protein	O65			
+Annotation	DNARegionName	Annotation_DNARegionName	FHIR:extension-observation-geneticsDNARegionName	String	optional		Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3')	O66	DNARegName		
+Annotation	DNASequenceVariation	Annotation_DNASequenceVariation	FHIR:extension-observation-geneticsDNASequenceVariation	String	mandatory		HGVS nomenclature on the chosen transcript	O71	DNASeqVar	HGVSc	
+Annotation	AminoAcidChange	Annotation_AminoAcidChange	FHIR:extension-observation-geneticsAminoAcidChange	String	optional		HGVS nomenclature on the chosen protein transcript	O72	AAChange	HGVSp	
+Annotation	GenomicSequenceVariation	Annotation_GenomicSequenceVariation	OSIRIS:GenomicSequenceVariation	String	optional		HGVS nomenclature on the given GenomeReferenceSequenceId.	O73			
+Annotation	RNASequenceVariation	Annotation_RNASequenceVariation	OSIRIS:RNASequenceVariation	String	optional		HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA.	O74			
+Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	OSIRIS:AminoAcidChangeType	String	optional		HGVS nomenclature of changes at protein-level	O75			
+VariantInSample	PositionReadDepth	VariantInSample_PositionReadDepth	OSIRIS:PositionReadDepth	Integer	mandatory		Total sequencing depth at the variant position observed in the specimen	O76	PosCov		
+VariantInSample	VariantReadDepth	VariantInSample_VariantReadDepth	OSIRIS:VariantReadDepth	Integer	mandatory		Sequencing depth of the alternative allele at the variant position observed in the specimen	O77	VarCov		
+VariantInSample	StrandBias	VariantInSample_StrandBias	OSIRIS:StrandBias	Boolean	optional		Indication of the existence of strand bias at the variant position	O78			
+VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass	LOINC:LL378-1	String	mandatory		Genomic class of the variant (eg: germline, somatic, and prenatal)	O79			
+VariantInSample	AllelicState	VariantInSample_AllelicState	LOINC:LL381-5	String	optional		Level of allelic occurrence of a DNA Sequence Variation	O80			
+GeneExpression	DataType	GeneExpression_DataType	OSIRIS:ExpressionDataType	String	mandatory		Type of the expression value corresponding to the level of data processing	O84			
+GeneExpression	Value	GeneExpression_Value	OSIRIS:ExpressionValue	Float	mandatory		Numerical value for expression	O85			
