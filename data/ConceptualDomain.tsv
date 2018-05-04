@@ -1,436 +1,457 @@
-ValueMeaning	LabelValueMeaning	Referentiel	url	TypeConceptualDomain	FormatConceptualDomain	IdDataElementConcept	ConceptualDomain		ObjectClass	ObjectProperty	DataElementConceptEN	
-				nonEnumerated	String	C1			Patient	Id	Patient_Id	
-M	Male	FHIR (HL7) v3	http://hl7.org/fhir/v3/AdministrativeGender/index.html	Enumerated	String	C2	HL7 v3 Code System AdministrativeGender		Patient	Gender	Patient_Gender	
-F	Female	FHIR (HL7) v3	http://hl7.org/fhir/v3/AdministrativeGender/index.html	Enumerated	String	C2	HL7 v3 Code System AdministrativeGender		Patient	Gender	Patient_Gender	
-UN	Undifferentiated	FHIR (HL7) v3	http://hl7.org/fhir/v3/AdministrativeGender/index.html	Enumerated	String	C2	HL7 v3 Code System AdministrativeGender		Patient	Gender	Patient_Gender	
-1002-5	American Indian or Alaska Native	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-1004-1	American Indian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2028-9	Asian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2029-7	Asian Indian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2030-5	Bangladeshi	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2031-3	Bhutanese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2032-1	Burmese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2033-9	Cambodian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2034-7	Chinese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2035-4	Taiwanese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2036-2	Filipino	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2037-0	Hmong	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2038-8	Indonesian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2039-6	Japanese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2040-4	Korean	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2041-2	Laotian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2042-0	Malaysian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2043-8	Okinawan	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2044-6	Pakistani	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2045-3	Sri Lankan	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2046-1	Thai	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2047-9	Vietnamese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2048-7	Iwo Jiman	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2049-5	Maldivian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2050-3	Nepalese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2051-1	Singaporean	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2052-9	Madagascar	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2054-5	Black or African American	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2056-0	Black	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2058-6	African American	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2060-2	African	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2067-7	Bahamian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2068-5	Barbadian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2069-3	Dominican	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2070-1	Dominica Islander	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2071-9	Haitian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2072-7	Jamaican	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2073-5	Tobagoan	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2074-3	Trinidadian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2075-0	West Indian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2076-8	Native Hawaiian or Other Pacific Islander	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2078-4	Polynesian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2085-9	Micronesian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2100-6	Melanesian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2500-7	Other Pacific Islander	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2106-3	White	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2108-9	European	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2118-8	Middle Eastern or North African	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-2129-5	Arab	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race		Patient	Ethnicity	Patient_Ethnicity	
-				nonEnumerated	Date	C4			Patient	BirthDate	Patient_BirthDate	
-				nonEnumerated	Date	C5			Patient	DeathDate	Patient_DeathDate	
-				nonEnumerated	String	C6			Patient	CenterId	Patient_CenterId	
-UMLS:C0277589	Death of unknown cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0277589;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	C7	UMLS:C0007465		Patient	CauseOfDeath	Patient_CauseOfDeath	
-UMLS:C1707251	Other cancer	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C1707251;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	C7	UMLS:C0007465		Patient	CauseOfDeath	Patient_CauseOfDeath	
-UMLS:C3262234	Other cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C3262234;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	C7	UMLS:C0007465		Patient	CauseOfDeath	Patient_CauseOfDeath	
-UMLS:C0679861	Complications of treatment	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0679861;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	C7	UMLS:C0007465		Patient	CauseOfDeath	Patient_CauseOfDeath	
-UMLS:C0027651	Neoplasm	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0027651;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	C7	UMLS:C0007465		Patient	CauseOfDeath	Patient_CauseOfDeath	
-				nonEnumerated	Date	C8			Patient	LastNewsDate	Patient_LastNewsDate	
-UMLS:C2584946	Alive (finding)	UMLS		Enumerated	String	C9			Patient	LastNewsStatus	Patient_LastNewsStatus	
-ULMS:C1546956	Patient Outcome - Died	UMLS		Enumerated	String	C9			Patient	LastNewsStatus	Patient_LastNewsStatus	
-				nonEnumerated	Date	C10			Consent	ExpirationDate	Consent_ExpirationDate	
-				nonEnumerated	Boolean	C11			Consent	IntrinsicAnalysisAuth	Consent_IntrinsicAnalysisAuth	
-				nonEnumerated	Boolean	C12			Consent	SomaticAnalysisAuth	Consent_SomaticAnalysisAuth	
-ICD-10	cf. ICD-10	ICD-10	http://apps.who.int/classifications/icd10/browse/2016/en	Enumerated	String	C13	ICD-10		RelatedPathology	PathologyCode	RelatedPathology_PathologyCode	
-				nonEnumerated	Date	C14			RelatedPathology	DiagnosisDate	RelatedPathology_DiagnosisDate	
-				nonEnumerated	Date	C15			RelatedPathology	PathologyEndDate	RelatedPathology_PathologyEndDate	
-				nonEnumerated	Date	C16			CancerHistory	DiagnosisDate	CancerHistory_DiagnosisDate	
-ICD-O-3-TOPO	cf. ICD-O-3-TOPO	CIM-O-3 Topo	http://codes.iarc.fr/topography	Enumerated	String	C17	CIM-O-3 Topo		CancerHistory	TopographyCode	CancerHistory_TopographyCode	
-ICD-O-3-MORPHO	cf. ICD-O-3-MORPHO	CIM-O-3 Morpho	http://codes.iarc.fr/codegroup/2	Enumerated	String	C18	CIM-O-3 Morpho		CancerHistory	MorphologyCode	CancerHistory_MorphologyCode	
-OSIRIS:C19-1	Individual	OSIRIS		Enumerated	String	C19	OSIRIS:CancerHistoryType		CancerHistory	Type	CancerHistory_Type	
-OSIRIS:C19-2	Family	OSIRIS		Enumerated	String	C19	OSIRIS:CancerHistoryType		CancerHistory	Type	CancerHistory_Type	
-UMLS:C1882062 	Neoplasm	UMLS		Enumerated	String	C20	OSIRIS:EventType		TumorPathologyEvent	Type	TumorPathologyEvent_Type	
-UMLS:C2939419	Secondary Neoplasm	UMLS		Enumerated	String	C20	OSIRIS:EventType		TumorPathologyEvent	Type	TumorPathologyEvent_Type	
-UMLS:C0521158	Recurrent tumor	UMLS		Enumerated	String	C20	OSIRIS:EventType		TumorPathologyEvent	Type	TumorPathologyEvent_Type	
-UMLS:C0677930	primary tumor	UMLS		Enumerated	String	C20	OSIRIS:EventType		TumorPathologyEvent	Type	TumorPathologyEvent_Type	
-				nonEnumerated	Date	C21			TumorPathologyEvent	StartDate	TumorPathologyEvent_StartDate	
-0	activité normale sans restriction	OMS		Enumerated	String	C22	OMS		TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus	
-1	restreint pour des activités physiques importantes, mais patient ambulant et capable de fournir un travail léger	OMS		Enumerated	String	C22	OMS		TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus	
-2	ambulant et capable de se prendre en charge, mais incapable de fournir un travail et alité pendant moins de 50 % de son temps	OMS		Enumerated	String	C22	OMS		TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus	
-3	capacité de prise en charge propre beaucoup plus limitée. Passe plus de 50 % de son temps au lit ou dans une chaise.	OMS		Enumerated	String	C22	OMS		TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus	
-4	complètement grabataire. Incapable de se prendre en charge. Le patient reste totalement confiné au lit ou dans une chaise.	OMS		Enumerated	String	C22	OMS		TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus	
-				nonEnumerated	Integer	C23	G8		TumorPathologyEvent	G8	TumorPathologyEvent_G8	
-Tx	Tx			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T0	T0			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T1	T1			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T1a	T1a			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T1b	T1b			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T1c	T1c			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T2	T2			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T3	T3			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T4	T4			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T4a	T4a			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T4b	T4b			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T4c	T4c			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-T4d	T4d			Enumerated	String	C24	OSIRIS:T_TNM		TumorPathologyEvent	T	TumorPathologyEvent_T	
-Nx	Nx			Enumerated	String	C25	OSIRIS:N_TNM		TumorPathologyEvent	N	TumorPathologyEvent_N	
-N0	N0			Enumerated	String	C25	OSIRIS:N_TNM		TumorPathologyEvent	N	TumorPathologyEvent_N	
-N1mi	N1mi			Enumerated	String	C25	OSIRIS:N_TNM		TumorPathologyEvent	N	TumorPathologyEvent_N	
-N1	N1			Enumerated	String	C25	OSIRIS:N_TNM		TumorPathologyEvent	N	TumorPathologyEvent_N	
-N2	N2			Enumerated	String	C25	OSIRIS:N_TNM		TumorPathologyEvent	N	TumorPathologyEvent_N	
-N3	N3			Enumerated	String	C25	OSIRIS:N_TNM		TumorPathologyEvent	N	TumorPathologyEvent_N	
-Mx	Mx			Enumerated	String	C26	OSIRIS:M_TNM		TumorPathologyEvent	M	TumorPathologyEvent_M	
-M0	M0			Enumerated	String	C26	OSIRIS:M_TNM		TumorPathologyEvent	M	TumorPathologyEvent_M	
-M1	M1			Enumerated	String	C26	OSIRIS:M_TNM		TumorPathologyEvent	M	TumorPathologyEvent_M	
-UICC TNM Classification 7th edition	UICC TNM Classification 7th edition			Enumerated	String	C27	OSIRIS:TNMVersion		TumorPathologyEvent	TNMVersion	TumorPathologyEvent_TNMVersion	
-c	Clinique			Enumerated	String	C28	OSIRIS:TNMType		TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType	
-p	Pathologique			Enumerated	String	C28	OSIRIS:TNMType		TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType	
-y	Après traitement neoadjuvant			Enumerated	String	C28	OSIRIS:TNMType		TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType	
-u	Radiologique			Enumerated	String	C28	OSIRIS:TNMType		TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType	
-						C29			TumorPathologyEvent	HistologicalGradeType	TumorPathologyEvent_HistologicalGradeType	
-						C30			TumorPathologyEvent	HistologicalGradeValue	TumorPathologyEvent_HistologicalGradeValue	
-						C31			TumorPathologyEvent	StadeType	TumorPathologyEvent_StadeType	
-						C32			TumorPathologyEvent	StadeValue	TumorPathologyEvent_StadeValue	
-				nonEnumerated	Date	C33			TumorPathologyEvent	DiagnosisDate	TumorPathologyEvent_DiagnosisDate	
-ICD-O-3-TOPO	cf. ICD-O-3-TOPO	CIM-O-3 Topo	http://codes.iarc.fr/topography	Enumerated	String	C34	CIM-O-3 Topo		TumorPathologyEvent	TopographyCode	TumorPathologyEvent_TopographyCode	
-ICD-O-3-MORPHO	cf. ICD-O-3-MORPHO	CIM-O-3 Morpho	http://codes.iarc.fr/codegroup/2	Enumerated	String	C35	CIM-O-3 Morpho		TumorPathologyEvent	MorphologyCode	TumorPathologyEvent_MorphologyCode	
-UMLS:C0238767	Bilateral	UMLS		Enumerated	String	C36	OSIRIS:Laterality		TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality	
-UMLS:C0205091	Left	UMLS		Enumerated	String	C36	OSIRIS:Laterality		TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality	
-UMLS:C2939193	Median (qualifier value)	UMLS		Enumerated	String	C36	OSIRIS:Laterality		TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality	
-UMLS:C1272460	Not Applicable	UMLS		Enumerated	String	C36	OSIRIS:Laterality		TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality	
-UMLS:C0205090	Right	UMLS		Enumerated	String	C36	OSIRIS:Laterality		TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality	
-UMLS:C0439673	Unknown	UMLS		Enumerated	String	C36	OSIRIS:Laterality		TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality	
-						C37			Analysis	Type	Analysis_Type	
-						C38			Analysis	Date	Analysis_Date	
-						C39			Biomarker	Code	Biomarker_Code	
-						C40			Biomarker	Status	Biomarker_Status	
-UMLS:C3665472	Chemotherapy	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType		Treatment	Type	Treatment_Type	
-UMLS:C0279025	Hormone Therapy	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType		Treatment	Type	Treatment_Type	
-UMLS:C1522449	Therapeutic radiology procedure	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType		Treatment	Type	Treatment_Type	
-UMLS:C0728940	Surgery	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType		Treatment	Type	Treatment_Type	
-CCAM	cf. CCAM	CCAM	http://www.ameli.fr/accueil-de-la-ccam/index.php	Enumerated	String	C42	CCAM		Treatment	ActivityCode	Treatment_ActivityCode	
-				nonEnumerated	Date	C43			Treatment	StartDate	Treatment_StartDate	
-				nonEnumerated	Date	C44			Treatment	EndDate	Treatment_EndDate	
-				nonEnumerated	Boolean	C45			Treatment	ClinicalTrialContext	Treatment_ClinicalTrialContext	
-R0	Marges macroscopiquement et microscopiquement saines			Enumerated	String	C46	OSIRIS:SurgeryResection		Treatment	SurgeryResectionQuality	Treatment_SurgeryResectionQuality	
-R1	Marges macroscopiquement saines mais microscopiquement envahies			Enumerated	String	C46	OSIRIS:SurgeryResection		Treatment	SurgeryResectionQuality	Treatment_SurgeryResectionQuality	
-R2	Marges macroscopiquement et microscopiquement envahies			Enumerated	String	C46	OSIRIS:SurgeryResection		Treatment	SurgeryResectionQuality	Treatment_SurgeryResectionQuality	
-				Enumerated	String	C47			Treatment	SurgeryNature	Treatment_SurgeryNature	
-				Enumerated	String	C48			AdverseEvent	Code	AdverseEvent_Code	
-				nonEnumerated	Date	C49			AdverseEvent	Date	AdverseEvent_Date	
-				nonEnumerated	Date	C50			AdverseEvent	EndDate	AdverseEvent_EndDate	
-ATC	cf. ATC	ATC 5e niveau		Enumerated	String	C51	ATC 5e niveau		Drug	Code	Drug_Code	
-ATC	cf. ATC	ATC 5e niveau		Enumerated	String	C52	ATC 5e niveau		Drug	Name	Drug_Name	
-MIABIS-39	cf. MIABIS-39	MIABIS-39	https://github.com/MIABIS/miabis/wiki/Data-describing-Sample	nonEnumerated	String	C53	MIABIS-39		BiologicalSample	SampleExternalAccession	BiologicalSample_SampleExternalAccession	
-MIABIS-40	cf. MIABIS-40	MIABIS-40	https://github.com/MIABIS/miabis/wiki/Data-describing-Sample	nonEnumerated	String	C54	MIABIS-40		BiologicalSample	ParentSampleExternalAccession	BiologicalSample_ParentSampleExternalAccession	
-				nonEnumerated	String	C55			BiologicalSample	ParentSampleRef	BiologicalSample_ParentSampleRef	
-MIABIS-43	cf. MIABIS-43	MIABIS-43	https://github.com/MIABIS/miabis/wiki/Data-describing-Sample	nonEnumerated	Date	C56	MIABIS-43		BiologicalSample	CollectDate	BiologicalSample_CollectDate	
-ICD-O-3-TOPO	cf. ICD-O-3-TOPO	CIM-O-3 Topo	http://codes.iarc.fr/topography	Enumerated	String	C57	CIM-O-3 Topo		BiologicalSample	TopographyCode	BiologicalSample_TopographyCode	
-MIABIS-41	cf. MIABIS-41	MIABIS-41/MIABIS-2.0-14	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#material-type	Enumerated	String	C58	MIABIS-41		BiologicalSample	Nature	BiologicalSample_Nature	
-OSIRIS:O59-1	Sain	OSIRIS		Enumerated	String	C59	OSIRIS:SampleOrigin		BiologicalSample	Origin	BiologicalSample_Origin	
-OSIRIS:O59-2	cf. MIABIS-43	OSIRIS		Enumerated	String	C59	OSIRIS:SampleOrigin		BiologicalSample	Origin	BiologicalSample_Origin	
-MIABIS-43		MIABIS-43/MIABIS-2.0-15	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#miabis-20-15	Enumerated	String	C60	MIABIS-43		BiologicalSample	StorageTemperature	BiologicalSample_StorageTemperature	
-				nonEnumerated	Integer	C61			BiologicalSample	TumorCellularity	BiologicalSample_TumorCellularity	
-												
-												
-								comments				
-OSIRIS:O6-1	ChIP-on-Chip	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-2	ChIP-seq	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-3	DNA microarray	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-4	DNA targeted panel sequencing	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-5	Exome sequencing	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-6	Mass spectrometry	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-7	MeDIP-Chip	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-8	MeDIP-seq	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-9	Methylation microarray	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-10	RNA microarray	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-11	RNA targeted panel sequencing	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-12	RNA-seq	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-13	RPPA	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-14	Whole genome bisulfite sequencing	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-15	Whole genome sequencing	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O6-16	miRNA microarray	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol		Technology	TechnicalProtocol	Technology_TechnicalProtocol	
-OSIRIS:O7-1	Affymetrix Cytoscan HD	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-2	Affymetrix EMET Plus Premier Pack	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-3	Affymetrix Genome-Wide Human SNP Array 5.0	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-4	Affymetrix Genome-Wide Human SNP Array 6.0	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-5	Affymetrix HT Human Genome U133A Array Plate Set	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-6	Affymetrix Human Exon 1.0 ST	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-7	Affymetrix Human Gene 1.0 ST	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-8	Affymetrix Human Genome U219 Array Plate	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-9	Affymetrix Human MIP 330K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-10	Affymetrix Human U133 Plus 2.0	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-11	Affymetrix Human U133 Plus PM	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-12	Affymetrix Mapping 100K Array Set	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-13	Affymetrix Mapping 10K 2.0 Array Set	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-14	Affymetrix Mapping 500K Array Set	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-15	Affymetrix OncoScan FFPE Express 2.0	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-16	Agilent 244K Custom Gene Expression G4502A-07	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-17	Agilent 244K Custom Gene Expression G4502A-07-1	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-18	Agilent 244K Custom Gene Expression G4502A-07-2	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-19	Agilent 244K Custom Gene Expression G4502A-07-3	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-20	Agilent 8 x 15K Human miRNA-specific microarray	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-21	Agilent Human CGH 1x1M	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-22	Agilent Human CGH 2x400K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-23	Agilent Human CGH 4x180K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-24	Agilent Human CGH 8x60K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-25	Agilent Human CNV 2x400K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-26	Agilent Human CNV Association 2x105K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-27	Agilent Human CpG Island Microarray Kit	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-28	Agilent Human Genome 105A	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-29	Agilent Human Genome 244A	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-30	Agilent Human Genome 44K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-31	Agilent Human Genome CGH Custom Microaary 2x415K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-32	Agilent Human miRNA Microarray Kit (v2)	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-33	Agilent Human Promoter ChIP-on-chip Microarray Set	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-34	Agilent Human SpliceArray	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-35	Agilent Whole Human Genome Oligo Microarray Kit	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-36	Almac Human CRC	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-37	capillary sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-38	Complete Genomics	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-39	Custom-designed cDNA array	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-40	Custom-designed gene expression array	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-41	Helicos sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-42	HumanOmni2.5-8 BeadChip Kit	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-43	Illumina GA sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-44	Illumina goldengate methylation	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-45	Illumina GoldenGate Methylation Cancer Panel I	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-46	Illumina HiSeq	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-47	Illumina HiSeq X Ten	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-48	Illumina Human Omni1-Quad beadchip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-49	Illumina Human1M OmniQuad chip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-50	Illumina human1m-duo	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-51	Illumina human510s-duo	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-52	Illumina human660w-quad	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-53	Illumina HumanCNV370-Duo v1.0 BeadChip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-54	Illumina humancytosnp-12	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-55	Illumina HumanHap550	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-56	Illumina HumanHT-12 v4.0 beadchip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-57	Illumina humanht-16	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-58	Illumina humanht-17	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-59	Illumina humanmethylation27	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-60	Illumina HumanOmniExpress BeadChip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-61	Illumina HumanRef-8 v3.0 beadchip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-62	Illumina HumanWG-6 v3.0 beadchip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-63	Illumina Infinium HumanMethylation450	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-64	Illumina microRNA Expression Profiling Panel	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-65	Illumina MiSeq Personal Sequencer	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-66	Ion Torrent PGM	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-67	Ion Torrent Proton	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-68	M.D. Anderson Reverse Phase Protein Array Core	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-69	Microsatellite Instability Analysis	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-70	nanoString	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-71	Nimblegen CGS	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-72	Nimblegen Gene Expression 12x135K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-73	Nimblegen Gene Expression 385K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-74	Nimblegen Gene Expression 4x72K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-75	Nimblegen Human CGH 2.1M Whole-Genome v2.0D Array	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-76	Nimblegen Human CGH 3x720 Whole-Genome v3.0 Array	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-77	Nimblegen Human Methylation 2.1M Whole-Genome sets	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-78	Nimblegen Human Methylation 385K Whole-Genome sets	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-79	PacBio RS sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-80	PCR	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-81	PCR and capillary sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-82	qPCR	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-83	Roche 454 sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-84	Sequenom MassARRAY	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-85	SOLiD sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-86	Digital PCR	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-87	NextSeq 500	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-OSIRIS:O7-88	NovaSeq	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName		Technology	PlatformName	Technology_PlatformName	
-		OSIRIS		nonEnumerated	String	O8	OSIRIS:PlatformAccession		Technology	PlatformAccession	Technology_PlatformAccession	
-		OSIRIS		nonEnumerated	Date	O9	OSIRIS:DateOfExperiment		Technology	DateOfExperiment	Technology_DateOfExperiment	
-OSIRIS:O10-0	Not applicable	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-OSIRIS:O10-1	Ion AmpliSeq Cancer Hotspot Panel v2	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-OSIRIS:O10-2	Ion AmpliSeq Colon and Lung Cancer Research Panel v2	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-OSIRIS:O10-3	Ion AmpliSeq Comprehensive Cancer Panel	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-OSIRIS:O10-4	Ion AmpliSeq Oncomine Comprehensive Assay	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-OSIRIS:O10-5	Ion AmpliSeq Oncomine Focus Assay	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-OSIRIS:O10-6	Ion AmpliSeq TP53 Research Panel	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-OSIRIS:O10-7	Lyric: Ion AmpliSeq Profiler	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-OSIRIS:O10-8	QIAGEN GeneRead DNAseq Targeted Panels V2	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-OSIRIS:O10-9	SAFIR02 Panel	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-OSIRIS:O10-10	Mosc3	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName		Panel	Name	Panel_Name	
-		OSIRIS		nonEnumerated	String	O11	OSIRIS:AnalyticPipelineCode		AnalysisProcess	AnalyticPipelineCode	AnalysisProcess_AnalyticPipelineCode	
-		OSIRIS		nonEnumerated	Integer	O12	OSIRIS:AlgorithmicCellularity		OmicAnalysis	AlgorithmicCellularity	OmicAnalysis_AlgorithmicCellularity	
-OSIRIS:O13-1	Haploid	OSIRIS		Enumerated	String	O13	OSIRIS:AlgorithmicPloïdy		OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy	
-OSIRIS:O13-2	Diploid	OSIRIS		Enumerated	String	O13	OSIRIS:AlgorithmicPloïdy		OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy	
-OSIRIS:O13-3	Triploid	OSIRIS		Enumerated	String	O13	OSIRIS:AlgorithmicPloïdy		OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy	
-OSIRIS:O13-4	Tetraploid	OSIRIS		Enumerated	String	O13	OSIRIS:AlgorithmicPloïdy		OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy	
-OSIRIS:O13-0	Not available	OSIRIS		Enumerated	String	O13	OSIRIS:AlgorithmicPloïdy		OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy	
-		OSIRIS		nonEnumerated	Integer	O14	OSIRIS:NumberOfBreakPoints		OmicAnalysis	NumberOfBreakPoints	OmicAnalysis_NumberOfBreakPoints	
-OSIRIS:O15-1	Gene expression	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType		AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	
-OSIRIS:O15-2	Protein expression	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType		AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	
-OSIRIS:O15-3	Fusion	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType		AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	
-OSIRIS:O15-4	Copy number variation	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType		AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	
-OSIRIS:O15-5	Genetic variant	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType		AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	
-OSIRIS:O15-6	Structural alteration	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType		AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	
-OSIRIS:O15-7	Transcription factor	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType		AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	
-OSIRIS:O15-8	Histone marks	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType		AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	
-OSIRIS:O15-9	Transcript isoform	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType		AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	
-OSIRIS:O15-10	Viral insertion site	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType		AlterationOnSample	AlterationType	AlterationOnSample_AlterationType	
-OSIRIS:O16-1	Experimental	OSIRIS		Enumerated	String	O16	OSIRIS:ValidationType		Validation	Type	Validation_Type	
-OSIRIS:O16-2	By biologist	OSIRIS		Enumerated	String	O16	OSIRIS:ValidationType		Validation	Type	Validation_Type	
-OSIRIS:O16-3	In silico	OSIRIS		Enumerated	String	O16	OSIRIS:ValidationType		Validation	Type	Validation_Type	
-		OSIRIS		nonEnumerated	String	O17	OSIRIS:ValidationMethod		Validation	Method	Validation_Method	
-OSIRIS:O18-1	Not Validated	OSIRIS		Enumerated	String	O18	OSIRIS:ValidationStatus		Validation	Status	Validation_Status	
-OSIRIS:O18-2	Validated	OSIRIS		Enumerated	String	O18	OSIRIS:ValidationStatus		Validation	Status	Validation_Status	
-LA21254-0	chr1	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21255-7	chr2	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21256-5	chr3	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21257-3	chr4	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21258-1	chr5	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21259-9	chr6	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21260-7	chr7	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21261-5	chr8	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21262-3	chr9	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21263-1	chr10	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21264-9	chr11	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21265-6	chr12	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21266-4	chr13	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21267-2	chr14	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21268-0	chr15	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21269-8	chr16	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21270-6	chr17	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21271-4	chr18	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21272-2	chr19	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21273-0	chr20	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21274-8	chr21	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21275-5	chr22	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21276-3	chrX	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-LA21277-1	chrY	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-OSIRIS:O19-1	MT	OSIRIS		Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-OSIRIS:O19-2	viral	OSIRIS		Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-OSIRIS:O19-3	bacterial	OSIRIS		Enumerated	String	O19	OSIRIS:Chromosome		Alteration	Chromosome	Alteration_Chromosome	
-		FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstart.html	nonEnumerated	Integer	O20	FHIR:extension-geneticsGenomicStart		Alteration	GenomicStart	Alteration_GenomicStart	Décision du 06/03/18 : on fait le choix du 1-based
-		FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstop.html	nonEnumerated	Integer	O21	FHIR:extension-geneticsGenomicStop		Alteration	GenomicStop	Alteration_GenomicStop	Décision du 06/03/18 : on fait le choix du 1-based
-OSIRIS:O22-1	GRCh37	FHIR (HL7)	https://www.hl7.org/fhir/extension-geneticsgenomebuild.html	Enumerated	String	O22	FHIR:extension-geneticsGenomeBuild		Alteration	GenomeBuild	Alteration_GenomeBuild	
-OSIRIS:O22-2	GRCh38	FHIR (HL7)	https://www.hl7.org/fhir/extension-geneticsgenomebuild.html	Enumerated	String	O22	FHIR:extension-geneticsGenomeBuild		Alteration	GenomeBuild	Alteration_GenomeBuild	
-UCSC cytoband	UCSC cytoband	UCSC	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz	nonEnumerated	String	O23	UCSC		Alteration	Cytoband	Alteration_Cytoband	
-OSIRIS:O24-1	gene	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType		GenomeEntity	Type	GenomeEntity_Type	
-OSIRIS:O24-2	miRNA	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType		GenomeEntity	Type	GenomeEntity_Type	
-OSIRIS:O24-3	piRNA	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType		GenomeEntity	Type	GenomeEntity_Type	
-OSIRIS:O24-4	mRNA	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType		GenomeEntity	Type	GenomeEntity_Type	
-OSIRIS:O24-5	ncRNA	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType		GenomeEntity	Type	GenomeEntity_Type	
-OSIRIS:O24-6	ORF	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType		GenomeEntity	Type	GenomeEntity_Type	
-OSIRIS:O25-1	HGNC	OSIRIS		Enumerated	String	O25	OSIRIS:GenomeEntityDatabase		GenomeEntity	Database	GenomeEntity_Database	
-OSIRIS:O25-2	miRDB	OSIRIS		Enumerated	String	O25	OSIRIS:GenomeEntityDatabase		GenomeEntity	Database	GenomeEntity_Database	
-OSIRIS:O25-3	Entrez	OSIRIS		Enumerated	String	O25	OSIRIS:GenomeEntityDatabase		GenomeEntity	Database	GenomeEntity_Database	
-OSIRIS:O25-4	Human lincRNA Catalog	OSIRIS		Enumerated	String	O25	OSIRIS:GenomeEntityDatabase		GenomeEntity	Database	GenomeEntity_Database	
-		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsgene.html	nonEnumerated	String	O26	FHIR:extension-observation-geneticsGene		GenomeEntity	Id	GenomeEntity_Id	
-HGNC ID	HGNC Approved Symbol	LOINC	http://www.genenames.org/	nonEnumerated	String	O27	LOINC:48018-6		GenomeEntity	Symbol	GenomeEntity_Symbol	
-LA26331-1	translocation	LOINC	http://r.details.loinc.org/LOINC/81289-1.html	Enumerated	String	O28	OSIRIS:FusionType		Fusion	Type	Fusion_Type	
-OSIRIS:O28-1	readthrough	OSIRIS		Enumerated	String	O28	OSIRIS:FusionType		Fusion	Type	Fusion_Type	
-		LOINC	http://www.genenames.org/	nonEnumerated	String	O31	LOINC:48018-6		Fusion	Symbol5prime	Fusion_Symbol5prime	
-		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html	nonEnumerated	String	O32	FHIR:extension-observation-geneticsDNARegionName		Fusion	RegionName5prime	Fusion_RegionName5prime	
-		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html	nonEnumerated	String	O33	FHIR:extension-observation-geneticsTranscriptReferenceSequenceId		Fusion	TranscriptReferenceSequenceId5prime	Fusion_TranscriptReferenceSequenceId5prime	
-OSIRIS:O34-1	+	OSIRIS		Enumerated	String	O34	OSIRIS:FusionStrand5prime		Fusion	Strand5prime	Fusion_Strand5prime	
-OSIRIS:O34-2	-	OSIRIS		Enumerated	String	O34	OSIRIS:FusionStrand5prime		Fusion	Strand5prime	Fusion_Strand5prime	
-		OSIRIS		nonEnumerated	String	O35	OSIRIS:FusionPoint5prime		Fusion	Point5prime	Fusion_Point5prime	
-		LOINC	http://www.genenames.org/	nonEnumerated	String	O36	LOINC:48018-6		Fusion	Symbol3prime	Fusion_Symbol3prime	
-		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html	nonEnumerated	String	O37	FHIR:extension-observation-geneticsDNARegionName		Fusion	RegionName3prime	Fusion_RegionName3prime	
-		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticstranscriptreferencesequenceid.html	nonEnumerated	String	O38	FHIR:extension-observation-geneticsTranscriptReferenceSequenceId		Fusion	TranscriptReferenceSequenceId3prime	Fusion_TranscriptReferenceSequenceId3prime	
-OSIRIS:O34-1	+	OSIRIS		Enumerated	String	O39	OSIRIS:FusionStrand3prime		Fusion	Strand3prime	Fusion_Strand3prime	
-OSIRIS:O34-2	-	OSIRIS		Enumerated	String	O39	OSIRIS:FusionStrand5prime		Fusion	Strand3prime	Fusion_Strand3prime	
-		OSIRIS		nonEnumerated	Integer	O40	OSIRIS:FusionPoint3prime		Fusion	Point3prime	Fusion_Point3prime	
-		OSIRIS		nonEnumerated	Boolean	O41	OSIRIS:FusionInFrame		Fusion	InFrame	Fusion_InFrame	
-OSIRIS:O42-1	ChimerDb	OSIRIS		Enumerated	String	O91	OSIRIS:FusionAnnotationReferentiel		Annotation	ReferenceDatabase	Annotation_ReferenceDatabase	
-OSIRIS:O42-2	Oncofuse	OSIRIS		Enumerated	String	O91	OSIRIS:FusionAnnotationReferentiel		Annotation	ReferenceDatabase	Annotation_ReferenceDatabase	
-OSIRIS:O42-3	Mittelman DB	OSIRIS		Enumerated	String	O91	OSIRIS:FusionAnnotationReferentiel		Annotation	ReferenceDatabase	Annotation_ReferenceDatabase	
-		OSIRIS		nonEnumerated	Integer	O44	OSIRIS:FusionNbSpanningPair		Fusion	NbSpanningPair	Fusion_NbSpanningPair	
-		OSIRIS		nonEnumerated	Integer	O46	OSIRIS:FusionNbSplitReads		Fusion	NbSplitReads	Fusion_NbSplitReads	
-		OSIRIS		nonEnumerated	Float	O47	OSIRIS:SegmentIntensity		CNV	SegmentIntensity	CNV_SegmentIntensity	
-OSIRIS:O49-1	Amplification	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus		CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus	
-OSIRIS:O49-2	Gain	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus		CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus	
-OSIRIS:O49-3	Normal	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus		CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus	
-OSIRIS:O49-4	Heterozygous deletion	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus		CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus	
-OSIRIS:O49-5	Homozygous deletion	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus		CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus	
-OSIRIS:O49-6	Copy neutral	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus		CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus	
-OSIRIS:O49-7	Isodisomy	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus		CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus	
-		OSIRIS		nonEnumerated	Integer	O50	OSIRIS:CopyNumber		CNV	CopyNumber	CNV_CopyNumber	
-		OSIRIS		nonEnumerated	Boolean	O51	OSIRIS:LossOfHeterozygosity		CNV	LOH	CNV_LOH	
-		FHIR	https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.referenceAllele	nonEnumerated	String	O53	FHIR:Sequence.referenceAllele		Variant	ReferenceAllele	Variant_ReferenceAllele	
-		FHIR	https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.observedAllele	nonEnumerated	String	O54	FHIR:Sequence.observedAllele		Variant	AlternativeAllele	Variant_AlternativeAllele	
-LA6692-3	Deletion	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4		Variant	DNASequenceVariationType	Variant_DNASequenceVariationType	
-LA6686-5	Duplication	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4		Variant	DNASequenceVariationType	Variant_DNASequenceVariationType	
-LA6687-3	Insertion	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4		Variant	DNASequenceVariationType	Variant_DNASequenceVariationType	
-LA6688-1	Insertion/Deletion	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4		Variant	DNASequenceVariationType	Variant_DNASequenceVariationType	
-LA6689-9	Inversion	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4		Variant	DNASequenceVariationType	Variant_DNASequenceVariationType	
-LA6690-7	Substitution	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4		Variant	DNASequenceVariationType	Variant_DNASequenceVariationType	
-OSIRIS:O55-1	Virus insertion site	LOINC		Enumerated	String	O55	LOINC:48019-4		Variant	DNASequenceVariationType	Variant_DNASequenceVariationType	
-OSIRIS:O55-2	Delins	LOINC		Enumerated	String	O55	LOINC:48019-4		Variant	DNASequenceVariationType	Variant_DNASequenceVariationType	
-		OSIRIS		nonEnumerated	String	O58	OSIRIS:PfamDomain		Annotation	PfamDomain	Annotation_PfamDomain	
-		OSIRIS		nonEnumerated	String	O59	OSIRIS:PfamId		Annotation	PfamId	Annotation_PfamId	
-OSIRIS:O63-1	SIFT	OSIRIS		Enumerated	String	O63	OSIRIS:MutationPredictionAlgorithm		Annotation	MutationPredictionAlgorithm	Annotation_MutationPredictionAlgorithm	
-OSIRIS:O63-2	POLYPHEN2_HDIV	OSIRIS		Enumerated	String	O63	OSIRIS:MutationPredictionAlgorithm		Annotation	MutationPredictionAlgorithm	Annotation_MutationPredictionAlgorithm	
-		OSIRIS		nonEnumerated	String	O64	OSIRIS:MutationPredictionValue		Annotation	MutationPredictionValue	Annotation_MutationPredictionValue	
-		OSIRIS		nonEnumerated	Float	O65	OSIRIS:MutationPredictionScore		Annotation	MutationPredictionScore	Annotation_MutationPredictionScore	
-		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html	nonEnumerated	String	O66	FHIR:extension-observation-geneticsDNARegionName		Annotation	DNARegionName	Annotation_DNARegionName	
-OSIRIS:O67-1	RefSeq	OSIRIS		Enumerated	String	O91	OSIRIS:ProteinReferenceDatabase		Annotation	ReferenceDatabase	Annotation_ReferenceDatabase	
-OSIRIS:O67-2	SwissProt	OSIRIS		Enumerated	String	O91	OSIRIS:ProteinReferenceDatabase		Annotation	ReferenceDatabase	Annotation_ReferenceDatabase	
-OSIRIS:O67-3	UniProt	OSIRIS		Enumerated	String	O91	OSIRIS:ProteinReferenceDatabase		Annotation	ReferenceDatabase	Annotation_ReferenceDatabase	
-OSIRIS:O69-1	RefSeq	OSIRIS		Enumerated	String	O91	OSIRIS:TranscriptReferenceDatabase		Annotation	ReferenceDatabase	Annotation_ReferenceDatabase	
-OSIRIS:O69-2	Ensembl	OSIRIS		Enumerated	String	O91	OSIRIS:TranscriptReferenceDatabase		Annotation	ReferenceDatabase	Annotation_ReferenceDatabase	
-		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsdnasequencevariation.html	nonEnumerated	String	O71	FHIR:extension-observation-geneticsDNASequenceVariation		Annotation	DNASequenceVariation	Annotation_DNASequenceVariation	
-		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsaminoacidchange.html	nonEnumerated	String	O72	FHIR:extension-observation-geneticsAminoAcidChange		Annotation	AminoAcidChange	Annotation_AminoAcidChange	
-		OSIRIS		nonEnumerated	String	O73	OSIRIS:GenomicSequenceVariation		Annotation	GenomicSequenceVariation	Annotation_GenomicSequenceVariation	
-		OSIRIS		nonEnumerated	String	O74	OSIRIS:RNASequenceVariation		Annotation	RNASequenceVariation	Annotation_RNASequenceVariation	
-LA6692-3	Deletion	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType		Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-LA6686-5	Duplication	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType		Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-LA6694-9	Frameshift	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType		Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-LA6695-6	Initiating Methionine	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType		Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-LA6687-3	Insertion	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType		Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-LA9659-9	Insertion and Deletion	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType		Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-LA6698-0	Missense	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType		Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-LA6699-8	Nonsense	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType		Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-LA6700-4	Silent	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType		Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-LA6701-2	Stop Codon Mutation	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType		Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-OSIRIS:O75-1	In frame	OSIRIS		Enumerated	String	O75	OSIRIS:AminoAcidChangeType	certaines valeurs à vérifier pour concordance entre loinc et OSIRIS	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType	
-		OSIRIS		nonEnumerated	Integer	O76	OSIRIS:PositionCoverage		VariantInSample	PositionReadDepth	VariantInSample_PositionReadDepth	
-		OSIRIS		nonEnumerated	Integer	O77	OSIRIS:VariantCoverage		VariantInSample	VariantReadDepth	VariantInSample_VariantReadDepth	
-		OSIRIS		nonEnumerated	Boolean	O78	OSIRIS:StrandBias		VariantInSample	StrandBias	VariantInSample_StrandBias	
-LA6683-2	Germline	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	Enumerated	String	O79	LOINC:LL378-1		VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass	
-LA6684-0	Somatic	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	Enumerated	String	O79	LOINC:LL378-1		VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass	
-LA10429-1	Prenatal	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	Enumerated	String	O79	LOINC:LL378-1		VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass	
-LA18197-6	Unknown genomic origin	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	Enumerated	String	O79	LOINC:LL378-1		VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass	
-LA6703-8	Heteroplasmic	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	Enumerated	String	O80	LOINC:LL381-5		VariantInSample	AllelicState	VariantInSample_AllelicState	
-LA6704-6	Homoplasmic	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	Enumerated	String	O80	LOINC:LL381-5		VariantInSample	AllelicState	VariantInSample_AllelicState	
-LA6705-3	Homozygous	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	Enumerated	String	O80	LOINC:LL381-5		VariantInSample	AllelicState	VariantInSample_AllelicState	
-LA6706-1	Heterozygous	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	Enumerated	String	O80	LOINC:LL381-5		VariantInSample	AllelicState	VariantInSample_AllelicState	
-LA6707-9	Hemizygous	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	Enumerated	String	O80	LOINC:LL381-5		VariantInSample	AllelicState	VariantInSample_AllelicState	
-OSIRIS:O81-1	Pathogenic	ACMG	https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf	Enumerated	String	O81	OSIRIS:AlterationOnSample_Pathogenicity		AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity	
-OSIRIS:O81-2	Likely pathogenic	ACMG	https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf	Enumerated	String	O81	OSIRIS:AlterationOnSample_Pathogenicity		AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity	
-OSIRIS:O81-3	Benign	ACMG	https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf	Enumerated	String	O81	OSIRIS:AlterationOnSample_Pathogenicity		AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity	
-OSIRIS:O81-4	Likely benign	ACMG	https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf	Enumerated	String	O81	OSIRIS:AlterationOnSample_Pathogenicity		AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity	
-OSIRIS:O81-5	Uncertain significance	ACMG	https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf	Enumerated	String	O81	OSIRIS:AlterationOnSample_Pathogenicity		AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity	
-OSIRIS:O82-1	Actionable	OSIRIS		Enumerated	String	O82	OBI		AlterationOnSample	Actionability	AlterationOnSample_Actionability	
-OSIRIS:O82-2	Non actionable	OSIRIS		Enumerated	String	O82	OBI		AlterationOnSample	Actionability	AlterationOnSample_Actionability	
-		OSIRIS		nonEnumerated	Boolean	O83			AlterationOnSample	ProposedForOrientation	AlterationOnSample_ProposedForOrientation	
-OSIRIS:O84-1	RawExpression	OSIRIS		Enumerated	String	O84	OSIRIS:ExpressionDataType		GeneExpression	DataType	GeneExpression_DataType	
-OSIRIS:O84-2	NormalizedExpression	OSIRIS		Enumerated	String	O84	OSIRIS:ExpressionDataType		GeneExpression	DataType	GeneExpression_DataType	
-		OSIRIS		nonEnumerated	Float	O85	OSIRIS:ExpressionValue		GeneExpression	Value	GeneExpression_Value	
+ValueMeaning	LabelValueMeaning	Referentiel	url	TypeConceptualDomain	FormatConceptualDomain	IdDataElementConcept	ConceptualDomain	ObjectClass	ObjectProperty	DataElementConcept
+				nonEnumerated	String	C1		Patient	Id	Patient_Id
+M	Male	FHIR (HL7) v3	http://hl7.org/fhir/v3/AdministrativeGender/index.html	Enumerated	String	C2	HL7 v3 Code System AdministrativeGender	Patient	Gender	Patient_Gender
+F	Female	FHIR (HL7) v3	http://hl7.org/fhir/v3/AdministrativeGender/index.html	Enumerated	String	C2	HL7 v3 Code System AdministrativeGender	Patient	Gender	Patient_Gender
+UN	Undifferentiated	FHIR (HL7) v3	http://hl7.org/fhir/v3/AdministrativeGender/index.html	Enumerated	String	C2	HL7 v3 Code System AdministrativeGender	Patient	Gender	Patient_Gender
+HL7:1002-5	American Indian or Alaska Native	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:1004-1	American Indian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2028-9	Asian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2029-7	Asian Indian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2030-5	Bangladeshi	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2031-3	Bhutanese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2032-1	Burmese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2033-9	Cambodian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2034-7	Chinese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2035-4	Taiwanese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2036-2	Filipino	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2037-0	Hmong	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2038-8	Indonesian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2039-6	Japanese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2040-4	Korean	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2041-2	Laotian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2042-0	Malaysian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2043-8	Okinawan	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2044-6	Pakistani	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2045-3	Sri Lankan	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2046-1	Thai	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2047-9	Vietnamese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2048-7	Iwo Jiman	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2049-5	Maldivian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2050-3	Nepalese	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2051-1	Singaporean	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2052-9	Madagascar	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2054-5	Black or African American	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2056-0	Black	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2058-6	African American	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2060-2	African	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2067-7	Bahamian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2068-5	Barbadian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2069-3	Dominican	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2070-1	Dominica Islander	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2071-9	Haitian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2072-7	Jamaican	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2073-5	Tobagoan	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2074-3	Trinidadian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2075-0	West Indian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2076-8	Native Hawaiian or Other Pacific Islander	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2078-4	Polynesian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2085-9	Micronesian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2100-6	Melanesian	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2500-7	Other Pacific Islander	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2106-3	White	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2108-9	European	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2118-8	Middle Eastern or North African	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+HL7:2129-5	Arab	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race/index.html	Enumerated	String	C3	HL7 v3 Code System Race	Patient	Ethnicity	Patient_Ethnicity
+				nonEnumerated	Date	C4		Patient	BirthDate	Patient_BirthDate
+				nonEnumerated	Date	C5		Patient	DeathDate	Patient_DeathDate
+		FINESS geographique		nonEnumerated	String	C6		Patient	ProviderCenterId	Patient_CenterId
+		FINESS geographique		nonEnumerated	String	C71		Patient	OriginCenterId	Patient_CenterId
+UMLS:C0277589	Death of unknown cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0277589;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	C7	UMLS:C0007465	Patient	CauseOfDeath	Patient_CauseOfDeath
+UMLS:C1707251	Other cancer	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C1707251;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	C7	UMLS:C0007465	Patient	CauseOfDeath	Patient_CauseOfDeath
+UMLS:C3262234	Other cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C3262234;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	C7	UMLS:C0007465	Patient	CauseOfDeath	Patient_CauseOfDeath
+UMLS:C0679861	Complications of treatment	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0679861;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	C7	UMLS:C0007465	Patient	CauseOfDeath	Patient_CauseOfDeath
+UMLS:C0027651	Neoplasm	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0027651;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	C7	UMLS:C0007465	Patient	CauseOfDeath	Patient_CauseOfDeath
+				nonEnumerated	Date	C8		Patient	LastNewsDate	Patient_LastNewsDate
+UMLS:C2584946	Alive (finding)	UMLS		Enumerated	String	C9		Patient	LastNewsStatus	Patient_LastNewsStatus
+ULMS:C1546956	Patient Outcome - Died	UMLS		Enumerated	String	C9		Patient	LastNewsStatus	Patient_LastNewsStatus
+				nonEnumerated	Date	C72		Consent	Date	Consent_Date
+				nonEnumerated	Boolean	C79		Consent	GeneticAnalysisAuthorization	Consent_GeneticAnalysisAuthorization
+ICD-10	cf. ICD-10	ICD-10	http://apps.who.int/classifications/icd10/browse/2016/en	Enumerated	String	C13	ICD-10	RelatedPathology	PathologyCode	RelatedPathology_PathologyCode
+				nonEnumerated	Date	C14		RelatedPathology	DiagnosisDate	RelatedPathology_DiagnosisDate
+				nonEnumerated	Date	C15		RelatedPathology	PathologyEndDate	RelatedPathology_PathologyEndDate
+ICD-O-3-TOPO	cf. ICD-O-3-TOPO	CIM-O-3 Topo	http://codes.iarc.fr/topography	Enumerated	String	C17	CIM-O-3 Topo	CancerHistory	TopographyCode	CancerHistory_TopographyCode
+UMLS:C0037047	Sibling	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C0030551	Parent	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C0337471	Grandparent	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C0337577	Uncle	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C3714276	Paternal uncle	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C3714277	Maternal uncle	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C0337576	Aunt	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C3714274	Paternal aunt	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C3714275	Maternal aunt	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C0337580	Cousin	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+OSIRIS:C77-6	Other	ICGC	https://github.com/icgc-dcc/dcc-docs/blob/master/docs/dictionary/release-20/donor-family.md	Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+OSIRIS:C77-7	Unknown	ICGC	https://github.com/icgc-dcc/dcc-docs/blob/master/docs/dictionary/release-20/donor-family.md	Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C1882062 	Neoplasm	UMLS		Enumerated	String	C20	OSIRIS:EventType	TumorPathologyEvent	Type	TumorPathologyEvent_Type
+UMLS:C2939419	Metastatic Malignant Neoplasm (NCI:C36263)	UMLS		Enumerated	String	C20	OSIRIS:EventType	TumorPathologyEvent	Type	TumorPathologyEvent_Type
+UMLS:C0521158	Recurrent tumor	UMLS		Enumerated	String	C20	OSIRIS:EventType	TumorPathologyEvent	Type	TumorPathologyEvent_Type
+UMLS:C0677930	Primary tumor	UMLS		Enumerated	String	C20	OSIRIS:EventType	TumorPathologyEvent	Type	TumorPathologyEvent_Type
+				nonEnumerated	Date	C21		TumorPathologyEvent	StartDate	TumorPathologyEvent_StartDate
+0	activité normale sans restriction	OMS		Enumerated	String	C22	OMS	TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus
+1	restreint pour des activités physiques importantes, mais patient ambulant et capable de fournir un travail léger	OMS		Enumerated	String	C22	OMS	TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus
+2	ambulant et capable de se prendre en charge, mais incapable de fournir un travail et alité pendant moins de 50 % de son temps	OMS		Enumerated	String	C22	OMS	TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus
+3	capacité de prise en charge propre beaucoup plus limitée. Passe plus de 50 % de son temps au lit ou dans une chaise.	OMS		Enumerated	String	C22	OMS	TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus
+4	complètement grabataire. Incapable de se prendre en charge. Le patient reste totalement confiné au lit ou dans une chaise.	OMS		Enumerated	String	C22	OMS	TumorPathologyEvent	PerformanceStatus	TumorPathologyEvent_PerformanceStatus
+				nonEnumerated	Integer	C23	G8	TumorPathologyEvent	G8	TumorPathologyEvent_G8
+Tx	Tx			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T0	T0			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T1	T1			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T1a	T1a			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T1b	T1b			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T1c	T1c			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T2	T2			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T3	T3			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T4	T4			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T4a	T4a			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T4b	T4b			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T4c	T4c			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+T4d	T4d			Enumerated	String	C24	OSIRIS:T_TNM	TumorPathologyEvent	T	TumorPathologyEvent_T
+Nx	Nx			Enumerated	String	C25	OSIRIS:N_TNM	TumorPathologyEvent	N	TumorPathologyEvent_N
+N0	N0			Enumerated	String	C25	OSIRIS:N_TNM	TumorPathologyEvent	N	TumorPathologyEvent_N
+N1mi	N1mi			Enumerated	String	C25	OSIRIS:N_TNM	TumorPathologyEvent	N	TumorPathologyEvent_N
+N1	N1			Enumerated	String	C25	OSIRIS:N_TNM	TumorPathologyEvent	N	TumorPathologyEvent_N
+N2	N2			Enumerated	String	C25	OSIRIS:N_TNM	TumorPathologyEvent	N	TumorPathologyEvent_N
+N3	N3			Enumerated	String	C25	OSIRIS:N_TNM	TumorPathologyEvent	N	TumorPathologyEvent_N
+Mx	Mx			Enumerated	String	C26	OSIRIS:M_TNM	TumorPathologyEvent	M	TumorPathologyEvent_M
+M0	M0			Enumerated	String	C26	OSIRIS:M_TNM	TumorPathologyEvent	M	TumorPathologyEvent_M
+M1	M1			Enumerated	String	C26	OSIRIS:M_TNM	TumorPathologyEvent	M	TumorPathologyEvent_M
+UICC TNM Classification 7th edition	UICC TNM Classification 7th edition			Enumerated	String	C27	OSIRIS:TNMVersion	TumorPathologyEvent	TNMVersion	TumorPathologyEvent_TNMVersion
+c	Clinique			Enumerated	String	C28	OSIRIS:TNMType	TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType
+p	Pathologique			Enumerated	String	C28	OSIRIS:TNMType	TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType
+y	Après traitement neoadjuvant			Enumerated	String	C28	OSIRIS:TNMType	TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType
+u	Radiologique			Enumerated	String	C28	OSIRIS:TNMType	TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType
+		SBR, ...				C29		TumorPathologyEvent	HistologicalGradeType	TumorPathologyEvent_HistologicalGradeType
+						C30		TumorPathologyEvent	HistologicalGradeValue	TumorPathologyEvent_HistologicalGradeValue
+						C31		TumorPathologyEvent	StadeType	TumorPathologyEvent_StadeType
+						C32		TumorPathologyEvent	StadeValue	TumorPathologyEvent_StadeValue
+				nonEnumerated	Date	C33		TumorPathologyEvent	DiagnosisDate	TumorPathologyEvent_DiagnosisDate
+ICD-O-3-TOPO	cf. ICD-O-3-TOPO	CIM-O-3 Topo	http://codes.iarc.fr/topography	Enumerated	String	C34	CIM-O-3 Topo	TumorPathologyEvent	TopographyCode	TumorPathologyEvent_TopographyCode
+ICD-O-3-MORPHO	cf. ICD-O-3-MORPHO	CIM-O-3 Morpho	http://codes.iarc.fr/codegroup/2	Enumerated	String	C35	CIM-O-3 Morpho	TumorPathologyEvent	MorphologyCode	TumorPathologyEvent_MorphologyCode
+UMLS:C0238767	Bilateral	UMLS		Enumerated	String	C36	OSIRIS:Laterality	TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality
+UMLS:C0205091	Left	UMLS		Enumerated	String	C36	OSIRIS:Laterality	TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality
+UMLS:C2939193	Median (qualifier value)	UMLS		Enumerated	String	C36	OSIRIS:Laterality	TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality
+UMLS:C1272460	Not Applicable	UMLS		Enumerated	String	C36	OSIRIS:Laterality	TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality
+UMLS:C0205090	Right	UMLS		Enumerated	String	C36	OSIRIS:Laterality	TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality
+UMLS:C0439673	Unknown	UMLS		Enumerated	String	C36	OSIRIS:Laterality	TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality
+				nonEnumerated	String	C70	OSIRIS:AnalysisCode	Analysis	Code	Analysis_Code
+OSIRIS:C37-1	Biology			Enumerated	String	C37	OSIRIS:AnalysisType	Analysis	Type	Analysis_Type
+OSIRIS:C37-2	Imaging			Enumerated	String	C37	OSIRIS:AnalysisType	Analysis	Type	Analysis_Type
+OSIRIS:C37-3	Omic			Enumerated	String	C37	OSIRIS:AnalysisType	Analysis	Type	Analysis_Type
+OSIRIS:C37-4	Pathology			Enumerated	String	C37	OSIRIS:AnalysisType	Analysis	Type	Analysis_Type
+				nonEnumerated	Date	C38		Analysis	Date	Analysis_Date
+				nonEnumerated	Date	C78		ResponseEvaluation	Date	
+				Enumerated	String	C73		ResponseEvaluation	Status	Analysis_ResponseEvaluation
+				Enumerated	String	C39		Biomarker	Code	Biomarker_Code
+				nonEnumerated	String	C40		Biomarker	Value	Biomarker_Value
+				nonEnumerated	String	C81		Biomarker	Unit	Biomarker_Unit
+UMLS:C3665472	Chemotherapy	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType	Treatment	Type	Treatment_Type
+UMLS:C0279025	Hormone therapy	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType	Treatment	Type	Treatment_Type
+UMLS:C1522449	Therapeutic radiology procedure	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType	Treatment	Type	Treatment_Type
+UMLS:C0728940	Surgery	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType	Treatment	Type	Treatment_Type
+UMLS:C0006098	Brachytherapy	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType	Treatment	Type	Treatment_Type
+UMLS:C0021083	Immunotherapy	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType	Treatment	Type	Treatment_Type
+UMLS:C0005961	Bone marrow transplant	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType	Treatment	Type	Treatment_Type
+UMLS:C0279694	Monoclonal antibody	UMLS		Enumerated	String	C41	OSIRIS:TreatmentType	Treatment	Type	Treatment_Type
+				nonEnumerated	Integer	C74	OSIRIS:TreatmentType			
+CCAM	cf. CCAM	CCAM	http://www.ameli.fr/accueil-de-la-ccam/index.php	Enumerated	String	C42	CCAM	Treatment	ActivityCode	Treatment_ActivityCode
+				nonEnumerated	Date	C43		Treatment	StartDate	Treatment_StartDate
+				nonEnumerated	Date	C44		Treatment	EndDate	Treatment_EndDate
+				nonEnumerated	Boolean	C45		Treatment	ClinicalTrialContext	Treatment_ClinicalTrialContext
+				nonEnumerated	String	C75			Treatment_ClinicalTrialName	
+		NCT		nonEnumerated	String	C76			Treatment_ClinicalTrialId	
+R0	No apparent residual disease	ICGC		Enumerated	String	C46	ICGC	Treatment	SurgeryResectionQuality	Treatment_SurgeryResectionQuality
+R1	Microscopic residual disease	ICGC		Enumerated	String	C46	ICGC	Treatment	SurgeryResectionQuality	Treatment_SurgeryResectionQuality
+R2	Gross residual disease	ICGC		Enumerated	String	C46	ICGC	Treatment	SurgeryResectionQuality	Treatment_SurgeryResectionQuality
+				Enumerated	String	C47		Treatment	SurgeryNature	Treatment_SurgeryNature
+				Enumerated	String	C48		AdverseEvent	Code	AdverseEvent_Code
+				nonEnumerated	Date	C49		AdverseEvent	Date	AdverseEvent_Date
+				nonEnumerated	Date	C50		AdverseEvent	EndDate	AdverseEvent_EndDate
+		CTCAE (NCI)		nonEnumerated	String	C80		AdverseEvent	Grade	AdverseEvent_Grade
+ATC	cf. ATC	ATC 5e niveau		Enumerated	String	C51	ATC 5e niveau	Drug	Code	Drug_Code
+ATC	cf. ATC	ATC 5e niveau		Enumerated	String	C52	ATC 5e niveau	Drug	Name	Drug_Name
+MIABIS-39	cf. MIABIS-39	MIABIS-39	https://github.com/MIABIS/miabis/wiki/Data-describing-Sample	nonEnumerated	String	C53	MIABIS-39	BiologicalSample	SampleExternalAccession	BiologicalSample_SampleExternalAccession
+MIABIS-40	cf. MIABIS-40	MIABIS-40	https://github.com/MIABIS/miabis/wiki/Data-describing-Sample	nonEnumerated	String	C54	MIABIS-40	BiologicalSample	ParentSampleExternalAccession	BiologicalSample_ParentSampleExternalAccession
+MIABIS-43	cf. MIABIS-43	MIABIS-43	https://github.com/MIABIS/miabis/wiki/Data-describing-Sample	nonEnumerated	Date	C56	MIABIS-43	BiologicalSample	CollectDate	BiologicalSample_CollectDate
+ICD-O-3-TOPO	cf. ICD-O-3-TOPO	CIM-O-3 Topo	http://codes.iarc.fr/topography	Enumerated	String	C57	CIM-O-3 Topo	BiologicalSample	TopographyCode	BiologicalSample_TopographyCode
+UMLS:C0005767	Blood	MIABIS-41/MIABIS-2.0-14	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#material-type	Enumerated	String	C58	MIABIS-41	BiologicalSample	Nature	BiologicalSample_Nature
+UMLS:C0085983	Tumor Cell Line	MIABIS-41/MIABIS-2.0-14	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#material-type	Enumerated	String	C58	MIABIS-41	BiologicalSample	Nature	BiologicalSample_Nature
+UMLS:C4039816	Frozen tissue	MIABIS-41/MIABIS-2.0-14	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#material-type	Enumerated	String	C58	MIABIS-41	BiologicalSample	Nature	BiologicalSample_Nature
+UMLS:C1519524	Paraffin Embedded Tissue (FFPE)	MIABIS-41/MIABIS-2.0-14	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#material-type	Enumerated	String	C58	MIABIS-41	BiologicalSample	Nature	BiologicalSample_Nature
+OSIRIS:O59-1	Normal	OSIRIS		Enumerated	String	C59	OSIRIS:SampleOrigin	BiologicalSample	Origin	BiologicalSample_Origin
+OSIRIS:O59-2	Tumoral	OSIRIS		Enumerated	String	C59	OSIRIS:SampleOrigin	BiologicalSample	Origin	BiologicalSample_Origin
+MIABIS-43		MIABIS-43/MIABIS-2.0-15	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#miabis-20-15	Enumerated	String	C60	MIABIS-43	BiologicalSample	StorageTemperature	BiologicalSample_StorageTemperature
+				nonEnumerated	Integer	C61		BiologicalSample	TumorCellularity	BiologicalSample_TumorCellularity
+										
+										
+										
+OSIRIS:O6-1	ChIP-on-Chip	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-2	ChIP-seq	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-3	DNA microarray	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-4	DNA targeted panel sequencing	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-5	Exome sequencing	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-6	Mass spectrometry	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-7	MeDIP-Chip	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-8	MeDIP-seq	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-9	Methylation microarray	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-10	RNA microarray	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-11	RNA targeted panel sequencing	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-12	RNA-seq	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-13	RPPA	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-14	Whole genome bisulfite sequencing	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-15	Whole genome sequencing	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O6-16	miRNA microarray	OSIRIS		Enumerated	String	O6	OSIRIS:TechnicalProtocol	Technology	TechnicalProtocol	Technology_TechnicalProtocol
+OSIRIS:O7-1	Affymetrix Cytoscan HD	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-2	Affymetrix EMET Plus Premier Pack	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-3	Affymetrix Genome-Wide Human SNP Array 5.0	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-4	Affymetrix Genome-Wide Human SNP Array 6.0	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-5	Affymetrix HT Human Genome U133A Array Plate Set	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-6	Affymetrix Human Exon 1.0 ST	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-7	Affymetrix Human Gene 1.0 ST	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-8	Affymetrix Human Genome U219 Array Plate	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-9	Affymetrix Human MIP 330K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-10	Affymetrix Human U133 Plus 2.0	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-11	Affymetrix Human U133 Plus PM	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-12	Affymetrix Mapping 100K Array Set	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-13	Affymetrix Mapping 10K 2.0 Array Set	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-14	Affymetrix Mapping 500K Array Set	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-15	Affymetrix OncoScan FFPE Express 2.0	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-16	Agilent 244K Custom Gene Expression G4502A-07	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-17	Agilent 244K Custom Gene Expression G4502A-07-1	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-18	Agilent 244K Custom Gene Expression G4502A-07-2	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-19	Agilent 244K Custom Gene Expression G4502A-07-3	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-20	Agilent 8 x 15K Human miRNA-specific microarray	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-21	Agilent Human CGH 1x1M	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-22	Agilent Human CGH 2x400K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-23	Agilent Human CGH 4x180K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-24	Agilent Human CGH 8x60K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-25	Agilent Human CNV 2x400K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-26	Agilent Human CNV Association 2x105K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-27	Agilent Human CpG Island Microarray Kit	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-28	Agilent Human Genome 105A	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-29	Agilent Human Genome 244A	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-30	Agilent Human Genome 44K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-31	Agilent Human Genome CGH Custom Microaary 2x415K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-32	Agilent Human miRNA Microarray Kit (v2)	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-33	Agilent Human Promoter ChIP-on-chip Microarray Set	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-34	Agilent Human SpliceArray	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-35	Agilent Whole Human Genome Oligo Microarray Kit	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-36	Almac Human CRC	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-37	capillary sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-38	Complete Genomics	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-39	Custom-designed cDNA array	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-40	Custom-designed gene expression array	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-41	Helicos sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-42	HumanOmni2.5-8 BeadChip Kit	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-43	Illumina GA sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-44	Illumina goldengate methylation	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-45	Illumina GoldenGate Methylation Cancer Panel I	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-46	Illumina HiSeq	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-47	Illumina HiSeq X Ten	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-48	Illumina Human Omni1-Quad beadchip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-49	Illumina Human1M OmniQuad chip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-50	Illumina human1m-duo	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-51	Illumina human510s-duo	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-52	Illumina human660w-quad	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-53	Illumina HumanCNV370-Duo v1.0 BeadChip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-54	Illumina humancytosnp-12	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-55	Illumina HumanHap550	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-56	Illumina HumanHT-12 v4.0 beadchip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-57	Illumina humanht-16	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-58	Illumina humanht-17	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-59	Illumina humanmethylation27	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-60	Illumina HumanOmniExpress BeadChip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-61	Illumina HumanRef-8 v3.0 beadchip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-62	Illumina HumanWG-6 v3.0 beadchip	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-63	Illumina Infinium HumanMethylation450	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-64	Illumina microRNA Expression Profiling Panel	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-65	Illumina MiSeq Personal Sequencer	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-66	Ion Torrent PGM	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-67	Ion Torrent Proton	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-68	M.D. Anderson Reverse Phase Protein Array Core	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-69	Microsatellite Instability Analysis	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-70	nanoString	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-71	Nimblegen CGS	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-72	Nimblegen Gene Expression 12x135K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-73	Nimblegen Gene Expression 385K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-74	Nimblegen Gene Expression 4x72K	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-75	Nimblegen Human CGH 2.1M Whole-Genome v2.0D Array	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-76	Nimblegen Human CGH 3x720 Whole-Genome v3.0 Array	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-77	Nimblegen Human Methylation 2.1M Whole-Genome sets	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-78	Nimblegen Human Methylation 385K Whole-Genome sets	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-79	PacBio RS sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-80	PCR	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-81	PCR and capillary sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-82	qPCR	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-83	Roche 454 sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-84	Sequenom MassARRAY	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-85	SOLiD sequencing	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-86	Digital PCR	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-87	NextSeq 500	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+OSIRIS:O7-88	NovaSeq	OSIRIS		Enumerated	String	O7	OSIRIS:PlatformName	Technology	PlatformName	Technology_PlatformName
+		OSIRIS		nonEnumerated	String	O8	OSIRIS:PlatformAccession	Technology	PlatformAccession	Technology_PlatformAccession
+		OSIRIS		nonEnumerated	Date	O9	OSIRIS:DateOfExperiment	Technology	DateOfExperiment	Technology_DateOfExperiment
+OSIRIS:O10-0	Not applicable	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+OSIRIS:O10-1	Ion AmpliSeq Cancer Hotspot Panel v2	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+OSIRIS:O10-2	Ion AmpliSeq Colon and Lung Cancer Research Panel v2	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+OSIRIS:O10-3	Ion AmpliSeq Comprehensive Cancer Panel	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+OSIRIS:O10-4	Ion AmpliSeq Oncomine Comprehensive Assay	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+OSIRIS:O10-5	Ion AmpliSeq Oncomine Focus Assay	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+OSIRIS:O10-6	Ion AmpliSeq TP53 Research Panel	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+OSIRIS:O10-7	Lyric: Ion AmpliSeq Profiler	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+OSIRIS:O10-8	QIAGEN GeneRead DNAseq Targeted Panels V2	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+OSIRIS:O10-9	SAFIR02 Panel	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+OSIRIS:O10-10	Mosc3	OSIRIS		Enumerated	String	O10	OSIRIS:PanelName	Panel	Name	Panel_Name
+		OSIRIS		nonEnumerated	String	O11	OSIRIS:AnalyticPipelineCode	AnalysisProcess	AnalyticPipelineCode	AnalysisProcess_AnalyticPipelineCode
+		OSIRIS		nonEnumerated	Integer	O12	OSIRIS:AlgorithmicCellularity	OmicAnalysis	AlgorithmicCellularity	OmicAnalysis_AlgorithmicCellularity
+OSIRIS:O13-1	Haploid	OSIRIS		Enumerated	String	O13	OSIRIS:AlgorithmicPloïdy	OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy
+OSIRIS:O13-2	Diploid	OSIRIS		Enumerated	String	O13	OSIRIS:AlgorithmicPloïdy	OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy
+OSIRIS:O13-3	Triploid	OSIRIS		Enumerated	String	O13	OSIRIS:AlgorithmicPloïdy	OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy
+OSIRIS:O13-4	Tetraploid	OSIRIS		Enumerated	String	O13	OSIRIS:AlgorithmicPloïdy	OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy
+OSIRIS:O13-0	Not available	OSIRIS		Enumerated	String	O13	OSIRIS:AlgorithmicPloïdy	OmicAnalysis	AlgorithmicPloidy	OmicAnalysis_AlgorithmicPloidy
+		OSIRIS		nonEnumerated	Integer	O14	OSIRIS:NumberOfBreakPoints	OmicAnalysis	NumberOfBreakPoints	OmicAnalysis_NumberOfBreakPoints
+OSIRIS:O15-1	Gene expression	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType	AlterationOnSample	AlterationType	AlterationOnSample_AlterationType
+OSIRIS:O15-2	Protein expression	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType	AlterationOnSample	AlterationType	AlterationOnSample_AlterationType
+OSIRIS:O15-3	Fusion	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType	AlterationOnSample	AlterationType	AlterationOnSample_AlterationType
+OSIRIS:O15-4	Copy number variation	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType	AlterationOnSample	AlterationType	AlterationOnSample_AlterationType
+OSIRIS:O15-5	Genetic variant	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType	AlterationOnSample	AlterationType	AlterationOnSample_AlterationType
+OSIRIS:O15-6	Structural alteration	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType	AlterationOnSample	AlterationType	AlterationOnSample_AlterationType
+OSIRIS:O15-7	Transcription factor	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType	AlterationOnSample	AlterationType	AlterationOnSample_AlterationType
+OSIRIS:O15-8	Histone marks	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType	AlterationOnSample	AlterationType	AlterationOnSample_AlterationType
+OSIRIS:O15-9	Transcript isoform	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType	AlterationOnSample	AlterationType	AlterationOnSample_AlterationType
+OSIRIS:O15-10	Viral insertion site	OSIRIS		Enumerated	String	O15	OSIRIS:AlterationType	AlterationOnSample	AlterationType	AlterationOnSample_AlterationType
+OSIRIS:O16-1	Experimental	OSIRIS		Enumerated	String	O16	OSIRIS:ValidationType	Validation	Type	Validation_Type
+OSIRIS:O16-2	By biologist	OSIRIS		Enumerated	String	O16	OSIRIS:ValidationType	Validation	Type	Validation_Type
+OSIRIS:O16-3	In silico	OSIRIS		Enumerated	String	O16	OSIRIS:ValidationType	Validation	Type	Validation_Type
+		OSIRIS		nonEnumerated	String	O17	OSIRIS:ValidationMethod	Validation	Method	Validation_Method
+OSIRIS:O18-1	Not Validated	OSIRIS		Enumerated	String	O18	OSIRIS:ValidationStatus	Validation	Status	Validation_Status
+OSIRIS:O18-2	Validated	OSIRIS		Enumerated	String	O18	OSIRIS:ValidationStatus	Validation	Status	Validation_Status
+LA21254-0	chr1	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21255-7	chr2	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21256-5	chr3	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21257-3	chr4	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21258-1	chr5	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21259-9	chr6	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21260-7	chr7	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21261-5	chr8	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21262-3	chr9	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21263-1	chr10	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21264-9	chr11	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21265-6	chr12	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21266-4	chr13	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21267-2	chr14	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21268-0	chr15	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21269-8	chr16	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21270-6	chr17	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21271-4	chr18	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21272-2	chr19	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21273-0	chr20	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21274-8	chr21	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21275-5	chr22	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21276-3	chrX	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+LA21277-1	chrY	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+OSIRIS:O19-1	MT	OSIRIS		Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+OSIRIS:O19-2	viral	OSIRIS		Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+OSIRIS:O19-3	bacterial	OSIRIS		Enumerated	String	O19	OSIRIS:Chromosome	Alteration	Chromosome	Alteration_Chromosome
+		FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstart.html	nonEnumerated	Integer	O20	FHIR:extension-geneticsGenomicStart	Alteration	GenomicStart	Alteration_GenomicStart
+		FHIR (HL7)	http://hl7.org/fhir/extension-geneticsgenomicstop.html	nonEnumerated	Integer	O21	FHIR:extension-geneticsGenomicStop	Alteration	GenomicStop	Alteration_GenomicStop
+OSIRIS:O22-1	GRCh37	FHIR (HL7)	https://www.hl7.org/fhir/extension-geneticsgenomebuild.html	Enumerated	String	O22	FHIR:extension-geneticsGenomeBuild	Alteration	GenomeBuild	Alteration_GenomeBuild
+OSIRIS:O22-2	GRCh38	FHIR (HL7)	https://www.hl7.org/fhir/extension-geneticsgenomebuild.html	Enumerated	String	O22	FHIR:extension-geneticsGenomeBuild	Alteration	GenomeBuild	Alteration_GenomeBuild
+UCSC cytoband	UCSC cytoband	UCSC	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz	nonEnumerated	String	O23	UCSC	Alteration	Cytoband	Alteration_Cytoband
+OSIRIS:O24-1	gene	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType	GenomeEntity	Type	GenomeEntity_Type
+OSIRIS:O24-2	miRNA	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType	GenomeEntity	Type	GenomeEntity_Type
+OSIRIS:O24-3	piRNA	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType	GenomeEntity	Type	GenomeEntity_Type
+OSIRIS:O24-4	mRNA	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType	GenomeEntity	Type	GenomeEntity_Type
+OSIRIS:O24-5	ncRNA	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType	GenomeEntity	Type	GenomeEntity_Type
+OSIRIS:O24-6	ORF	OSIRIS		Enumerated	String	O24	OSIRIS:GenomeEntityType	GenomeEntity	Type	GenomeEntity_Type
+OSIRIS:O25-1	HGNC	OSIRIS		Enumerated	String	O25	OSIRIS:GenomeEntityDatabase	GenomeEntity	Database	GenomeEntity_Database
+OSIRIS:O25-2	miRDB	OSIRIS		Enumerated	String	O25	OSIRIS:GenomeEntityDatabase	GenomeEntity	Database	GenomeEntity_Database
+OSIRIS:O25-3	Entrez	OSIRIS		Enumerated	String	O25	OSIRIS:GenomeEntityDatabase	GenomeEntity	Database	GenomeEntity_Database
+OSIRIS:O25-4	Human lincRNA Catalog	OSIRIS		Enumerated	String	O25	OSIRIS:GenomeEntityDatabase	GenomeEntity	Database	GenomeEntity_Database
+		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsgene.html	nonEnumerated	String	O26	FHIR:extension-observation-geneticsGene	GenomeEntity	Id	GenomeEntity_Id
+HGNC ID	HGNC Approved Symbol	LOINC	http://www.genenames.org/	nonEnumerated	String	O27	LOINC:48018-6	GenomeEntity	Symbol	GenomeEntity_Symbol
+LA26331-1	translocation	LOINC	http://r.details.loinc.org/LOINC/81289-1.html	Enumerated	String	O28	OSIRIS:FusionType	Fusion	Type	Fusion_Type
+OSIRIS:O28-1	readthrough	OSIRIS		Enumerated	String	O28	OSIRIS:FusionType	Fusion	Type	Fusion_Type
+OSIRIS:O94-1	+	OSIRIS		Enumerated	String	O94	OSIRIS:Strand	Annotation	Strand	Annotation_Strand
+OSIRIS:O94-2	-	OSIRIS		Enumerated	String	O94	OSIRIS:Strand	Annotation	Strand	Annotation_Strand
+		OSIRIS		nonEnumerated	String	O35	OSIRIS:FusionPoint5prime	Fusion	Point5prime	Fusion_Point5prime
+		OSIRIS		nonEnumerated	Integer	O40	OSIRIS:FusionPoint3prime	Fusion	Point3prime	Fusion_Point3prime
+		OSIRIS		nonEnumerated	Boolean	O41	OSIRIS:FusionInFrame	Fusion	InFrame	Fusion_InFrame
+OSIRIS:O42-1	ChimerDb	OSIRIS		Enumerated	String	O91	OSIRIS:FusionAnnotationReferentiel	Annotation	ReferenceDatabase	Annotation_ReferenceDatabase
+OSIRIS:O42-2	Oncofuse	OSIRIS		Enumerated	String	O91	OSIRIS:FusionAnnotationReferentiel	Annotation	ReferenceDatabase	Annotation_ReferenceDatabase
+OSIRIS:O42-3	Mittelman DB	OSIRIS		Enumerated	String	O91	OSIRIS:FusionAnnotationReferentiel	Annotation	ReferenceDatabase	Annotation_ReferenceDatabase
+		OSIRIS		nonEnumerated	Integer	O44	OSIRIS:FusionNbSpanningPair	Fusion	NbSpanningPair	Fusion_NbSpanningPair
+		OSIRIS		nonEnumerated	Integer	O46	OSIRIS:FusionNbSplitReads	Fusion	NbSplitReads	Fusion_NbSplitReads
+		OSIRIS		nonEnumerated	Float	O47	OSIRIS:SegmentIntensity	CNV	SegmentIntensity	CNV_SegmentIntensity
+OSIRIS:O49-1	Amplification	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus	CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus
+OSIRIS:O49-2	Gain	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus	CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus
+OSIRIS:O49-3	Normal	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus	CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus
+OSIRIS:O49-4	Heterozygous deletion	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus	CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus
+OSIRIS:O49-5	Homozygous deletion	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus	CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus
+OSIRIS:O49-6	Copy neutral	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus	CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus
+OSIRIS:O49-7	Isodisomy	OSIRIS		Enumerated	String	O49	OSIRIS:SegmentGenomicStatus	CNV	SegmentGenomicStatus	CNV_SegmentGenomicStatus
+		OSIRIS		nonEnumerated	Integer	O50	OSIRIS:CopyNumber	CNV	CopyNumber	CNV_CopyNumber
+		OSIRIS		nonEnumerated	Boolean	O51	OSIRIS:LossOfHeterozygosity	CNV	LOH	CNV_LOH
+		FHIR	https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.referenceAllele	nonEnumerated	String	O53	FHIR:Sequence.referenceAllele	Variant	ReferenceAllele	Variant_ReferenceAllele
+		FHIR	https://www.hl7.org/fhir/2016Jan/sequence-definitions.html#Sequence.observedAllele	nonEnumerated	String	O54	FHIR:Sequence.observedAllele	Variant	AlternativeAllele	Variant_AlternativeAllele
+LA6692-3	Deletion	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4	Variant	DNASequenceVariationType	Variant_DNASequenceVariationType
+LA6686-5	Duplication	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4	Variant	DNASequenceVariationType	Variant_DNASequenceVariationType
+LA6687-3	Insertion	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4	Variant	DNASequenceVariationType	Variant_DNASequenceVariationType
+LA6688-1	Insertion/Deletion (indel)	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4	Variant	DNASequenceVariationType	Variant_DNASequenceVariationType
+LA6689-9	Inversion	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4	Variant	DNASequenceVariationType	Variant_DNASequenceVariationType
+LA6690-7	Substitution	LOINC	http://r.details.loinc.org/LOINC/48019-4.html	Enumerated	String	O55	LOINC:48019-4	Variant	DNASequenceVariationType	Variant_DNASequenceVariationType
+OSIRIS:O55-1	Virus insertion site	LOINC		Enumerated	String	O55	LOINC:48019-4	Variant	DNASequenceVariationType	Variant_DNASequenceVariationType
+OSIRIS:O55-2	Delins	LOINC		Enumerated	String	O55	LOINC:48019-4	Variant	DNASequenceVariationType	Variant_DNASequenceVariationType
+		OSIRIS		nonEnumerated	String	O58	OSIRIS:PfamDomain	Annotation	PfamDomain	Annotation_PfamDomain
+		OSIRIS		nonEnumerated	String	O59	OSIRIS:PfamId	Annotation	PfamId	Annotation_PfamId
+OSIRIS:O63-1	SIFT	OSIRIS		Enumerated	String	O63	OSIRIS:MutationPredictionAlgorithm	Annotation	MutationPredictionAlgorithm	Annotation_MutationPredictionAlgorithm
+OSIRIS:O63-2	POLYPHEN2_HDIV	OSIRIS		Enumerated	String	O63	OSIRIS:MutationPredictionAlgorithm	Annotation	MutationPredictionAlgorithm	Annotation_MutationPredictionAlgorithm
+		OSIRIS		nonEnumerated	String	O64	OSIRIS:MutationPredictionValue	Annotation	MutationPredictionValue	Annotation_MutationPredictionValue
+		OSIRIS		nonEnumerated	Float	O65	OSIRIS:MutationPredictionScore	Annotation	MutationPredictionScore	Annotation_MutationPredictionScore
+		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsdnaregionname.html	nonEnumerated	String	O66	FHIR:extension-observation-geneticsDNARegionName	Annotation	DNARegionName	Annotation_DNARegionName
+				Enumerated	String	O90		Annotation	ReferenceType	Annotation_ReferenceType
+OSIRIS:O91-1	RefSeq	OSIRIS		Enumerated	String	O91	OSIRIS:ProteinReferenceDatabase	Annotation	ReferenceDatabase	Annotation_ReferenceDatabase
+OSIRIS:O91-2	Ensembl	OSIRIS		Enumerated	String	O91	OSIRIS:TranscriptReferenceDatabase	Annotation	ReferenceDatabase	Annotation_ReferenceDatabase
+OSIRIS:O91-3	SwissProt	OSIRIS		Enumerated	String	O91	OSIRIS:ProteinReferenceDatabase	Annotation	ReferenceDatabase	Annotation_ReferenceDatabase
+OSIRIS:O91-4	UniProt	OSIRIS		Enumerated	String	O91	OSIRIS:ProteinReferenceDatabase	Annotation	ReferenceDatabase	Annotation_ReferenceDatabase
+				nonEnumerated	String	O92		Annotation	ReferenceId	Annotation_ReferenceId
+		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsdnasequencevariation.html	nonEnumerated	String	O71	FHIR:extension-observation-geneticsDNASequenceVariation	Annotation	DNASequenceVariation	Annotation_DNASequenceVariation
+		FHIR	http://hl7.org/fhir/2016May/extension-observation-geneticsaminoacidchange.html	nonEnumerated	String	O72	FHIR:extension-observation-geneticsAminoAcidChange	Annotation	AminoAcidChange	Annotation_AminoAcidChange
+		OSIRIS		nonEnumerated	String	O73	OSIRIS:GenomicSequenceVariation	Annotation	GenomicSequenceVariation	Annotation_GenomicSequenceVariation
+		OSIRIS		nonEnumerated	String	O74	OSIRIS:RNASequenceVariation	Annotation	RNASequenceVariation	Annotation_RNASequenceVariation
+LA6692-3	Deletion	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+LA6686-5	Duplication	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+LA6694-9	Frameshift	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+LA6695-6	Initiating Methionine	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+LA6687-3	Insertion	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+LA9659-9	Insertion and Deletion	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+LA6698-0	Missense	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+LA6699-8	Nonsense	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+LA6700-4	Silent	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+LA6701-2	Stop Codon Mutation	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+OSIRIS:O75-1	In frame	OSIRIS		Enumerated	String	O75	OSIRIS:AminoAcidChangeType	Annotation	AminoAcidChangeType	Annotation_AminoAcidChangeType
+		OSIRIS		nonEnumerated	Integer	O76	OSIRIS:PositionCoverage	VariantInSample	PositionReadDepth	VariantInSample_PositionReadDepth
+		OSIRIS		nonEnumerated	Integer	O77	OSIRIS:VariantCoverage	VariantInSample	VariantReadDepth	VariantInSample_VariantReadDepth
+		OSIRIS		nonEnumerated	Boolean	O78	OSIRIS:StrandBias	VariantInSample	StrandBias	VariantInSample_StrandBias
+LA6683-2	Germline	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	Enumerated	String	O79	LOINC:LL378-1	VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass
+LA6684-0	Somatic	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	Enumerated	String	O79	LOINC:LL378-1	VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass
+LA10429-1	Prenatal	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	Enumerated	String	O79	LOINC:LL378-1	VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass
+LA18197-6	Unknown genomic origin	LOINC	http://s.details.loinc.org/LOINC/48002-0.html	Enumerated	String	O79	LOINC:LL378-1	VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass
+LA6703-8	Heteroplasmic	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	Enumerated	String	O80	LOINC:LL381-5	VariantInSample	AllelicState	VariantInSample_AllelicState
+LA6704-6	Homoplasmic	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	Enumerated	String	O80	LOINC:LL381-5	VariantInSample	AllelicState	VariantInSample_AllelicState
+LA6705-3	Homozygous	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	Enumerated	String	O80	LOINC:LL381-5	VariantInSample	AllelicState	VariantInSample_AllelicState
+LA6706-1	Heterozygous	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	Enumerated	String	O80	LOINC:LL381-5	VariantInSample	AllelicState	VariantInSample_AllelicState
+LA6707-9	Hemizygous	LOINC	http://s.details.loinc.org/LOINC/53034-5.html	Enumerated	String	O80	LOINC:LL381-5	VariantInSample	AllelicState	VariantInSample_AllelicState
+OSIRIS:O81-1	Pathogenic	ACMG	https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf	Enumerated	String	O81	OSIRIS:AlterationOnSample_Pathogenicity	AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity
+OSIRIS:O81-2	Likely pathogenic	ACMG	https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf	Enumerated	String	O81	OSIRIS:AlterationOnSample_Pathogenicity	AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity
+OSIRIS:O81-3	Benign	ACMG	https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf	Enumerated	String	O81	OSIRIS:AlterationOnSample_Pathogenicity	AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity
+OSIRIS:O81-4	Likely benign	ACMG	https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf	Enumerated	String	O81	OSIRIS:AlterationOnSample_Pathogenicity	AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity
+OSIRIS:O81-5	Uncertain significance	ACMG	https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf	Enumerated	String	O81	OSIRIS:AlterationOnSample_Pathogenicity	AlterationOnSample	Pathogenicity	AlterationOnSample_Pathogenicity
+OSIRIS:O82-1	Actionable	OSIRIS		Enumerated	String	O82	OBI	AlterationOnSample	Actionability	AlterationOnSample_Actionability
+OSIRIS:O82-2	Non actionable	OSIRIS		Enumerated	String	O82	OBI	AlterationOnSample	Actionability	AlterationOnSample_Actionability
+		OSIRIS		nonEnumerated	Boolean	O83		AlterationOnSample	ProposedForOrientation	AlterationOnSample_ProposedForOrientation
+OSIRIS:O84-1	RawExpression	OSIRIS		Enumerated	String	O84	OSIRIS:ExpressionDataType	GeneExpression	DataType	GeneExpression_DataType
+OSIRIS:O84-2	NormalizedExpression	OSIRIS		Enumerated	String	O84	OSIRIS:ExpressionDataType	GeneExpression	DataType	GeneExpression_DataType
+		OSIRIS		nonEnumerated	Float	O85	OSIRIS:ExpressionValue	GeneExpression	Value	GeneExpression_Value
+OSIRIS:O93-1	5prime	OSIRIS		Enumerated	String	O93	OSIRIS:Annotation_FusionPrimeEnd	Annotation	FusionPrimeEnd	Annotation_FusionPrimeEnd
+OSIRIS:O93-2	3prime	OSIRIS		Enumerated	String	O93	OSIRIS:Annotation_FusionPrimeEnd	Annotation	FusionPrimeEnd	Annotation_FusionPrimeEnd
+		LOINC	http://www.genenames.org/	nonEnumerated	String	O95	LOINC:48018-6	Annotation	Symbol	Annotation_Symbol
