@@ -72,6 +72,16 @@ ICD-10	cf. ICD-10	ICD-10	http://apps.who.int/classifications/icd10/browse/2016/e
 ICD-O-3-TOPO	cf. ICD-O-3-TOPO	CIM-O-3 Topo	http://codes.iarc.fr/topography	Enumerated	String	C17	CIM-O-3 Topo	CancerHistory	TopographyCode	CancerHistory_TopographyCode
 UMLS:C0037047	Sibling	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
 UMLS:C0030551	Parent	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C0015671	Father	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C0026591	Mother	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C3844804	Paternal cousin	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C3844805	Maternal cousin	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C3242761	Maternal grandparent	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C3242764	Paternal grandparent	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C1273524	Paternal grandmother	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C1273525	Maternal grandmother	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C1273523	Maternal grandfather	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
+UMLS:C1273522	Paternal grandfather	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
 UMLS:C0337471	Grandparent	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
 UMLS:C0337577	Uncle	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
 UMLS:C3714276	Paternal uncle	UMLS		Enumerated	String	C77	OSIRIS:FamilyCancerHistoryParentage	FamilyCancerHistory	Parentage	FamilyCancerHistory_Parentage
@@ -120,10 +130,10 @@ c	Clinique			Enumerated	String	C28	OSIRIS:TNMType	TumorPathologyEvent	TNMType	Tu
 p	Pathologique			Enumerated	String	C28	OSIRIS:TNMType	TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType
 y	Après traitement neoadjuvant			Enumerated	String	C28	OSIRIS:TNMType	TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType
 u	Radiologique			Enumerated	String	C28	OSIRIS:TNMType	TumorPathologyEvent	TNMType	TumorPathologyEvent_TNMType
-		SBR, ...				C29		TumorPathologyEvent	HistologicalGradeType	TumorPathologyEvent_HistologicalGradeType
-						C30		TumorPathologyEvent	HistologicalGradeValue	TumorPathologyEvent_HistologicalGradeValue
-						C31		TumorPathologyEvent	StadeType	TumorPathologyEvent_StadeType
-						C32		TumorPathologyEvent	StadeValue	TumorPathologyEvent_StadeValue
+		SBR, ...				C29	OSIRIS:HistologicalGradeType	TumorPathologyEvent	HistologicalGradeType	TumorPathologyEvent_HistologicalGradeType
+						C30	OSIRIS:HistologicalGradeValue	TumorPathologyEvent	HistologicalGradeValue	TumorPathologyEvent_HistologicalGradeValue
+						C31	OSIRIS:StadeType	TumorPathologyEvent	StadeType	TumorPathologyEvent_StadeType
+						C32	OSIRIS:StadeValue	TumorPathologyEvent	StadeValue	TumorPathologyEvent_StadeValue
 				nonEnumerated	Date	C33		TumorPathologyEvent	DiagnosisDate	TumorPathologyEvent_DiagnosisDate
 ICD-O-3-TOPO	cf. ICD-O-3-TOPO	CIM-O-3 Topo	http://codes.iarc.fr/topography	Enumerated	String	C34	CIM-O-3 Topo	TumorPathologyEvent	TopographyCode	TumorPathologyEvent_TopographyCode
 ICD-O-3-MORPHO	cf. ICD-O-3-MORPHO	CIM-O-3 Morpho	http://codes.iarc.fr/codegroup/2	Enumerated	String	C35	CIM-O-3 Morpho	TumorPathologyEvent	MorphologyCode	TumorPathologyEvent_MorphologyCode
