@@ -1,8 +1,6 @@
-![INCa logo](https://raw.githubusercontent.com/siric-osiris/OSIRIS/master/logo_inca.jpg)
-
-## **OSIRIS : Inter-SiRIC task force for data sharing and interoperability in oncology** 
-
-  ![OSIRIS logo](https://raw.githubusercontent.com/siric-osiris/OSIRIS/master/osiris.png)
+![OSIRIS logo](https://raw.githubusercontent.com/siric-osiris/OSIRIS/master/osiris.png)
+## Groupe inter-SiRIC sur le partage et l'intégration des données clinico-biologiques en oncologie
+### *Inter-SiRIC task force for clinical and biological data sharing and interoperability in oncology*
   
 ## Using the OSIRIS data framework
 * The framework description is available at [documentation/](documentation/)
