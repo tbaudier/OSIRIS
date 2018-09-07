@@ -1,4 +1,4 @@
-![OSIRIS logo](https://raw.githubusercontent.com/siric-osiris/OSIRIS/master/osiris.png)
+![OSIRIS logo](https://raw.githubusercontent.com/siric-osiris/OSIRIS/v1.x/osiris.png)
 ## Groupe inter-SiRIC sur le partage et l'intégration des données clinico-biologiques en oncologie
 ### *Inter-SiRIC task force for clinical and biological data sharing and interoperability in oncology*
   
