@@ -32,8 +32,8 @@ TumorPathologyEvent	Laterality	TumorPathologyEvent_Laterality	Laterality	Latéra
 TNM	T	TNM_T	T	T	OSIRIS:T_TNM	String	optional, mandatory if either N, M or TNMType is set	Taille de la tumeur, propagation sur le site de la tumeur primitive	Size of the tumor, propagation the site of the primary tumor	C83	
 TNM	N	TNM_N	N	N	OSIRIS:N_TNM	String	optional, mandatory if either T, M or TNMType is set	Propagation au niveau ganglionnaire	Propagation at the ganglion level	C84	
 TNM	M	TNM_M	M	M	OSIRIS:M_TNM	String	optional, mandatory if either T, N or TNMType is set	Propagation à distance, présence de métastases	Remote propagation, presence of metastases	C85	
-TNM	TNMVersion	TNM_TNMVersion	TNM Version	Version du TNM	OSIRIS:TNMVersion	String	optional	Version de la classification TNM	TNM classification version	C86	
-TNM	TNMType	TNM_TNMType	TNM Type	Type de TNM	OSIRIS:TNMType	String	optional, mandatory if either T, N or M is set	c, p, r,...	c, p, r,...	C87	
+TNM	TNMVersion	TNM_Version	TNM Version	Version du TNM	OSIRIS:TNMVersion	String	optional	Version de la classification TNM	TNM classification version	C86	
+TNM	TNMType	TNM_Type	TNM Type	Type de TNM	OSIRIS:TNMType	String	optional, mandatory if either T, N or M is set	c, p, r,...	c, p, r,...	C87	
 Analysis	Code	Analysis_Code	Code	Code unique de l'analyse		String	optional	Code de l'analyse	Code of analysis	C70	
 Analysis	Type	Analysis_Type	Type	Type d'analyse	OSIRIS:AnalysisType	String	mandatory if ObjectClass is set	Type d'analyse	Type of analysis	C37	
 Analysis	Date	Analysis_Date	Date	Date d'analyse		Date	mandatory if ObjectClass is set	Date d'analyse	Date of analysis	C38	
