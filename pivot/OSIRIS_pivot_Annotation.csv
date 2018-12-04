@@ -1,4 +1,11 @@
-Patient_Id,Instance_Id,Alteration_Ref,AlterationType,Annotation_ReferenceType,Annotation_ReferenceDatabase,Annotation_ReferenceId,Annotation_Symbol,Annotation_PfamDomain,Annotation_PfamId,Annotation_MutationPredictionAlgorithm,Annotation_MutationPredictionValue,Annotation_MutationPredictionScore,Annotation_DNARegionName,Annotation_DNASequenceVariation,Annotation_AminoAcidChange,Annotation_GenomicSequenceVariation,Annotation_RNASequenceVariation,Annotation_AminoAcidChangeType,FusionPrimeEnd,Strand
-L304,1,1,,Variant,COSMIC,COSM760,PI3K,"PI3K_rbd; PI3-kinase family, ras-binding domain",pfam00794,SIFT,Deleterious,0.35,exon 2,c.1624G>A,p.E542K,,,LA6698-0,,
+Patient_Id,Instance_Id,Alteration_Ref,AlterationOnSample_AlterationType,Annotation_ReferenceType,Annotation_ReferenceDatabase,Annotation_ReferenceValue,Annotation_Symbol,Annotation_PfamDomain,Annotation_PfamId,Annotation_MutationPredictionAlgorithm,Annotation_MutationPredictionValue,Annotation_MutationPredictionScore,Annotation_DNARegionName,Annotation_DNASequenceVariation,Annotation_AminoAcidChange,Annotation_GenomicSequenceVariation,Annotation_RNASequenceVariation,Annotation_AminoAcidChangeType,Annotation_FusionPrimeEnd,Annotation_Strand
+L304,1,1,OSIRIS:O15-4,OSIRIS:O90-1,COSMIC,COSM760,PI3K,"PI3K_rbd; PI3-kinase family, ras-binding domain",pfam00794,SIFT,Deleterious,0.35,exon 2,c.1624G>A,p.E542K,,,LA6698-0,,
 ,,,,,,,,,,,,,exon 14,,,,,,,
-,,,Laetitia: doublons avec Annotaion_ReferenceType ?,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+L304,1,1,Genetic variant,genome entity,Entrez,123365,TP53,,,,,,,,,,,,,
+L304,2,1,Genetic variant,exonic variant transcript,Refseq,NM_001126115,TP53,,,,,,exon1,c.73G>T,p.V25F,,,,,
+L304,3,1,Genetic variant,exonic variant transcript,Refseq,NM_001126116,TP53,,,,,,exon1,c.73G>T,p.V25F,,,,,
+L304,4,1,Genetic variant,exonic variant transcript,Refseq,NM_001126112,TP53,,,,,,exon5,c.469G>T,p.V157F,,,,,
+L304,5,1,Genetic variant,,,,TP53,,,SIFT,Deleterious,0.35,,,,,,,,
+L304,6,1,Genetic variant,,,,TP53,,,Polyphen,Deleterious,0.7,,,,,,,,

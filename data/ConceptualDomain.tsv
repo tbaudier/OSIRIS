@@ -53,14 +53,13 @@ HL7:2108-9	European	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race	Enumerated	St
 HL7:2118-8	Middle Eastern or North African	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race	Enumerated	String	FHIR:Race
 HL7:2129-5	Arab	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race	Enumerated	String	FHIR:Race
 UMLS:C0439673	Unknown	UMLS		Enumerated	String	FHIR:Race
-UMLS:C0277589	Death of unknown cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0277589;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
 UMLS:C1707251	Other cancer	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C1707251;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
 UMLS:C3262234	Other cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C3262234;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
 UMLS:C0679861	Complications of treatment	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0679861;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
 UMLS:C0027651	Neoplasm	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0027651;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
-UMLS:C0439673	Unknown	UMLS		Enumerated	String	UMLS:C0007465
+UMLS:C0277589	Death of unknown cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0277589;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
 UMLS:C2584946	Alive (finding)	UMLS		Enumerated	String	OSIRIS:LastNewsStatus
-ULMS:C1546956	Patient Outcome - Died	UMLS		Enumerated	String	OSIRIS:LastNewsStatus
+UMLS:C1546956	Patient Outcome - Died	UMLS		Enumerated	String	OSIRIS:LastNewsStatus
 UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:LastNewsStatus
 UMLS:C0037047	Sibling	UMLS		Enumerated	String	OSIRIS:FamilyCancerHistoryParentage
 UMLS:C0030551	Parent	UMLS		Enumerated	String	OSIRIS:FamilyCancerHistoryParentage
@@ -94,7 +93,6 @@ UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:EventType
 2	ambulant et capable de se prendre en charge, mais incapable de fournir un travail et alité pendant moins de 50 % de son temps	OMS		Enumerated	String	OMS:PerformanceStatus
 3	capacité de prise en charge propre beaucoup plus limitée. Passe plus de 50 % de son temps au lit ou dans une chaise.	OMS		Enumerated	String	OMS:PerformanceStatus
 4	complètement grabataire. Incapable de se prendre en charge. Le patient reste totalement confiné au lit ou dans une chaise.	OMS		Enumerated	String	OMS:PerformanceStatus
-UMLS:C0439673	Unknown	UMLS		Enumerated	String	OMS:PerformanceStatus
 Tx	Tx	UICC		Enumerated	String	OSIRIS:T_TNM
 T0	T0	UICC		Enumerated	String	OSIRIS:T_TNM
 T1	T1	UICC		Enumerated	String	OSIRIS:T_TNM
@@ -146,7 +144,7 @@ RECIST:CR	Complete Response	RECIST v1.1		Enumerated	String	OSIRIS:RECIST
 RECIST:PR	Partial Response	RECIST v1.1		Enumerated	String	OSIRIS:RECIST
 RECIST:SD	Stable disease	RECIST v1.1		Enumerated	String	OSIRIS:RECIST
 RECIST:PD	Progressive Disease	RECIST v1.1		Enumerated	String	OSIRIS:RECIST
-UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:RECIST
+RECIST:NE	Not evaluable	RECIST v1.1		Enumerated	String	OSIRIS:RECIST
 OSIRIS:C39-1	CKIT	OSIRIS		Enumerated	String	OSIRIS:BiomarkerCode
 OSIRIS:C39-2	b-catenine	OSIRIS		Enumerated	String	OSIRIS:BiomarkerCode
 OSIRIS:C39-3	CKIT/DOG1	OSIRIS		Enumerated	String	OSIRIS:BiomarkerCode
@@ -211,6 +209,7 @@ R2	Gross residual disease	ICGC		Enumerated	String	OSIRIS:SurgeryResectionQuality
 UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:SurgeryResectionQuality
 UMLS:C0005767	Blood	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI Metathesaurus&code=C0005767	Enumerated	String	OSIRIS:SampleNature
 UMLS:C0032105	Plasma	NCI	https://ncim-stage.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0032105	Enumerated	String	OSIRIS:SampleNature
+UMLS:C1321301	Peripheral Blood Mononuclear Cell	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI Metathesaurus&code=C0085983	Enumerated	String	OSIRIS:SampleNature
 UMLS:C0085983	Tumor Cell Line	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI Metathesaurus&code=C0085983	Enumerated	String	OSIRIS:SampleNature
 UMLS:C1548793	Frozen Specimen	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI Metathesaurus&code=C1548793	Enumerated	String	OSIRIS:SampleNature
 UMLS:C1519524	Paraffin Embedded Tissue (FFPE)	NCI		Enumerated	String	OSIRIS:SampleNature
@@ -218,12 +217,14 @@ UMLS:C0042036	Urine	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?d
 UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:SampleNature
 OSIRIS:O59-1	Normal	OSIRIS		Enumerated	String	OSIRIS:SampleOrigin
 OSIRIS:O59-2	Tumoral	OSIRIS		Enumerated	String	OSIRIS:SampleOrigin
+UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:SampleOrigin
 OSIRIS:C60-1	Room temperature	MIABIS-2.0-15	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#miabis-20-15	Enumerated	String	OSIRIS:StorageTemperature
 OSIRIS:C60-2	Between 2 °C and 10 °C	MIABIS-2.0-15	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#miabis-20-15	Enumerated	String	OSIRIS:StorageTemperature
 OSIRIS:C60-3	Between -18 °C and -35 °C	MIABIS-2.0-15	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#miabis-20-15	Enumerated	String	OSIRIS:StorageTemperature
 OSIRIS:C60-4	Between -60 °C and -85 °C	MIABIS-2.0-15	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#miabis-20-15	Enumerated	String	OSIRIS:StorageTemperature
 OSIRIS:C60-5	Liquid nitrogen, -150 °C to -196 °C	MIABIS-2.0-15	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#miabis-20-15	Enumerated	String	OSIRIS:StorageTemperature
 OSIRIS:C60-6	Other	MIABIS-2.0-15	https://github.com/MIABIS/miabis/wiki/Structured-data-and-lists#miabis-20-15	Enumerated	String	OSIRIS:StorageTemperature
+UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:StorageTemperature
 OSIRIS:O6-1	ChIP-on-Chip	OSIRIS		Enumerated	String	OSIRIS:TechnicalProtocol
 OSIRIS:O6-2	ChIP-seq	OSIRIS		Enumerated	String	OSIRIS:TechnicalProtocol
 OSIRIS:O6-3	DNA microarray	OSIRIS		Enumerated	String	OSIRIS:TechnicalProtocol
@@ -402,9 +403,6 @@ LOINC:LA26331-1	translocation	LOINC	http://r.details.loinc.org/LOINC/81289-1.htm
 OSIRIS:O28-1	readthrough	OSIRIS		Enumerated	String	OSIRIS:FusionType
 OSIRIS:O94-1	+	OSIRIS		Enumerated	String	OSIRIS:Strand
 OSIRIS:O94-2	-	OSIRIS		Enumerated	String	OSIRIS:Strand
-OSIRIS:O42-1	ChimerDb	OSIRIS		Enumerated	String	OSIRIS:FusionAnnotationReferentiel
-OSIRIS:O42-2	Oncofuse	OSIRIS		Enumerated	String	OSIRIS:FusionAnnotationReferentiel
-OSIRIS:O42-3	Mittelman DB	OSIRIS		Enumerated	String	OSIRIS:FusionAnnotationReferentiel
 OSIRIS:O49-1	Amplification	OSIRIS		Enumerated	String	OSIRIS:SegmentGenomicStatus
 OSIRIS:O49-2	Gain	OSIRIS		Enumerated	String	OSIRIS:SegmentGenomicStatus
 OSIRIS:O49-3	Normal	OSIRIS		Enumerated	String	OSIRIS:SegmentGenomicStatus
@@ -434,6 +432,9 @@ OSIRIS:O91-3	SwissProt	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceData
 OSIRIS:O91-4	UniProt	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
 OSIRIS:O96-1	Cosmic	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
 OSIRIS:O96-2	dbSNP	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
+OSIRIS:O42-1	ChimerDb	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
+OSIRIS:O42-2	Oncofuse	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
+OSIRIS:O42-3	Mittelman DB	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
 LOINC:LA6692-3	Deletion	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	OSIRIS:AminoAcidChangeType
 LOINC:LA6686-5	Duplication	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	OSIRIS:AminoAcidChangeType
 LOINC:LA6694-9	Frameshift	LOINC	http://r.details.loinc.org/LOINC/48006-1.html	Enumerated	String	OSIRIS:AminoAcidChangeType

@@ -2,3 +2,12 @@ Patient_Id,Instance_Id,Analysis_Ref,AlterationOnSample_AlterationType,Alteration
 L304,1,3,OSIRIS:O15-4,,,,LA21263-1,87751512,88104391,hg19,10q23.31,33,OSIRIS:O49-2,3,0,OSIRIS:O16-2,Visual check,OSIRIS:O18-2
 ,,,,,,,,,,,,,,,,,,
 Vincent : Patient_Id est Patient_Ref en deuxième colonne,,,Vincent : Alteration ou Location ?,,,,,,,,,,,,,,,
+,,,,,solution actuelle,,chr1,1,10,,,,,2,,,,
+,,,,,,,chr1,11,30,,,,,5,,,,
+,,,,,,,chr1,1,60,,,,,,1,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,meilleure solution pour les requetes,,chr1,1,10,,,,,2,1,,,
+,,,,,,,chr1,11,30,,,,,5,1,,,
+,,,,,,,chr1,30,60,,,,,2,1,,,
