@@ -241,6 +241,7 @@ OSIRIS:O6-13	RPPA	OSIRIS		Enumerated	String	OSIRIS:TechnicalProtocol
 OSIRIS:O6-14	Whole genome bisulfite sequencing	OSIRIS		Enumerated	String	OSIRIS:TechnicalProtocol
 OSIRIS:O6-15	Whole genome sequencing	OSIRIS		Enumerated	String	OSIRIS:TechnicalProtocol
 OSIRIS:O6-16	miRNA microarray	OSIRIS		Enumerated	String	OSIRIS:TechnicalProtocol
+OSIRIS:O6-OTH	Other	OSIRIS		Enumerated	String	OSIRIS:TechnicalProtocol
 OSIRIS:O7-1	Affymetrix Cytoscan HD	OSIRIS		Enumerated	String	OSIRIS:PlatformName
 OSIRIS:O7-2	Affymetrix EMET Plus Premier Pack	OSIRIS		Enumerated	String	OSIRIS:PlatformName
 OSIRIS:O7-3	Affymetrix Genome-Wide Human SNP Array 5.0	OSIRIS		Enumerated	String	OSIRIS:PlatformName
@@ -329,7 +330,9 @@ OSIRIS:O7-85	SOLiD sequencing	OSIRIS		Enumerated	String	OSIRIS:PlatformName
 OSIRIS:O7-86	Digital PCR	OSIRIS		Enumerated	String	OSIRIS:PlatformName
 OSIRIS:O7-87	NextSeq 500	OSIRIS		Enumerated	String	OSIRIS:PlatformName
 OSIRIS:O7-88	NovaSeq	OSIRIS		Enumerated	String	OSIRIS:PlatformName
-OSIRIS:O10-0	Not applicable	OSIRIS		Enumerated	String	OSIRIS:PanelName
+OSIRIS:O7-OTH	Other	OSIRIS		Enumerated	String	OSIRIS:PlatformName
+UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:PlatformName
+UMLS:C1272460	Not applicable	UMLS		Enumerated	String	OSIRIS:PanelName
 OSIRIS:O10-1	Ion AmpliSeq Cancer Hotspot Panel v2	OSIRIS		Enumerated	String	OSIRIS:PanelName
 OSIRIS:O10-2	Ion AmpliSeq Colon and Lung Cancer Research Panel v2	OSIRIS		Enumerated	String	OSIRIS:PanelName
 OSIRIS:O10-3	Ion AmpliSeq Comprehensive Cancer Panel	OSIRIS		Enumerated	String	OSIRIS:PanelName
@@ -340,11 +343,13 @@ OSIRIS:O10-7	Lyric: Ion AmpliSeq Profiler	OSIRIS		Enumerated	String	OSIRIS:Panel
 OSIRIS:O10-8	QIAGEN GeneRead DNAseq Targeted Panels V2	OSIRIS		Enumerated	String	OSIRIS:PanelName
 OSIRIS:O10-9	SAFIR02 Panel	OSIRIS		Enumerated	String	OSIRIS:PanelName
 OSIRIS:O10-10	Mosc3	OSIRIS		Enumerated	String	OSIRIS:PanelName
-OSIRIS:O13-1	Haploid	OSIRIS		Enumerated	String	OSIRIS:AlgorithmicPloidy
-OSIRIS:O13-2	Diploid	OSIRIS		Enumerated	String	OSIRIS:AlgorithmicPloidy
-OSIRIS:O13-3	Triploid	OSIRIS		Enumerated	String	OSIRIS:AlgorithmicPloidy
-OSIRIS:O13-4	Tetraploid	OSIRIS		Enumerated	String	OSIRIS:AlgorithmicPloidy
-OSIRIS:O13-0	Not available	OSIRIS		Enumerated	String	OSIRIS:AlgorithmicPloidy
+OSIRIS:010-OTH	Other	OSIRIS		Enumerated	String	OSIRIS:PanelName
+UMLS:C0018590	Haploid	OSIRIS		Enumerated	String	OSIRIS:AlgorithmicPloidy
+UMLS:C0012568	Diploid	OSIRIS		Enumerated	String	OSIRIS:AlgorithmicPloidy
+UMLS:C3536727	Triploid	OSIRIS		Enumerated	String	OSIRIS:AlgorithmicPloidy
+UMLS:C0333694	Tetraploid	OSIRIS		Enumerated	String	OSIRIS:AlgorithmicPloidy
+OSIRIS:O13-OTH	Other	OSIRIS		Enumerated	String	OSIRIS:AlgorithmicPloidy
+UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:AlgorithmicPloidy
 OSIRIS:O15-1	Gene expression	OSIRIS		Enumerated	String	OSIRIS:AlterationType
 OSIRIS:O15-2	Protein expression	OSIRIS		Enumerated	String	OSIRIS:AlterationType
 OSIRIS:O15-3	Fusion	OSIRIS		Enumerated	String	OSIRIS:AlterationType
@@ -387,14 +392,15 @@ LOINC:LA21277-1	chrY	OSIRIS	http://r.details.loinc.org/AnswerList/LL2938-0.html	
 OSIRIS:O19-1	MT	OSIRIS		Enumerated	String	OSIRIS:Chromosome
 OSIRIS:O19-2	viral	OSIRIS		Enumerated	String	OSIRIS:Chromosome
 OSIRIS:O19-3	bacterial	OSIRIS		Enumerated	String	OSIRIS:Chromosome
+UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:Chromosome
 OSIRIS:O22-1	GRCh37	FHIR (HL7)	https://www.hl7.org/fhir/sequence-definitions.html#Sequence.referenceSeq.genomeBuild	Enumerated	String	FHIR:Sequence
 OSIRIS:O22-2	GRCh38	FHIR (HL7)	https://www.hl7.org/fhir/sequence-definitions.html#Sequence.referenceSeq.genomeBuild	Enumerated	String	FHIR:Sequence
-OSIRIS:O24-1	gene	OSIRIS		Enumerated	String	OSIRIS:GenomeEntityType
-OSIRIS:O24-2	miRNA	OSIRIS		Enumerated	String	OSIRIS:GenomeEntityType
-OSIRIS:O24-3	piRNA	OSIRIS		Enumerated	String	OSIRIS:GenomeEntityType
-OSIRIS:O24-4	mRNA	OSIRIS		Enumerated	String	OSIRIS:GenomeEntityType
-OSIRIS:O24-5	ncRNA	OSIRIS		Enumerated	String	OSIRIS:GenomeEntityType
-OSIRIS:O24-6	ORF	OSIRIS		Enumerated	String	OSIRIS:GenomeEntityType
+UMLS:C0017337	Gene	UMLS		Enumerated	String	OSIRIS:GenomeEntityType
+UMLS:C1101610	miRNA	UMLS		Enumerated	String	OSIRIS:GenomeEntityType
+UMLS:C1956352	piRNA	UMLS		Enumerated	String	OSIRIS:GenomeEntityType
+UMLS:C0035696	mRNA	UMLS		Enumerated	String	OSIRIS:GenomeEntityType
+UMLS:C0887909	ncRNA	UMLS		Enumerated	String	OSIRIS:GenomeEntityType
+UMLS:C0079941	ORF	UMLS		Enumerated	String	OSIRIS:GenomeEntityType
 OSIRIS:O25-1	HGNC	OSIRIS		Enumerated	String	OSIRIS:GenomeEntityDatabase
 OSIRIS:O25-2	miRDB	OSIRIS		Enumerated	String	OSIRIS:GenomeEntityDatabase
 OSIRIS:O25-3	Entrez	OSIRIS		Enumerated	String	OSIRIS:GenomeEntityDatabase
@@ -8590,3 +8596,6 @@ MedDRA:10042569	Superior vena cava syndrome	MedDRA_CTCAE-v5.0		Enumerated	String
 MedDRA:10043565	Thromboembolic event	MedDRA_CTCAE-v5.0		Enumerated	String	MedDRA_CTCAE-v5.0
 MedDRA:10047065	Vascular disorders - Other, specify	MedDRA_CTCAE-v5.0		Enumerated	String	MedDRA_CTCAE-v5.0
 MedDRA:10047115	Vasculitis	MedDRA_CTCAE-v5.0		Enumerated	String	MedDRA_CTCAE-v5.0
+UMLS:C1298908	No	UMLS		Enumerated	String	OSIRIS:Boolean
+UMLS:C1298907	Yes	UMLS		Enumerated	String	OSIRIS:Boolean
+UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:Boolean
