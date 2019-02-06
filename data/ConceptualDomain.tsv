@@ -193,6 +193,29 @@ OSIRIS:C39-45	C-MET	OSIRIS		Enumerated	String	OSIRIS:BiomarkerCode
 OSIRIS:C39-46	ESR1	OSIRIS		Enumerated	String	OSIRIS:BiomarkerCode
 OSIRIS:C39-47	PAM50	OSIRIS		Enumerated	String	OSIRIS:BiomarkerCode
 OSIRIS:C39-48	ENDOPREDICT	OSIRIS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0518015	Hemoglobin Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0014772	Erythrocyte Count	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0023508	Leukocyte Count	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0032181	Platelet Count	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0948762	Absolute Neutrophil Count	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0200635	Lymphocyte Count	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0200637	Monocyte Count	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0200638	Eosinophil Count	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0200641	Total Basophil Count	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0337443	Sodium Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0202194	Potassium Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0201925	Calcium Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0201975	Creatinine Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+NCI:C150847	Estimated Creatinine Clearance	NCI		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0201913	Total Bilirubin Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0523826	Phosphate Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0373675	Magnesium Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0201899	Aspartate Aminotransferase Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0201836	Alanine Aminotransferase Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0201838	Albumin Measurement	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0033707	Prothrombin Time	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0525032	International Normalized Ratio of Prothrombin Time	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
+UMLS:C0030605	Partial Thromboplastin Time	UMLS		Enumerated	String	OSIRIS:BiomarkerCode
 UMLS:C3665472	Chemotherapy	UMLS		Enumerated	String	OSIRIS:TreatmentType
 UMLS:C0279025	Hormone therapy	UMLS		Enumerated	String	OSIRIS:TreatmentType
 UMLS:C1522449	Therapeutic radiology procedure	UMLS		Enumerated	String	OSIRIS:TreatmentType
@@ -209,6 +232,9 @@ R2	Gross residual disease	ICGC		Enumerated	String	OSIRIS:SurgeryResectionQuality
 UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:SurgeryResectionQuality
 UMLS:C0005767	Blood	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI Metathesaurus&code=C0005767	Enumerated	String	OSIRIS:SampleNature
 UMLS:C0032105	Plasma	NCI	https://ncim-stage.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0032105	Enumerated	String	OSIRIS:SampleNature
+UMLS:C0033684	Protein	NCI	https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=19.01d&ns=ncit&code=C17021&key=1496615477&b=1&n=null	Enumerated	String	OSIRIS:SampleNature
+UMLS:C0035668	RNA	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0035668	Enumerated	String	OSIRIS:SampleNature
+UMLS:C0012854	DNA	NCI	https://ncim-stage.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0012854	Enumerated	String	OSIRIS:SampleNature
 UMLS:C1321301	Peripheral Blood Mononuclear Cell	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI Metathesaurus&code=C0085983	Enumerated	String	OSIRIS:SampleNature
 UMLS:C0085983	Tumor Cell Line	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI Metathesaurus&code=C0085983	Enumerated	String	OSIRIS:SampleNature
 UMLS:C1548793	Frozen Specimen	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI Metathesaurus&code=C1548793	Enumerated	String	OSIRIS:SampleNature
@@ -426,8 +452,8 @@ OSIRIS:O55-1	Virus insertion site	OSIRIS		Enumerated	String	LOINC:48019-4
 OSIRIS:O55-2	Delins	OSIRIS		Enumerated	String	LOINC:48019-4
 OSIRIS:O63-1	SIFT	OSIRIS		Enumerated	String	OSIRIS:MutationPredictionAlgorithm
 OSIRIS:O63-2	POLYPHEN2_HDIV	OSIRIS		Enumerated	String	OSIRIS:MutationPredictionAlgorithm
+OSIRIS:O63-3	MutationTaster	OSIRIS		Enumerated	String	OSIRIS:MutationPredictionAlgorithm
 OSIRIS:O90-1	Fusion transcript	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceType
-OSIRIS:O90-2	Genome entity	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceType
 OSIRIS:O90-3	Population frequency	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceType
 OSIRIS:O90-4	Protein reference	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceType
 OSIRIS:O90-5	Transcript reference	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceType
@@ -438,6 +464,7 @@ OSIRIS:O91-3	SwissProt	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceData
 OSIRIS:O91-4	UniProt	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
 OSIRIS:O96-1	Cosmic	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
 OSIRIS:O96-2	dbSNP	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
+OSIRIS:O96-3	ClinVar	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
 OSIRIS:O42-1	ChimerDb	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
 OSIRIS:O42-2	Oncofuse	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
 OSIRIS:O42-3	Mittelman DB	OSIRIS		Enumerated	String	OSIRIS:Annotation_ReferenceDatabase
@@ -470,6 +497,8 @@ OSIRIS:O82-1	Actionable	OSIRIS		Enumerated	String	OSIRIS:AlterationOnSample_Acti
 OSIRIS:O82-2	Non actionable	OSIRIS		Enumerated	String	OSIRIS:AlterationOnSample_Actionability
 OSIRIS:O84-1	RawExpression	OSIRIS		Enumerated	String	OSIRIS:ExpressionDataType
 OSIRIS:O84-2	NormalizedExpression	OSIRIS		Enumerated	String	OSIRIS:ExpressionDataType
+OSIRIS:O84-3	TPMExpression	OSIRIS		Enumerated	String	OSIRIS:ExpressionDataType
+OSIRIS:O84-4	RPKMExpression	OSIRIS		Enumerated	String	OSIRIS:ExpressionDataType
 OSIRIS:O93-1	5prime	OSIRIS		Enumerated	String	OSIRIS:Annotation_FusionPrimeEnd
 OSIRIS:O93-2	3prime	OSIRIS		Enumerated	String	OSIRIS:Annotation_FusionPrimeEnd
 ICDO3:C00	LIP	ICDO3	http://codes.iarc.fr/topography/C00	Enumerated	String	ICDO3:Topography
