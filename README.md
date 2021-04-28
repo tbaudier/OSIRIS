@@ -9,6 +9,3 @@
 
 ## Deploying an i2b2/SHRINE datawarehouse
 * You can deploy an i2b2/SHRINE instance using the Docker installation [here](https://github.com/CARPEM/SHRINEDocker) provided by SiRIC CARPEM.
-
-## MED-OSIRIS Steering Committee Reports
-* You can read the reports and presentations of the Steering Committee's Meetings at COPIL MED-OSIRIS
