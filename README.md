@@ -8,7 +8,7 @@
 * Alternatively, you can browse the wiki
 
 ## Extending the OSIRIS data framework
-* Please, refer to the guidelines [here]()
+* Please, refer to the guidelines [here](https://github.com/siric-osiris/OSIRIS/wiki/How-to-contribute).
 
 ## Deploying an i2b2/SHRINE datawarehouse
 * You can deploy an i2b2/SHRINE instance using the Docker installation [here](https://github.com/CARPEM/SHRINEDocker) provided by SiRIC CARPEM.
