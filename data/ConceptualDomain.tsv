@@ -358,7 +358,7 @@ OSIRIS:O7-87	NextSeq 500	OSIRIS		Enumerated	String	OSIRIS:PlatformName
 OSIRIS:O7-88	NovaSeq	OSIRIS		Enumerated	String	OSIRIS:PlatformName
 OSIRIS:O7-OTH	Other	OSIRIS		Enumerated	String	OSIRIS:PlatformName
 UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:PlatformName
-UMLS:C1272460	Not applicable	UMLS		Enumerated	String	OSIRIS:PanelName
+UMLS:C1272460	Not Applicable	UMLS		Enumerated	String	OSIRIS:PanelName
 OSIRIS:O10-1	Ion AmpliSeq Cancer Hotspot Panel v2	OSIRIS		Enumerated	String	OSIRIS:PanelName
 OSIRIS:O10-2	Ion AmpliSeq Colon and Lung Cancer Research Panel v2	OSIRIS		Enumerated	String	OSIRIS:PanelName
 OSIRIS:O10-3	Ion AmpliSeq Comprehensive Cancer Panel	OSIRIS		Enumerated	String	OSIRIS:PanelName
