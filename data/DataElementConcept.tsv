@@ -131,3 +131,89 @@ VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass	Genomic So
 VariantInSample	AllelicState	VariantInSample_AllelicState	Allelic State	Allelic State	LOINC:LL381-5	String	optional	Niveau d'occurrence allélique d'une variation de séquence d'ADN	Level of allelic occurrence of a DNA Sequence Variation	O80	
 GeneExpression	DataType	GeneExpression_DataType	Data Type	Data Type	OSIRIS:ExpressionDataType	String	mandatory	Type de la valeur d'expression correspondant au niveau de traitement des données	Type of the expression value corresponding to the level of data processing	O84	
 GeneExpression	Value	GeneExpression_Value	Value	Value		Float	mandatory	Valeur numérique de l'expression	Numerical value for expression	O85	
+Equipment	ModelName	Equipment_ModelName	Manufacturer's model name							I1	
+Equipment	Manufacturer	Equipment_Manufacturer	Manufacturer's name							I2	
+Study	StudyInstanceUID	Study_StudyInstanceUID	Study Instance UID							I3	
+Study	StudyDescription	Study_StudyDescription	Study description							I4	
+Study	AcquisitionDate	Study_AcquisitionDate	Acquisition date							I5	
+Study	Location	Study_Location	Location							I6	
+Study	InstitutionName	Study_InstitutionName	Institution's name							I7	
+Study	ModalitiesInStudy	Study_ModalitiesInStudy	Modalities in study							I8	
+Study	NbStudyRelatedSeries	Study_NbStudyRelatedSeries	Number of Study Related Series							I9	
+Series	SeriesNumber	Series_SeriesNumber	Series Number							I10	
+Series	SeriesInstanceUID	Series_SeriesInstanceUID	Series Instance UID							I11	
+Series	Modality	Series_Modality	Modality							I12	
+Series	Description	Series_Description	Description							I13	
+Series	BodyPartExamined	Series_BodyPartExamined	Body Part Examined							I14	
+Series	NbSeriesRelatedInstances	Series_NbSeriesRelatedInstances	Number of Series Related Instances							I15	
+Series	SoftwareVersion	Series_SoftwareVersion	Software's version							I16	
+Injection	Radiopharmaceutical	Injection_Radiopharmaceutical	Radiopharmaceutical							I17	
+Injection	ContrastBolusAgent	Injection_ContrastBolusAgent	Contrast/bolus agent							I18	
+Injection	ContrastBolusStartTime	Injection_ContrastBolusStartTime	Contrast/bolus start time							I19	
+Injection	ContrastBolusStopTime	Injection_ContrastBolusStopTime	Contrast/bolus stop time							I20	
+Injection	RadiopharmaceuticalStartTime	Injection_RadiopharmaceuticalStartTime	Radiopharmaceutical start time							I21	
+Injection	RadionuclideTotalDose	Injection_RadionuclideTotalDose	Radionuclide total dose							I22	
+CommonImage	SOPInstanceUID	CommonImage_SOPInstanceUID	SOP Instance UID							I23	
+CommonImage	SliceThickness	CommonImage_SliceThickness	Slice thickness							I24	
+CommonImage	PixelSpacing	CommonImage_PixelSpacing	Pixel spacing							I25	
+CommonImage	FieldOfView	CommonImage_FieldOfView	Field of view							I26	
+CommonImage	Rows	CommonImage_Rows	rows							I27	
+CommonImage	Columns	CommonImage_Columns	columns							I28	
+MRImage	SequenceName	MRImage_SequenceName	Sequence's name							I29	
+MRImage	MagneticFieldStrength	MRImage_MagneticFieldStrength	Magnetic field strength							I30	
+MRImage	MRAcquisitionType	MRImage_MRAcquisitionType	MR acquisition type							I31	
+MRImage	RepetitionTime	MRImage_RepetitionTime	Repetition time							I32	
+MRImage	EchoTime	MRImage_EchoTime	EchoTime							I33	
+MRImage	ImagingFrequency	MRImage_ImagingFrequency	ImagingFrequency							I34	
+MRImage	FlipAngle	MRImage_FlipAngle	FlipAngle							I35	
+MRImage	InversionTime	MRImage_InversionTime	InversionTime							I36	
+MRImage	ReceiveCoilName	MRImage_ReceiveCoilName	ReceiveCoilName							I37	
+CTImage	KVp	CTImage_KVp	KVp							I38	
+CTImage	XRayTubeCurrent	CTImage_XRayTubeCurrent	XRayTubeCurrent							I39	
+CTImage	ExposureTime	CTImage_ExposureTime	ExposureTime							I40	
+CTImage	SpiralPitchFactor	CTImage_SpiralPitchFactor	SpiralPitchFactor							I41	
+CTImage	FilterType	CTImage_FilterType	FilterType							I42	
+CTImage	ConvolutionKernel	CTImage_ConvolutionKernel	ConvolutionKernel							I43	
+PTImage	AttenuationCorrectionMethod	PTImage_AttenuationCorrectionMethod	AttenuationCorrectionMethod							I44	
+PTImage	ReconstructionMethod	PTImage_ReconstructionMethod	ReconstructionMethod							I45	
+PTImage	ScatterCorrectionMethod	PTImage_ScatterCorrectionMethod	ScatterCorrectionMethod							I46	
+NMImage	AttenuationCorrectionMethod	NMImage_AttenuationCorrectionMethod	AttenuationCorrectionMethod							I47	
+NMImage	ReconstructionMethod	NMImage_ReconstructionMethod	ReconstructionMethod							I48	
+NMImage	ScatterCorrectionMethod	NMImage_ScatterCorrectionMethod	ScatterCorrectionMethod							I49	
+DXImage	ImageLaterality	DXImage_ImageLaterality	ImageLaterality							I50	
+DXImage	PatientOrientation	DXImage_PatientOrientation	PatientOrientation							I51	
+DXImage	AnatomicRegionSequenceCodeMeaning	DXImage_AnatomicRegionSequenceCodeMeaning	AnatomicRegionSequenceCodeMeaning							I52	
+DXImage	Anatomic Region SequenceCodeValue	DXImage_Anatomic Region SequenceCodeValue	Anatomic Region SequenceCodeValue							I53	
+DXImage	KVP	DXImage_KVP	KVP							I54	
+DXImage	Exposure	DXImage_Exposure	Exposure							I55	
+DXImage	ExposureTime	DXImage_ExposureTime	ExposureTime							I56	
+DXImage	ContrastBolusAgent	DXImage_ContrastBolusAgent	ContrastBolusAgent							I57	
+ROISegmentation	ReferencedSOPInstanceUID	ROISegmentation_ReferencedSOPInstanceUID	ReferencedSOPInstanceUID							I58	
+ROISegmentation	ROINumber	ROISegmentation_ROINumber	ROINumber							I59	
+ROISegmentation	ROIName	ROISegmentation_ROIName	ROIName							I60	
+ROISegmentation	ROIDescription	ROISegmentation_ROIDescription	ROIDescription							I61	
+ROISegmentation	ROIType	ROISegmentation_ROIType	ROIType							I62	
+ROISegmentation	ROIFilename	ROISegmentation_ROIFilename	ROIFilename							I63	
+RadiomicsCriteria	SoftwareName	RadiomicsCriteria_SoftwareName	SoftwareName							I64	
+RadiomicsCriteria	SoftwareVersion	RadiomicsCriteria_SoftwareVersion	SoftwareVersion							I65	
+RadiomicsCriteria	Method	RadiomicsCriteria_Method	Method							I66	
+RadiomicsCriteria	UsedImageFilter	RadiomicsCriteria_UsedImageFilter	UsedImageFilter							I67	
+RadiomicsCriteria	DistanceWeighting	RadiomicsCriteria_DistanceWeighting	DistanceWeighting							I68	
+RadiomicsCriteria	NumberOfGreyLevels	RadiomicsCriteria_NumberOfGreyLevels	NumberOfGreyLevels							I69	
+RadiomicsCriteria	BinSize	RadiomicsCriteria_BinSize	BinSize							I70	
+RadiomicsCriteria	IntensityResampling	RadiomicsCriteria_IntensityResampling	IntensityResampling							I71	
+RadiomicsCriteria	LowestIntensity	RadiomicsCriteria_LowestIntensity	LowestIntensity							I72	
+RadiomicsCriteria	BoundsRangeOfValueAfterDiscretisation	RadiomicsCriteria_BoundsRangeOfValueAfterDiscretisation	BoundsRangeOfValueAfterDiscretisation							I73	
+RadiomicsCriteria	SpatialResamplingMethod	RadiomicsCriteria_SpatialResamplingMethod	SpatialResamplingMethod							I74	
+RadiomicsCriteria	SpatialResamplingValues	RadiomicsCriteria_SpatialResamplingValues	SpatialResamplingValues							I75	
+RadiomicsCriteria	TextureMatrixAggregation	RadiomicsCriteria_TextureMatrixAggregation	TextureMatrixAggregation							I76	
+RadiomicsImageFilter	SoftwareName	RadiomicsImageFilter_SoftwareName	SoftwareName							I77	
+RadiomicsImageFilter	SoftwareVersion	RadiomicsImageFilter_SoftwareVersion	SoftwareVersion							I78	
+RadiomicsImageFilter	FilterName	RadiomicsImageFilter_FilterName	FilterName							I79	
+RadiomicsImageFilter	FilterType	RadiomicsImageFilter_FilterType	FilterType							I80	
+RadiomicsImageFilter	FilterInterpolation	RadiomicsImageFilter_FilterInterpolation	FilterInterpolation							I81	
+RadiomicsImageFilter	IntensityRounding	RadiomicsImageFilter_IntensityRounding	IntensityRounding							I82	
+RadiomicsImageFilter	BoundaryCondition	RadiomicsImageFilter_BoundaryCondition	BoundaryCondition							I83	
+RadiomicsFeature	Id	RadiomicsFeature_Id	Id							I84	
+RadiomicsFeature	Name	RadiomicsFeature_Name	Name							I85	
+RadiomicsFeature	Value	RadiomicsFeature_Value	Value							I86	
