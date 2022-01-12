@@ -53,11 +53,11 @@ HL7:2108-9	European	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race	Enumerated	St
 HL7:2118-8	Middle Eastern or North African	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race	Enumerated	String	FHIR:Race
 HL7:2129-5	Arab	FHIR (HL7) v3	https://www.hl7.org/fhir/v3/Race	Enumerated	String	FHIR:Race
 UMLS:C0439673	Unknown	UMLS		Enumerated	String	FHIR:Race
-UMLS:C1707251	Other cancer	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C1707251;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
-UMLS:C3262234	Other cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C3262234;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
-UMLS:C0679861	Complications of treatment	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0679861;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
-UMLS:C0027651	Neoplasm	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0027651;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
-UMLS:C0277589	Death of unknown cause	UMLS	https://uts.nlm.nih.gov/metathesaurus.html#C0277589;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;	Enumerated	String	UMLS:C0007465
+UMLS:C1707251	Other cancer	UMLS	"https://uts.nlm.nih.gov/metathesaurus.html#C1707251;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;"	Enumerated	String	UMLS:C0007465
+UMLS:C3262234	Other cause	UMLS	"https://uts.nlm.nih.gov/metathesaurus.html#C3262234;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;"	Enumerated	String	UMLS:C0007465
+UMLS:C0679861	Complications of treatment	UMLS	"https://uts.nlm.nih.gov/metathesaurus.html#C0679861;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;"	Enumerated	String	UMLS:C0007465
+UMLS:C0027651	Neoplasm	UMLS	"https://uts.nlm.nih.gov/metathesaurus.html#C0027651;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;"	Enumerated	String	UMLS:C0007465
+UMLS:C0277589	Death of unknown cause	UMLS	"https://uts.nlm.nih.gov/metathesaurus.html#C0277589;0;1;CUI;2016AA;EXACT_MATCH;CUI;*;"	Enumerated	String	UMLS:C0007465
 UMLS:C2584946	Alive (finding)	UMLS		Enumerated	String	OSIRIS:LastNewsStatus
 UMLS:C1546956	Patient Outcome - Died	UMLS		Enumerated	String	OSIRIS:LastNewsStatus
 UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:LastNewsStatus
@@ -240,6 +240,10 @@ UMLS:C0085983	Tumor Cell Line	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptRe
 UMLS:C1548793	Frozen Specimen	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI Metathesaurus&code=C1548793	Enumerated	String	OSIRIS:SampleNature
 UMLS:C1519524	Paraffin Embedded Tissue (FFPE)	NCI		Enumerated	String	OSIRIS:SampleNature
 UMLS:C0042036	Urine	NCI	https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI Metathesaurus&code=C0042036	Enumerated	String	OSIRIS:SampleNature
+UMLS:C0036087	Saliva	NCI		Enumerated	String	OSIRIS:SampleNature
+UMLS:C0229671	Serum	NCI		Enumerated	String	OSIRIS:SampleNature
+UMLS:C3827014	Circulating Tumor-Derived DNA	NCI		Enumerated	String	OSIRIS:SampleNature
+UMLS:C0522537	Xenograft	NCI		Enumerated	String	OSIRIS:SampleNature
 UMLS:C0439673	Unknown	UMLS		Enumerated	String	OSIRIS:SampleNature
 OSIRIS:O59-1	Normal	OSIRIS		Enumerated	String	OSIRIS:SampleOrigin
 OSIRIS:O59-2	Tumoral	OSIRIS		Enumerated	String	OSIRIS:SampleOrigin
