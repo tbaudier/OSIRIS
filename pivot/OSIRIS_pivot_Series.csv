@@ -1,0 +1,1 @@
+Patient_Id,Instance_Id,Study_Ref,Series_SeriesNumber,Series_SeriesInstanceUID,Series_Modality,Series_Description,Series_BodyPartExamined,Series_NbSeriesRelatedInstances,Series_SoftwareVersion

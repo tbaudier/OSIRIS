@@ -1,0 +1,1 @@
+Patient_Id,Instance_Id,CommonImage_Ref,CTImage_KVp,CTImage_XRayTubeCurrent,CTImage_ExposureTime,CTImage_SpiralPitchFactor,CTImage_FilterType,CTImage_ConvolutionKernel
