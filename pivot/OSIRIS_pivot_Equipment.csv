@@ -1,5 +1,5 @@
 Patient_Id,Instance_Id,Series_Ref,Equipment_ModelName,Equipment_Manufacturer
-24,199,199,Achieva,Philips Medical Systems
-VIDA_PELV_GRASP_VIBE,217,217,Achieva,Philips Medical Systems
-13,746,746,Emotion 16,SIEMENS
-13,744,744,Emotion 16,SIEMENS
+24,199,199,Achieva,GR
+VIDA_PELV_GRASP_VIBE,217,217,Achieva,SE
+13,746,746,Emotion 16,
+13,744,744,Emotion 16,

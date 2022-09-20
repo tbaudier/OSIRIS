@@ -1,1 +1,4 @@
-Patient_Id,Instance_Id,ROISegmentation_ReferencedSOPInstanceUID,ROISegmentation_ROINumber,ROISegmentation_ROIName,ROISegmentation_ROIDescription,ROISegmentation_ROIType,ROISegmentation_ROIFilename
+Patient_Id,Instance_Id,Series_Ref,ROISegmentation_ReferencedSOPInstanceUID,ROISegmentation_ROINumber,ROISegmentation_ROIName,ROISegmentation_ROIDescription,ROISegmentation_ROIType,ROISegmentation_ROIFilename
+VIDA_PELV_GRASP_VIBE,0,217,,1,Osteosarcome,Osteosarcome,nii,set_osiris/Osteosarcome/osteo.nii.gz
+13,1,746,,1,Poumon,Poumon,nii,set_osiris/Poumon/13.nii
+24,2,199,,1,Sein,Sein,nii,set_osiris/Sein/24.nii.gz
