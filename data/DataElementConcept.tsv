@@ -237,7 +237,7 @@ Plan_Type	Type	Type	Type	Type		String	PLANNED or DELIVERED	mandatory	Type (plani
 Plan_NumberOfFractions	NumberOfFractions	NumberOfFractions	NumberOfFractions	NumberOfFractions		Integer	if PLANNED (RT Plan/RT Fraction Scheme/Fraction Group Sequence/Number Of Fractions Planned (300A,0078))	mandatory	Nombre de fractions	Number of fractions	I104	
 Plan_StartDate	StartDate	StartDate	StartDate	StartDate		Date		mandatory	Date et heure de début	Start date and time	I105	
 Plan_EndDate	EndDate	EndDate	EndDate	EndDate		Date		mandatory	Date et heure de fin	End date and time	I106	
-Plan_ReasonReplanification	ReasonReplanification	ReasonReplanification	ReasonReplanification	ReasonReplanification		String		optional	Raison de replanification	Reason for replanning	I107	
+Plan_ReasonReplanification	ReasonReplanification	ReasonReplanification	ReasonReplanification	ReasonReplanification	SNOMED	Integer		optional	Raison de replanification	Reason for replanning	I107	
 Volume_Identifier	Identifier	Identifier	Identifier	Identifier		String		mandatory	Numéro d'identification du ROI	ROI identification number	I108	
 Volume_Morphology 	Morphology	Morphology	Morphology	Morphology	SNOMED	Integer		mandatory	Le type de volume de radiothérapie (Cible/organe à risque)	The type of radiation therapy volume (Target/organ at risk)	I109	
 Volume_Location	Location	Location	Location	Location	SNOMED	Integer		mandatory	Codes décrivant les emplacements du corps où les traitements de radiothérapie peuvent être dirigés	Codes describing the locations in the body where radiation therapy treatments can be directed	I110	
