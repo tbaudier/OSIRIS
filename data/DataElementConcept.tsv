@@ -131,102 +131,126 @@ VariantInSample	GenomicSourceClass	VariantInSample_GenomicSourceClass	Genomic So
 VariantInSample	AllelicState	VariantInSample_AllelicState	Allelic State	Allelic State	LOINC:LL381-5	String		optional	Niveau d'occurrence allélique d'une variation de séquence d'ADN	Level of allelic occurrence of a DNA Sequence Variation	O80	
 GeneExpression	DataType	GeneExpression_DataType	Data Type	Data Type	OSIRIS:ExpressionDataType	String		mandatory	Type de la valeur d'expression correspondant au niveau de traitement des données	Type of the expression value corresponding to the level of data processing	O84	
 GeneExpression	Value	GeneExpression_Value	Value	Value		Float		mandatory	Valeur numérique de l'expression	Numerical value for expression	O85	
-Equipment	ModelName	Equipment_ModelName	Manufacturer's model name		DICOM		dicomTag (0008,1090)				I1	
-Equipment	Manufacturer	Equipment_Manufacturer	Manufacturer's name		DICOM		dicomTag (0008,0070)				I2	
-Study	StudyInstanceUID	Study_StudyInstanceUID	Study Instance UID		DICOM		dicomTag (0020,000D)				I3	
-Study	StudyDescription	Study_StudyDescription	Study description		DICOM		dicomTag (0008,1030) 				I4	
-Study	AcquisitionDate	Study_AcquisitionDate	Acquisition date		DICOM		dicomTag (0008, 0032), (0008, 0022) or dicomTag (0008, 0021), (0008, 0023) or dicomTag (0008, 0031), (0008, 0033)				I5	
-Study	Location	Study_Location	Location				AE title etc ? IP adress port ? PACS CLB ou web server? ou ID Patient?				I6	
-Study	InstitutionName	Study_InstitutionName	Institution's name		DICOM		dicomTag (0008,0080)				I7	
-Study	ModalitiesInStudy	Study_ModalitiesInStudy	Modalities in study		DICOM		dicomTag (0008,0061)				I8	
-Study	NbStudyRelatedSeries	Study_NbStudyRelatedSeries	Number of Study Related Series		DICOM		dicomtag(0020,1206)				I9	
-Series	SeriesNumber	Series_SeriesNumber	Series Number		DICOM		dicomTag(0020,0011)				I10	
-Series	SeriesInstanceUID	Series_SeriesInstanceUID	Series Instance UID		DICOM		dicomTag (0020,000E)				I11	
-Series	Modality	Series_Modality	Modality		DICOM		dicomTag (0008, 0060)				I12	
-Series	Description	Series_Description	Description		DICOM		dicomTag (00e1, 1040), (0008, 103e), (0008, 1030)				I13	
-Series	BodyPartExamined	Series_BodyPartExamined	Body Part Examined		DICOM		dicomTag (0018,0015)				I14	
-Series	NbSeriesRelatedInstances	Series_NbSeriesRelatedInstances	Number of Series Related Instances		DICOM		dicomtag (0020,1209)				I15	
-Series	SoftwareVersion	Series_SoftwareVersion	Software's version		DICOM		dicomTag (0018,1020)				I16	
-Injection	Radiopharmaceutical	Injection_Radiopharmaceutical	Radiopharmaceutical		DICOM		dicomTag (0018,0031)				I17	
-Injection	ContrastBolusAgent	Injection_ContrastBolusAgent	Contrast/bolus agent		DICOM		dicomTag (0018,0010)				I18	
-Injection	ContrastBolusStartTime	Injection_ContrastBolusStartTime	Contrast/bolus start time		DICOM		dicomTag (0018,1042)				I19	
-Injection	ContrastBolusStopTime	Injection_ContrastBolusStopTime	Contrast/bolus stop time		DICOM		dicomTag (0018,1043)				I20	
-Injection	RadiopharmaceuticalStartTime	Injection_RadiopharmaceuticalStartTime	Radiopharmaceutical start time		DICOM		dicomTag (0018,1072)				I21	
-Injection	RadionuclideTotalDose	Injection_RadionuclideTotalDose	Radionuclide total dose		DICOM		dicomTag (0018,1074)				I22	
-CommonImage	SOPInstanceUID	CommonImage_SOPInstanceUID	SOP Instance UID		DICOM		dicomtag (0008,0018)				I23	
-CommonImage	SliceThickness	CommonImage_SliceThickness	Slice thickness		DICOM		dicomTag (0018,0050)				I24	
-CommonImage	PixelSpacing	CommonImage_PixelSpacing	Pixel spacing		DICOM		dicomTag (0028,0030)				I25	
-CommonImage	FieldOfView	CommonImage_FieldOfView	Field of view								I26	
-CommonImage	Rows	CommonImage_Rows	rows		DICOM		dicomTag (0028,0010)				I27	
-CommonImage	Columns	CommonImage_Columns	columns		DICOM		dicomTag (0028,0011)				I28	
-MRImage	SequenceName	MRImage_SequenceName	Sequence's name		DICOM		dicomTag (0018,0024)				I29	
-MRImage	MagneticFieldStrength	MRImage_MagneticFieldStrength	Magnetic field strength		DICOM		dicomTag (0018,0087)				I30	
-MRImage	MRAcquisitionType	MRImage_MRAcquisitionType	MR acquisition type		DICOM		dicomTag (0018,0023)				I31	
-MRImage	RepetitionTime	MRImage_RepetitionTime	Repetition time		DICOM		dicomTag (0018,0080)				I32	
-MRImage	EchoTime	MRImage_EchoTime	EchoTime		DICOM		dicomTag (0018,0081)				I33	
-MRImage	ImagingFrequency	MRImage_ImagingFrequency	ImagingFrequency		DICOM		dicomTag (0018,0084)				I34	
-MRImage	FlipAngle	MRImage_FlipAngle	FlipAngle		DICOM		dicomTag (0018,0024)				I35	
-MRImage	InversionTime	MRImage_InversionTime	InversionTime		DICOM		dicomTag (0018,0082)				I36	
-MRImage	ReceiveCoilName	MRImage_ReceiveCoilName	ReceiveCoilName		DICOM		dicomTag (0018,1250)				I37	
-CTImage	KVp	CTImage_KVp	KVp		DICOM		dicomTag (0018,0060)				I38	
-CTImage	XRayTubeCurrent	CTImage_XRayTubeCurrent	XRayTubeCurrent		DICOM		dicomTag (0018,1151)				I39	
-CTImage	ExposureTime	CTImage_ExposureTime	ExposureTime		DICOM		dicomTag (0018,1150)				I40	
-CTImage	SpiralPitchFactor	CTImage_SpiralPitchFactor	SpiralPitchFactor		DICOM		dicomTag (0018,9311)				I41	
-CTImage	FilterType	CTImage_FilterType	FilterType		DICOM		dicomTag (0018,1160)				I42	
-CTImage	ConvolutionKernel	CTImage_ConvolutionKernel	ConvolutionKernel		DICOM		dicomTag (0018,1210)				I43	
-PTImage	AttenuationCorrectionMethod	PTImage_AttenuationCorrectionMethod	AttenuationCorrectionMethod		DICOM		dicomTag (0054,1101)				I44	
-PTImage	ReconstructionMethod	PTImage_ReconstructionMethod	ReconstructionMethod		DICOM		dicomTag (0054,1103)				I45	
-PTImage	ScatterCorrectionMethod	PTImage_ScatterCorrectionMethod	ScatterCorrectionMethod		DICOM		dicomTag (0054,1105)				I46	
-NMImage	AttenuationCorrectionMethod	NMImage_AttenuationCorrectionMethod	AttenuationCorrectionMethod		DICOM		dicomTag (0054,1101)				I47	
-NMImage	ReconstructionMethod	NMImage_ReconstructionMethod	ReconstructionMethod		DICOM		dicomTag (0054,1103)				I48	
-NMImage	ScatterCorrectionMethod	NMImage_ScatterCorrectionMethod	ScatterCorrectionMethod		DICOM		dicomTag (0054,1105)				I49	
-DXImage	ImageLaterality	DXImage_ImageLaterality	ImageLaterality		DICOM		dicomTag (0020,0062)				I50	
-DXImage	PatientOrientation	DXImage_PatientOrientation	PatientOrientation		DICOM		dicomTag (0020,0020)				I51	
-DXImage	AnatomicRegionSequenceCodeMeaning	DXImage_AnatomicRegionSequenceCodeMeaning	AnatomicRegionSequenceCodeMeaning		DICOM		dicomTag (0008,0104)				I52	
-DXImage	Anatomic Region SequenceCodeValue	DXImage_Anatomic Region SequenceCodeValue	Anatomic Region SequenceCodeValue		DICOM		dicomTag (0008,0100)				I53	
-DXImage	KVP	DXImage_KVP	KVP		DICOM		dicomTag (0008,0060)				I54	
-DXImage	Exposure	DXImage_Exposure	Exposure		DICOM		dicomTag (0018,1152)				I55	
-DXImage	ExposureTime	DXImage_ExposureTime	ExposureTime		DICOM		dicomTag (0018,1150)				I56	
-DXImage	ContrastBolusAgent	DXImage_ContrastBolusAgent	ContrastBolusAgent		DICOM		dicomTag(0018,0010)				I57	
-ROISegmentation	ReferencedSOPInstanceUID	ROISegmentation_ReferencedSOPInstanceUID	ReferencedSOPInstanceUID		DICOM		dicomtag (0008,1150)				I58	
-ROISegmentation	ROINumber	ROISegmentation_ROINumber	ROINumber		DICOM		dicomtag (3006,0084)				I59	
-ROISegmentation	ROIName	ROISegmentation_ROIName	ROIName		DICOM		dicomtag (3006,0026)				I60	
-ROISegmentation	ROIDescription	ROISegmentation_ROIDescription	ROIDescription		DICOM		dicomtag (3006,0028)				I61	
-ROISegmentation	ROIType	ROISegmentation_ROIType	ROIType								I62	
-ROISegmentation	ROIFilename	ROISegmentation_ROIFilename	ROIFilename								I63	
-RadiomicsCriteria	SoftwareName	RadiomicsCriteria_SoftwareName	SoftwareName		IBSI?						I64	
-RadiomicsCriteria	SoftwareVersion	RadiomicsCriteria_SoftwareVersion	SoftwareVersion		IBSI?						I65	
-RadiomicsCriteria	Method	RadiomicsCriteria_Method	Method		IBSI?						I66	
-RadiomicsCriteria	UsedImageFilter	RadiomicsCriteria_UsedImageFilter	UsedImageFilter		IBSI?						I67	
-RadiomicsCriteria	DistanceWeighting	RadiomicsCriteria_DistanceWeighting	DistanceWeighting		IBSI?						I68	
-RadiomicsCriteria	NumberOfGreyLevels	RadiomicsCriteria_NumberOfGreyLevels	NumberOfGreyLevels		IBSI?						I69	
-RadiomicsCriteria	BinSize	RadiomicsCriteria_BinSize	BinSize		IBSI?						I70	
-RadiomicsCriteria	IntensityResampling	RadiomicsCriteria_IntensityResampling	IntensityResampling		IBSI?						I71	
-RadiomicsCriteria	LowestIntensity	RadiomicsCriteria_LowestIntensity	LowestIntensity		IBSI?						I72	
-RadiomicsCriteria	BoundsRangeOfValueAfterDiscretisation	RadiomicsCriteria_BoundsRangeOfValueAfterDiscretisation	BoundsRangeOfValueAfterDiscretisation		IBSI?						I73	Uniquely identifies the referenced id or filename
-RadiomicsCriteria	SpatialResamplingMethod	RadiomicsCriteria_SpatialResamplingMethod	SpatialResamplingMethod		IBSI?						I74	
-RadiomicsCriteria	SpatialResamplingValues	RadiomicsCriteria_SpatialResamplingValues	SpatialResamplingValues		IBSI?						I75	
-RadiomicsCriteria	TextureMatrixAggregation	RadiomicsCriteria_TextureMatrixAggregation	TextureMatrixAggregation		IBSI?						I76	
-RadiomicsImageFilter	SoftwareName	RadiomicsImageFilter_SoftwareName	SoftwareName		IBSI?						I77	
-RadiomicsImageFilter	SoftwareVersion	RadiomicsImageFilter_SoftwareVersion	SoftwareVersion		IBSI?						I78	
-RadiomicsImageFilter	FilterName	RadiomicsImageFilter_FilterName	FilterName		IBSI?						I79	
-RadiomicsImageFilter	FilterType	RadiomicsImageFilter_FilterType	FilterType		IBSI?						I80	
-RadiomicsImageFilter	FilterInterpolation	RadiomicsImageFilter_FilterInterpolation	FilterInterpolation		IBSI?						I81	
-RadiomicsImageFilter	IntensityRounding	RadiomicsImageFilter_IntensityRounding	IntensityRounding		IBSI?						I82	
-RadiomicsImageFilter	BoundaryCondition	RadiomicsImageFilter_BoundaryCondition	BoundaryCondition		IBSI?						I83	
-RadiomicsFeature	Id	RadiomicsFeature_Id	Id		IBSI?						I84	
-RadiomicsFeature	Name	RadiomicsFeature_Name	Name		IBSI?						I85	
-RadiomicsFeature	Value	RadiomicsFeature_Value	Value		IBSI?						I86	
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
-												
+Study	StudyInstanceUID	Study_StudyInstanceUID	Study Instance UID	Study Instance UID	DICOM	String	dicomTag (0020,000D)	mandatory	Numéro unique permettant d'identifier l'étude.	Unique number to identify the study.	I1	
+Study	StudyDescription	Study_StudyDescription	Study description	Study description	DICOM	String	dicomTag (0008,1030) 	mandatory	Description de l'étude.	Description of the study.	I2	
+Study	AcquisitionDate	Study_AcquisitionDate	Acquisition date	Acquisition date	DICOM	Date	dicomTag (0008, 0032), (0008, 0022) or dicomTag (0008, 0021), (0008, 0023) or dicomTag (0008, 0031), (0008, 0033)	mandatory	Heure d’acquisition	Time of acquisition	I3	
+Study	Location	Study_Location	Location	Location		String	AE title etc ? IP adress port ? PACS CLB ou web server? ou ID Patient?	mandatory	Lieu de stockage de l'étude (PACS, serveur web etc)	Study storage location (PACS, web server etc)	I4	
+Study	InstitutionName	Study_InstitutionName	Institution's name	Institution's name	DICOM	String	dicomTag (0008,0080)	optional	Nom de l'organisation ou de l'institution responsable de l'étude	Name of the organization or institution responsible for the study	I5	
+Study	ModalitiesInStudy	Study_ModalitiesInStudy	Modalities in study	Modalities in study	DICOM	String	dicomTag (0008,0061)	mandatory	Liste de l'ensemble des modalités utilisées	List of all the modalities used	I6	
+Study	NbStudyRelatedSeries	Study_NbStudyRelatedSeries	Number of Study Related Series	Number of Study Related Series	DICOM	Integer	dicomtag(0020,1206)	mandatory	Nombre de séries contenues dans l'étude	Number of series contained in the study	I7	
+Equipment	Manufacturer	Equipment_Manufacturer	Manufacturer's name	Manufacturer's name	DICOM	String	dicomTag (0008,0070)	mandatory	Nom du Fabricant	Manufacturer's name	I8	
+Equipment	ModelName	Equipment_ModelName	Manufacturer's model name	Manufacturer's model name	DICOM	String	dicomTag (0008,1090)	mandatory	Nom du modèle de l'équipement	Name of the model of the equipment	I9	
+Equipment	SoftwareVersion	Equipment_SoftwareVersion	Software version of the equipment	Software version of the equipment	DICOM	String	dicomTag (0018,1020)	mandatory	Version logicielle de l'équipement d'acquisition de la série	Software version of the acquisition equipment of the series	I10	
+Series	SeriesNumber	Series_SeriesNumber	Series Number	Series Number	DICOM	String	dicomTag(0020,0011)	mandatory	Numéro utilisateur permettant d'identifier la série	User number to identify the series	I11	
+Series	SeriesInstanceUID	Series_SeriesInstanceUID	Series Instance UID	Series Instance UID	DICOM	String	dicomTag (0020,000E)	mandatory	Numéro unique (SUID) de la série référencé dans l'étude de la série	Unique number (SUID) of the series referenced in the series study	I12	
+Series	Modality	Series_Modality	Modality	Modality	DICOM	String	dicomTag (0008, 0060)	mandatory	Type d'équipement utilisé permettant l'acquisition des données de la série	Type of equipment used to acquire the series data	I13	
+Series	Description	Series_Description	Description	Description	DICOM	String	dicomTag (00E1, 1040), (0008, 103E), (0008, 1030)	mandatory	Description de la série	Description of the series	I14	
+Series	BodyPartExamined	Series_BodyPartExamined	Body Part Examined	Body Part Examined	DICOM	Integer	dicomTag (0018,0015)	optional	Partie du corps examinée	Body part examined	I15	
+Series	NbSeriesRelatedInstances	Series_NbSeriesRelatedInstances	Number of Series Related Instances	Number of Series Related Instances	DICOM	String	dicomtag (0020,1209)	mandatory	Nombre d'images contenues dans la série	Number of images contained in the series	I16	
+Series	AcquisitionDate	Series_AcquisitionDate	Acquisition date	Acquisition date	DICOM	Date	dicomTag (0008,002a) or dicomTag (0008,0032)	mandatory 	Heure d’acquisition	Time of acquisition	I17	
+Series	PatientWeight	Series_PatientWeight	Patient Weight	Patient Weight	DICOM	Decimal	dicomTag (0010,1030)	mandatory if PET	Poids du patient en Kgs	Weight of the patient in Kgs	I18	
+Series	PatientSize	Series_PatientSize	Patient Size	Patient Size	DICOM	Decimal	DicomTag  (0010,1020)	mandatory if PET	Taille du patient en mètres	Height of the patient in meters	I19	
+Injection	Radiopharmaceutical	Injection_Radiopharmaceutical	Radiopharmaceutical	Radiopharmaceutical	DICOM	String	dicomTag (0018,0031)	mandatory if PT	Nom du produit radiopharmaceutique	Name of the radiopharmaceutical	I20	
+Injection	ContrastBolusAgent	Injection_ContrastBolusAgent	Contrast/bolus agent	Contrast/bolus agent	DICOM	String	dicomTag (0018,0010)	optional (CT,MR,DX)	Agent de contraste	Contrast agent	I21	
+Injection	ContrastBolusStartTime	Injection_ContrastBolusStartTime	Contrast/bolus start time	Contrast/bolus start time	DICOM	Date	dicomTag (0018,1042)	optional (CT,MR,DX)	Heure de début de l'injection	Start time of injection	I22	
+Injection	ContrastBolusStopTime	Injection_ContrastBolusStopTime	Contrast/bolus stop time	Contrast/bolus stop time	DICOM	Date	dicomTag (0018,1043)	optional (CT,MR,DX)	Heure de fin de l'injection	End time of injection	I23	
+Injection	RadiopharmaceuticalStartTime	Injection_RadiopharmaceuticalStartTime	Radiopharmaceutical start time	Radiopharmaceutical start time	DICOM	Date	dicomTag (0018,1072)	mandatory if PT	Heure réelle d'administration du produit radiopharmaceutique au patient à des fins d'imagerie	Actual time radiopharmaceutical was administered to patient for imaging purposes	I24	
+Injection	RadionuclideTotalDose	Injection_RadionuclideTotalDose	Radionuclide total dose	Radionuclide total dose	DICOM	Integer	dicomTag (0018,1074)	mandatory if PT	Dose radiopharmaceutique administrée au patient, mesurée en mégabecquerels (Mbq) à l'heure de début du traitement radiopharmaceutique	Radiopharmaceutical dose to patient measured in megabecquerels (Mbq) at time of radiopharmaceutical start	I25	
+CommonImage	SOPInstanceUID	CommonImage_SOPInstanceUID	SOP Instance UID	SOP Instance UID	DICOM	String	dicomtag (0008,0018)	mandatory 	Numéro unique permettant d'identifier l'image	Unique number to identify the image	I26	
+CommonImage	SliceThickness	CommonImage_SliceThickness	Slice thickness	Slice thickness	DICOM	String	dicomTag (0018,0050)	mandatory 	Épaisseur nominale de la coupe, en mm	Nominal slice thickness, in mm	I27	
+CommonImage	PixelSpacing	CommonImage_PixelSpacing	Pixel spacing	Pixel spacing	DICOM	String	dicomTag (0028,0030)	mandatory 	Distance physique entre les centres de chaque pixel bidimensionnel, spécifiée par deux valeurs numériques	Physical distance between the centers of each two-dimensional pixel, specified by two numerical values	I28	
+CommonImage	FieldOfView	CommonImage_FieldOfView	Field of view	Field of view		Integer		optional	Le champ de vue (FOV) est défini comme les dimensions de la région anatomique exacte incluse dans un scan en mm	Field of view (FOV) is defined as the dimensions of the exact anatomical region included in a scan in mm	I29	
+CommonImage	Rows	CommonImage_Rows	Rows	Rows	DICOM	Integer	dicomTag (0028,0010)	mandatory 	Nombre de pixels dans la direction de la ligne de la matrice reconstruite	Number of pixels in the line direction of the reconstructed matrix	I30	
+CommonImage	Columns	CommonImage_Columns	Columns	Columns	DICOM	Integer	dicomTag (0028,0011)	mandatory 	Nombre de pixels dans la direction de la colonne de la matrice reconstruite	Number of pixels in the column direction of the reconstructed matrix	I31	
+MRImage	SequenceName	MRImage_SequenceName	Sequence's name	Sequence's name	DICOM	String	dicomTag (0018,0024)	mandatory 	Type de la séquence d'impulsions	Type of pulse sequence	I32	
+MRImage	MagneticFieldStrength	MRImage_MagneticFieldStrength	Magnetic field strength	Magnetic field strength	DICOM	Integer	dicomTag (0018,0087)	mandatory 	Intensité du champ nominale de l'aimant, en Tesla	Nominal field strength of the magnet, in Tesla	I33	
+MRImage	MRAcquisitionType	MRImage_MRAcquisitionType	MR acquisition type	MR acquisition type	DICOM	String	dicomTag (0018,0023)	mandatory 	Description du type d'acquisition, notamment le nombre de dimensions	Description of the type of acquisition, including the number of dimensions	I34	
+MRImage	RepetitionTime	MRImage_RepetitionTime	Repetition time	Repetition time	DICOM	Decimal	dicomTag (0018,0080)	mandatory 	Temps de répétition en ms	Repetition time in ms	I35	
+MRImage	EchoTime	MRImage_EchoTime	EchoTime	EchoTime	DICOM	Decimal	dicomTag (0018,0081)	mandatory 	Temps d’écho en ms	Echo time in ms	I36	
+MRImage	ImagingFrequency	MRImage_ImagingFrequency	ImagingFrequency	ImagingFrequency	DICOM	Decimal	dicomTag (0018,0084)	mandatory 	Fréquence de précession en MHz du noyau visé	Precession frequency in MHz of the target nucleus	I37	
+MRImage	FlipAngle	MRImage_FlipAngle	FlipAngle	FlipAngle	DICOM	Decimal	DicomTag (0018,0024) or DicomTag (0018,1314)	mandatory 	Angle de bascule de l'impulsion RF en degré ayant un impact sur la pondération T1	Tilt angle of the RF pulse in degrees impacting T1 weighting	I38	
+MRImage	InversionTime	MRImage_InversionTime	InversionTime	InversionTime	DICOM	Decimal	dicomTag (0018,0082)	mandatory 	Période entre le milieu de l'impulsion RF d'inversion au miliey de l'impulsion d'excitation pour détecter la quantité de magnétisation longitudinale	Period between the middle of the inversion RF pulse and the middle of the excitation pulse to detect the amount of longitudinal magnetization	I39	
+MRImage	ReceiveCoilName	MRImage_ReceiveCoilName	ReceiveCoilName	ReceiveCoilName	DICOM	String	dicomTag (0018,1250)	mandatory 	Antenne de réception utilisée	Receiving antenna used	I40	
+CTImage	KVp	CTImage_KVp	KVp	KVp	DICOM	Integer	dicomTag (0018,0060)	optional	Pic kilovoltage de la tension produite par le générateur de rayons X	Peak kilovoltage of the voltage produced by the X-ray generator	I41	
+CTImage	XRayTubeCurrent	CTImage_XRayTubeCurrent	XRayTubeCurrent	XRayTubeCurrent	DICOM	Integer	dicomTag (0018,1151)	mandatory 	Courant du tube à rayons X en mA	X-ray tube current in mA	I42	
+CTImage	ExposureTime	CTImage_ExposureTime	ExposureTime	ExposureTime	DICOM	Integer	dicomTag (0018,1150)	mandatory 	Temps d'exposition aux rayons X en ms	X-ray exposure time in ms	I43	
+CTImage	SpiralPitchFactor	CTImage_SpiralPitchFactor	SpiralPitchFactor	SpiralPitchFactor	DICOM	Decimal	dicomTag (0018,9311)	mandatory 	« Spiral Pitch » Rapport entre l'avance de la table par rotation et la largeur totale de la collimation	"""Spiral Pitch Ratio of table advance per rotation to total collimation width"	I44	
+CTImage	FilterType	CTImage_FilterType	FilterType	FilterType	DICOM	String	dicomTag (0018,1160)	mandatory 	Type de filtre	Filter type	I45	
+CTImage	ConvolutionKernel	CTImage_ConvolutionKernel	ConvolutionKernel	ConvolutionKernel	DICOM	String	dicomTag (0018,1210)	mandatory 	Une étiquette décrivant le noyau de convolution ou l'algorithme utilisé pour reconstruire les données	A label describing the convolution kernel or algorithm used to reconstruct the data	I46	
+PTImage	AttenuationCorrectionMethod	PTImage_AttenuationCorrectionMethod	AttenuationCorrectionMethod	AttenuationCorrectionMethod	DICOM	String	dicomTag (0054,1101)	mandatory 	Méthode de correction d’atténuation	Attenuation correction method	I47	
+PTImage	ReconstructionMethod	PTImage_ReconstructionMethod	ReconstructionMethod	ReconstructionMethod	DICOM	String	dicomTag (0054,1103)	mandatory 	Méthode de reconstruction par exemple, rétroprojection filtrée 2D, itérative 2D, 3D PROMIS, 3D FAVOR, 3D itérative.	Reconstruction method e.g. 2D filtered back projection, 2D iterative, 3D PROMIS, 3D FAVOR, 3D iterative	I48	
+PTImage	ScatterCorrectionMethod	PTImage_ScatterCorrectionMethod	ScatterCorrectionMethod	ScatterCorrectionMethod	DICOM	String	dicomTag (0054,1105)	mandatory 	Méthode de correction de la diffusion. Par exemple, convolution-soustraction, fenêtre à double énergie, basé sur un modèle, utilisation de données d'atténuation.	Scattering correction method. For example, convolution-subtraction, dual energy window, model based, use of attenuation data	I49	
+NMImage	AttenuationCorrectionMethod	NMImage_AttenuationCorrectionMethod	AttenuationCorrectionMethod	AttenuationCorrectionMethod	DICOM	String	dicomTag (0054,1101)	mandatory 	Méthode de correction d’atténuation	Attenuation correction method	I50	
+NMImage	ReconstructionMethod	NMImage_ReconstructionMethod	ReconstructionMethod	ReconstructionMethod	DICOM	String	dicomTag (0054,1103)	mandatory 	Méthode de reconstruction par exemple, rétroprojection filtrée 2D, itérative 2D, 3D PROMIS, 3D FAVOR, 3D itérative.	Reconstruction method e.g. 2D filtered back projection, 2D iterative, 3D PROMIS, 3D FAVOR, 3D iterative	I51	
+NMImage	ScatterCorrectionMethod	NMImage_ScatterCorrectionMethod	ScatterCorrectionMethod	ScatterCorrectionMethod	DICOM	String	dicomTag (0054,1105)	mandatory 	Méthode de correction de la diffusion. Par exemple, convolution-soustraction, fenêtre à double énergie, basé sur un modèle, utilisation de données d'atténuation.	Scattering correction method. For example, convolution-subtraction, dual energy window, model based, use of attenuation data	I52	
+DXImage	ImageLaterality	DXImage_ImageLaterality	ImageLaterality	ImageLaterality	DICOM	String	dicomTag (0020,0062)	mandatory 	Examen de la latéralité de la partie du corps examinée	Examination of the laterality of the body part examined	I53	
+DXImage	PatientOrientation	DXImage_PatientOrientation	PatientOrientation	PatientOrientation	DICOM	String	dicomTag (0020,0020)	optional	Orientation du patient	Patient orientation	I54	
+DXImage	AnatomicRegionSequenceCodeMeaning	DXImage_AnatomicRegionSequenceCodeMeaning	AnatomicRegionSequenceCodeMeaning	AnatomicRegionSequenceCodeMeaning	DICOM	String	dicomTag (0008,0104)	optional	Texte qui transmet la signification de l'entrée codée	Text that conveys the meaning of the coded entry	I55	
+DXImage	AnatomicRegionSequenceCodeValue	DXImage_AnatomicRegionSequenceCodeValue	AnatomicRegionSequenceCodeValue	AnatomicRegionSequenceCodeValue	DICOM	String	dicomTag (0008,0100)	optional	Doit être présent si la longueur de la valeur du code est de 16 caractères ou moins, et si la valeur du code n'est pas un URN ou une URL	Must be present if the length of the code value is 16 characters or less, and if the code value is not a URN or URL	I56	
+DXImage	KVP	DXImage_KVP	KVP	KVP	DICOM	Integer	dicomTag (0008,0060)	optional	Pic kilovoltage de la tension produite par le générateur de rayons X	Kilovoltage peak of the voltage produced by the X-ray generator	I57	
+DXImage	Exposure	DXImage_Exposure	Exposure	Exposure	DICOM	Integer	dicomTag (0018,1152)	optional	L'exposition exprimée en mAs, par exemple calculée à partir du temps d'exposition et du courant du tube radiogène	Exposure expressed in mAs, e.g., calculated from exposure time and X-ray tube current	I58	
+DXImage	ExposureTime	DXImage_ExposureTime	ExposureTime	ExposureTime	DICOM	Integer	dicomTag (0018,1150)	optional	Durée de l'exposition aux rayons X en ms	X-ray exposure time in ms	I59	
+ROISegmentation	ReferencedSOPInstanceUID	ROISegmentation_ReferencedSOPInstanceUID	ReferencedSOPInstanceUID	ReferencedSOPInstanceUID	DICOM	String	Dicomtag (0008,1155)	mandatory 	Identifiant unique de l'objet DICOM	Unique identifier of the DICOM object	I60	
+ROISegmentation	ROINumber	ROISegmentation_ROINumber	ROINumber	ROINumber	DICOM	String	dicomtag (3006,0084)	mandatory 	L'identifiant de la région d'intérêt (ROI)	The Region of Interest (ROI) identifier	I61	
+ROISegmentation	ROIName	ROISegmentation_ROIName	ROIName	ROIName	DICOM	String	dicomtag (3006,0026)	mandatory 	Nom défini par l'utilisateur pour le ROI	User-defined name for the ROI	I62	
+ROISegmentation	ROIDescription	ROISegmentation_ROIDescription	ROIDescription	ROIDescription	DICOM	String	dicomtag (3006,0028)	optional	Description définie par l'utilisateur de la ROI	User-defined description of the ROI	I63	
+ROISegmentation	ROIType	ROISegmentation_ROIType	ROIType	ROIType		String		mandatory 	Type de ROI (ex. RTStruct, masque binaire)	Type of ROI (e.g. RTStruct, binary mask)	I64	
+ROISegmentation	ROIFilename	ROISegmentation_ROIFilename	ROIFilename	ROIFilename		String		mandatory 	Identifie de manière unique l'identifiant ou le nom de fichier référencé	Uniquely identifies the referenced identifier or file name	I65	
+RadiomicsCriteria	SoftwareName	RadiomicsCriteria_SoftwareName	SoftwareName	SoftwareName	IBSI	String	IBSI61	mandatory 	Nom du logiciel utilisé pour calculer les biomarqueurs d'image	Name of the software used to calculate the image biomarkers	I66	
+RadiomicsCriteria	SoftwareVersion	RadiomicsCriteria_SoftwareVersion	SoftwareVersion	SoftwareVersion	IBSI	String	IBSI61	mandatory 	Version du logiciel utilisé pour calculer les biomarqueurs d'image	Version of the software used to calculate the image biomarkers	I67	
+RadiomicsCriteria	ComputationalLocalisationMethod	RadiomicsCriteria_ComputationalLocalisationMethod	ComputationalLocalisationMethod	ComputationalLocalisationMethod		String	LOCAL or GLOBAL	mandatory 	Le champ permet de définir si la méthode de calcul a été appliquée sur l'image entière (voxels de l'image) sur ou une zone d'intérêt (ROI)	The field allows to define if the calculation method was applied on the whole image (image voxels) or on a region of interest (ROI)	I68	
+RadiomicsCriteria	CalculationWindowMatrix	RadiomicsCriteria_CalculationWindowMatrix	CalculationWindowMatrix	CalculationWindowMatrix		String	Ex. 5x5x5	mandatory if LOCAL	Matrice de la fenêtre de calcul	Matrix of the calculation window	I69	
+RadiomicsCriteria	UsedImageFilter	RadiomicsCriteria_UsedImageFilter	UsedImageFilter	UsedImageFilter		String	Ex. MEAN	mandatory 	méthode utilisée pour filtrer les images avant le calcul	Method used to filter the images before the calculation	I70	
+RadiomicsCriteria	UsedImageFilterParameters	RadiomicsCriteria_UsedImageFilterParameters	UsedImageFilterParameters	UsedImageFilterParameters		String	Ex. 3x3x3	mandatory 	Paramètres de la méthode utilisée pour filtrer les images avant le calcul	Parameters of the method used to filter the images before the calculation	I71	
+RadiomicsCriteria	DistanceWeighted	RadiomicsCriteria_DistanceWeighted	DistanceWeighted	DistanceWeighted	IBSI	String	IBSI63	mandatory 	Définir comment CM, RLM, NGTDM et NGLDM pondèrent les distances, par exemple aucune pondération	Define how CM, RLM, NGTDM and NGLDM weight the distances, e.g. no weighting	I72	
+RadiomicsCriteria	DiscretisationMethod	RadiomicsCriteria_DiscretisationMethod	DiscretisationMethod	DiscretisationMethod	IBSI	String	IBSI56A (FBN or FBS)	mandatory 	Méthode d'intensité de rééchantillonnage	Resampling intensity method	I73	
+RadiomicsCriteria	BinSize	RadiomicsCriteria_BinSize	BinSize	BinSize	IBSI	Decimal	IBSI56B	mandatory	Nombre de bins (FBN), taille de bins (FBS) pour la discrétisation	Number of bins (FBN), bin size (FBS) for discretization	I74	
+RadiomicsCriteria	Bound	RadiomicsCriteria_Bound	Bound	Bound		String	Ex. Min-Max VOI, Bornes libres, Mean+/-sd, Mean+/-3sd	mandatory if FBN	Borne en intensité pour effectuer la discrétisation	Intensity boundary to perform discretization	I75	
+RadiomicsCriteria	LowestIntensity	RadiomicsCriteria_LowestIntensity	LowestIntensity	LowestIntensity	IBSI	Decimal	IBSI56C	mandatory if FBS	Intensité la plus faible du premier bin pour la discrétisation FBS	Lowest intensity of the first bin for discretization FBS	I76	
+RadiomicsCriteria	BiggestIntensity	RadiomicsCriteria_BiggestIntensity	BiggestIntensity	BiggestIntensity	IBSI	Decimal	IBSI56C	mandatory if FBS	Intensité la plus forte du dernier bin pour la discrétisation FBS	Highest intensity of the last bin for FBS discretization	I77	
+RadiomicsCriteria	BoundsRangeOfValueAfterDiscretisation	RadiomicsCriteria_BoundsRangeOfValueAfterDiscretisation	BoundsRangeOfValueAfterDiscretisationBoundsRangeOfValueAfterDiscretisation			String	Ex. 0,100	mandatory	Intensités limites après discrétisation	Boundary intensities after discretization	I78	
+RadiomicsCriteria	SpatialResamplingMethod	RadiomicsCriteria_SpatialResamplingMethod	SpatialResamplingMethod	SpatialResamplingMethod		String	Bicubic spline, Tricubic spline, Lagrangian polynomial	mandatory	Méthode de ré-échantillonnage spatial	Spatial resampling method	I79	
+RadiomicsCriteria	SpatialResamplingValues	RadiomicsCriteria_SpatialResamplingValues	SpatialResamplingValues	SpatialResamplingValues		String	Ex. [0.3,0.3,1.2]	optional	Valeurs de rééchantillonnage spatial	Spatial resampling values	I80	
+RadiomicsCriteria	TextureMatrixAggregation	RadiomicsCriteria_TextureMatrixAggregation	TextureMatrixAggregation	TextureMatrixAggregation	IBSI	String	IBSI62	mandatory	Définir comment les biomarqueurs basés sur les matrices de texture ont été calculés à partir des matrices de texture sous-jacentes	Define how the texture matrix-based biomarkers were calculated from the underlying texture matrices	I81	
+RadiomicsImageFilter	SoftwareName	RadiomicsImageFilter_SoftwareName	SoftwareName	SoftwareName		String		mandatory	Nom du logiciel utilisé	Name of the software used	I82	
+RadiomicsImageFilter	SoftwareVersion	RadiomicsImageFilter_SoftwareVersion	SoftwareVersion	SoftwareVersion		String		mandatory	Version du logiciel utilisé	Version of the software used	I83	
+RadiomicsImageFilter	FilterMethod	RadiomicsImageFilter_FilterMethod	FilterMethod	FilterMethod		String	Mean Filter , Laplacian of Gaussian, Laws Kernels , Gabor, Wavelets, Riesz, Simoncelli	optional	Méthode de filtre des images	Method of image filtering	I84	
+RadiomicsImageFilter	FilterType	RadiomicsImageFilter_FilterType	FilterType	FilterType		String	Slice-wise (2D), Volume (3D)	optional	Type de filtre des images	Type of image filter	I85	
+RadiomicsImageFilter	FilterInterpolation	RadiomicsImageFilter_FilterInterpolation	FilterInterpolation	FilterInterpolation		String	Bicubic spline, Tricubic spline, Lagrangian polynomial	optional	Type d'interpolation des filtres	Type of filter interpolation	I86	
+RadiomicsImageFilter	IntensityRounding	RadiomicsImageFilter_IntensityRounding	IntensityRounding	IntensityRounding		String	IBSI52	optional	Champ permettant de décrire les unités fractionnaires Hounsfield arrondies à des valeurs entières après interpolation	Field to describe fractional Hounsfield units rounded to integer values after interpolation	I87	
+RadiomicsImageFilter	BoundaryCondition	RadiomicsImageFilter_BoundaryCondition	BoundaryCondition	BoundaryCondition		String	zero padding, mirror padding, periodic padding, Constant Value Padding, Nearest Value Padding	optional	Condition de limite	Boundary condition	I88	
+RadiomicsFeature	Id	RadiomicsFeature_Id	Id	Id		String		mandatory	Numéro unique de la nomenclature IBSI	Unique number of the IBSI nomenclature	I89	
+RadiomicsFeature	Name	RadiomicsFeature_Name	Name	Name		String		mandatory	Nom de la mesure radiomique de la nomenclature IBSI	Name of the radiomic measure of the IBSI nomenclature	I90	
+RadiomicsFeature	Value	RadiomicsFeature_Value	Value	Value		String		mandatory	Valeur	Value	I91	
+Course_Type	Type	Type	Type	Type		String	PLANNED or DELIVERED	mandatory	Type (planifié ou délivré)	Type (planned or delivered)	I92	
+Course_TreatmentIntent	TreatmentIntent	TreatmentIntent	TreatmentIntent	TreatmentIntent	SNOMED	Integer	If PLANNED (RT Plan/RT General Plan/Plan Intent (300A,000A))	optional	Un code expliquant l’objectif (p.ex. thérapie curative, palliative, préventif)	A code explaining the purpose (e.g., curative, palliative, preventive therapy)	I93	
+Course_TerminationReason	TerminationReason	TerminationReason	TerminationReason	TerminationReason	SNOMED	Integer		optional	Un code expliquant la raison de fin non planifiée ou prématurée, ou l'achèvement normal	A code explaining the reason for unplanned or premature termination, or normal completion	I94	
+Course_NumberOfSessions	NumberOfSessions	NumberOfSessions	NumberOfSessions	NumberOfSessions		Integer	If PLANNED (RT Plan/RT Fraction Scheme/Number Of Fractions Planned (300A,0078))	optional if PLANNED	Nombre total de traitements planifié	Total number of treatments planned	I95	
+Course_StartDate	StartDate	StartDate	StartDate	StartDate		Date		mandatory	Date et heure de début	Start date and time	I96	
+Course_EndDate	EndDate	EndDate	EndDate	EndDate		Date		mandatory	Date et heure de fin	End date and time	I97	
+Phase_Type	Type	Type	Type	Type		String	PLANNED or DELIVERED	mandatory	Type (planifié ou délivré)	Type (planned or delivered)	I98	
+Phase_NumberOfFractions	NumberOfFractions	NumberOfFractions	NumberOfFractions	NumberOfFractions		Integer	If PLANNED (RT Plan/RT Fraction Scheme/Fraction Group Sequence/Number Of Fractions Planned (300A,0078))	mandatory	Nombre de fractions	Number of fractions	I99	
+Phase_StartDate	StartDate	StartDate	StartDate	StartDate		Date		mandatory	Date et heure de début	Start date and time	I100	
+Phase_EndDate	EndDate	EndDate	EndDate	EndDate		Date		mandatory	Date et heure de fin	End date and time	I101	
+Phase_AlgorithmName	AlgorithmName	AlgorithmName	AlgorithmName	AlgorithmName		String	RT Dose/Structure Set /Structure Set ROI Sequence/ROI Derivation Algorithm Identification Sequence/Algorithm Name (0066,0036)	mandatory	Nom de l’algorithme	Name of the algorithm	I102	
+Plan_Type	Type	Type	Type	Type		String	PLANNED or DELIVERED	mandatory	Type (planifié ou délivré)	Type (planned or delivered)	I103	
+Plan_NumberOfFractions	NumberOfFractions	NumberOfFractions	NumberOfFractions	NumberOfFractions		Integer	if PLANNED (RT Plan/RT Fraction Scheme/Fraction Group Sequence/Number Of Fractions Planned (300A,0078))	mandatory	Nombre de fractions	Number of fractions	I104	
+Plan_StartDate	StartDate	StartDate	StartDate	StartDate		Date		mandatory	Date et heure de début	Start date and time	I105	
+Plan_EndDate	EndDate	EndDate	EndDate	EndDate		Date		mandatory	Date et heure de fin	End date and time	I106	
+Plan_ReasonReplanification	ReasonReplanification	ReasonReplanification	ReasonReplanification	ReasonReplanification		String		optional	Raison de replanification	Reason for replanning	I107	
+Volume_Identifier	Identifier	Identifier	Identifier	Identifier		String		mandatory	Numéro d'identification du ROI	ROI identification number	I108	
+Volume_Morphology 	Morphology	Morphology	Morphology	Morphology	SNOMED	Integer		mandatory	Le type de volume de radiothérapie (Cible/organe à risque)	The type of radiation therapy volume (Target/organ at risk)	I109	
+Volume_Location	Location	Location	Location	Location	SNOMED	Integer		mandatory	Codes décrivant les emplacements du corps où les traitements de radiothérapie peuvent être dirigés	Codes describing the locations in the body where radiation therapy treatments can be directed	I110	
+Volume_LocationQualifier 	LocationQualifier	LocationQualifier	LocationQualifier	LocationQualifier	SNOMED	Integer		optional	Différents codes permettant de préciser la localisation du corps où les traitements de radiothérapie peuvent être dirigés	Various codes to specify the location in the body where radiation therapy treatments may be directed	I111	
+Volume_Description	Description	Description	Description	Description		String		optional	Description du volume de radiothérapie pouvant contenir toute information supplémentaire en plus des codes SNOMED	Description of the volume of radiation therapy that may contain any additional information beyond the SNOMED codes	I112	
+DoseToVolume_VolumeReference	VolumeReference	VolumeReference	VolumeReference	VolumeReference	DICOM	String	RT Structure Set/Structure Set/Structure Set ROI Sequence/ROI Number (3006,0022)	mandatory	Volume visé par la dose prévue	Target volume of the planned dose	I113	
+DoseToVolume_FractionDose	FractionDose	FractionDose	FractionDose	FractionDose		String		optional	Dose de rayonnement prévu par fraction	Planned radiation dose per fraction	I114	
+DoseToVolume_NumberOfFractions	NumberOfFractions	NumberOfFractions	NumberOfFractions	NumberOfFractions	DICOM	Integer	RT Plan/RT Fraction Scheme/Fraction Group Sequence/Number of Fractions Planned (300A, 0078)	optional	Nombre de fractions prévues	Number of planned fractions	I115	
+DoseToVolume_TotalDose	TotalDose	TotalDose	TotalDose	TotalDose	DICOM	String	RT Plan/RT Prescription/Dose Reference Sequence/Target Prescription Dose (300A, 0026)	mandatory	La quantité totale de rayonnement délivrée à ce volume	The total amount of radiation delivered to this volume	I116	
+ModalityAndTechnique_Modality	Modality	Modality	Modality	Modality	DICOM	String	RT Plan/ RT Beams/Beam Type (300A, 00c4) WHERE Treatment Delivery Type='TREATMENT' (300A,00CE) OR Treatment Protocols (300A,0009)	mandatory	Technique de la procédure de radiothérapie	Technique of the radiotherapy procedure	I117	
+ModalityAndTechnique_Technique	Technique	Technique	Technique	Technique	DICOM	String	RT Plan/RT Beams/Beam Sequence/Radiation Type (300A, 00C6)	mandatory	Modalité de la procédure de radiothérapie	Modality of the radiotherapy procedure	I118	
+ModalityAndTechnique_TreatmentMachinePlanned	TreatmentMachinePlanned	TreatmentMachinePlanned	TreatmentMachinePlanned	TreatmentMachinePlanned	DICOM	String	RT Plan/RT Beams/Treatment Machine Name (300A, 00B2)	optional	Nom de la machine de traitement à utiliser pour l’émission du faisceau	Name of the treatment machine to be used for beam delivery	I119	
+Equipment_Manufacturer	Manufacturer	Manufacturer	Manufacturer	Manufacturer		String		mandatory	Fabricant de l’appareil pour administrer le traitement	Manufacturer of the treatment delivery device	I120	
+Equipment_Model	Model	Model	Model	Model	DICOM	String	RT Plan/RT Beams/Beam Sequence/ Treatment Machine Name (300A,00B2)	mandatory	Modèle de l’appareil pour administrer le traitement	Model of the treatment delivery device	I121	
+EnergyOrIsotope_Quantity	Quantity	Quantity	Quantity	Quantity	DICOM	Decimal	RT Plan/RT Beams/Beam Sequence/Control Point Sequence/Nominal Beam Energy (300A,0114)	mandatory	Spectre de l'énergie d'un rayonnement caractérisé par une valeur maximale. Pour les électrons, l'énergie maximale est donnée en MeV. Pour les photons, la tension d'accélération maximale est donnée en MV ou en kV, bien qu'il ne s'agisse pas d'unités d'énergie	Energy spectrum of a radiation characterized by a maximum value. For electrons, the maximum energy is given in MeV. For photons, the maximum acceleration voltage is given in MV or kV, although these are not units of energy	I122	
+EnergyOrIsotope_IsotopeName	IsotopeName	IsotopeName	IsotopeName	IsotopeName		String		optional	L'isotope utilisé pour la radiothérapie	The isotope used for radiotherapy	I123	
