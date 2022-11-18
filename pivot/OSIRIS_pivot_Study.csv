@@ -1,4 +1,4 @@
-Patient_Id,Instance_Id,Study_StudyInstanceUID,Study_StudyDescription,Study_InstitutionName,Study_ModalitiesInStudy,Study_Location,Study_NbStudyRelatedSeries,Study_StudyDate
+Patient_Id,Instance_Id,Study_StudyInstanceUID,Study_StudyDescription,Study_InstitutionName,Study_ModalitiesInStudy,Study_Location,Study_NbStudyRelatedSeries,Study_AcquisitionDate
 24,199,1.2.840.113654.2.70.1.264191517102522984763858507036706241396,,,,['set_osiris/Sein/DICOM/1.2.840.113654.2.70.1.208881666336949156802141584133456920873.dcm'],,20080517 182036.57
 VIDA_PELV_GRASP_VIBE,217,1.3.12.2.1107.5.8.15.131606.30000018022319020350500001490,,,,['set_osiris/Osteosarcome/DICOM/61541539'],,20180223 190925.763095
 13,746,1.3.12.2.1107.5.8.15.131606.30000020020620243975600000855,,,,['set_osiris/Poumon/DICOM/39688736'],,20200206 203320.358054
